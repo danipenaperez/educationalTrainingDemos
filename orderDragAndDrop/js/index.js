@@ -1,6 +1,6 @@
 /** SAcado de la pagina https://web.dev/articles/drag-and-drop?hl=es 
  * y en esta otra hay un ejemplo
- * 
+ * https://stackoverflow.com/questions/52554613/html-5-drag-and-drop-not-working-on-mobile-screen
 */
 
 document.addEventListener('DOMContentLoaded', (event) => {
