@@ -116,7 +116,7 @@ function resetResultStyles(){
 }
 function setAverage(){
     $('#averageCounter').html(averageCounter);
-    if(averageCounter==3)
+    if(averageCounter==15)
      alert('Lo has conseguido avisa a tus papas!!!!');
 }
 
