@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
      */
     shuffleArray(sentenceElements); //Disorder
     sentenceElements.forEach((ele) => {
-        $("#game-wrapper").append('<div draggable="true" class="box draggable">'+ele+'<img src="https://www.paradigmadigital.com/assets/img/logo/paradigma-logos/horizontal/paradigma_digital_logo_default.svg"></img></div>');
+        $("#game-wrapper").append('<div draggable="true" class="box draggable">'+ele+'</div>');
     });
 
     
