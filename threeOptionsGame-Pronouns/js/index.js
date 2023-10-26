@@ -44,7 +44,7 @@ function fillInitlWithRandomValues(excluded){
             applyResultStyles();
             window.setTimeout(function() {
                 fillInitlWithRandomValues();
-            }, 5 * 1000);
+            }, 5 * 500);
             
         });
     }
