@@ -19,6 +19,10 @@
     <!-- Wijmo-Angular interop -->
     <script src="https://cdn.wijmo.com/5.latest/interop/angular/wijmo.angular.min.js" type="text/javascript"></script>
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
     <!-- app scripts/styles -->
     <link href="app.css" rel="stylesheet" />
     <script src="../DragDropTouch.js"></script>
@@ -26,6 +30,12 @@
 </head>
 
 <body ng-app="app" ng-controller="appCtrl">
+
+    <div id="game-wrapper" class="container-grid">
+
+      </div>
+
+
     <div class="container">
         <div id="columns">
             <div class="column" draggable="true">

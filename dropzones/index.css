@@ -1,11 +1,11 @@
 body { font-family: Helvetica, Arial, sans-serif; }
 
-.dropzone-wrapper {
+/* .dropzone-wrapper {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-}
+} */
 
 .dropzone {
     overflow: hidden;
@@ -26,8 +26,9 @@ body { font-family: Helvetica, Arial, sans-serif; }
     color: #fff;
 }
 
+
 .draggable {
-    position: relative;
+    position: relative; 
     z-index: 10;
     width: 200px;
     margin: .25em;
@@ -39,5 +40,30 @@ body { font-family: Helvetica, Arial, sans-serif; }
     -ms-touch-action: none;
         touch-action: none;
 }
-
+.draggable.-start-movement { 
+    background-color: #42bd41; 
+    position: relative;
+}
+.draggable.-end-movement { 
+    background-color: #42bd41; 
+    position: relative;
+}
 .draggable.-drop-possible { background-color: #42bd41; }
+
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+.box {
+    border: 3px solid #666;
+    background-color: #ddd;
+    border-radius: .5em;
+    padding: 10px;
+    cursor: move;
+}
+.box.over {
+  border: 3px dotted #666;
+}

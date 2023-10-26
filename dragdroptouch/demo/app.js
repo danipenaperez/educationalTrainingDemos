@@ -6,6 +6,28 @@ let app = angular.module('app', ['wj']);
 // define app's single controller
 app.controller('appCtrl', function ($scope) {
 
+    var sentence = window.prompt("Escribe la frase", "no se me ocurre nada");
+    const sentenceElements = sentence.split(" ");
+
+    shuffleArray(sentenceElements); //Disorder
+
+    sentenceElements.forEach((ele) => {
+         $("#columns").append('<div draggable="true" class="column">'+ele+'</div>');
+
+    });
+
+
+
+
+
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+    }
+
+
     //-----------------------------------------------------------------------------
     // demonstrate standard HTML5 drag/drop.
     // this is based on the html5rocks tutorial published here:
