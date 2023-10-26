@@ -90,6 +90,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
      
       function initListeners(){
         items = document.querySelectorAll('.container-grid .box');
+
+        //PC Screen
         items.forEach(function(item) {
           item.addEventListener('dragstart', handleDragStart);
           item.addEventListener('dragover', handleDragOver);
@@ -98,7 +100,51 @@ document.addEventListener('DOMContentLoaded', (event) => {
           item.addEventListener('dragend', handleDragEnd);
           item.addEventListener('drop', handleDrop);
         });
+
+        //Mobile TouchAPis
+        // attaching each event listener
+      //   items.forEach(function(item) {
+      //     // item.addEventListener('touchstart', handleDragStart);
+      //     // item.addEventListener('touchmove', handleDragEnter);
+      //     // item.addEventListener('touchleave', handleDragLeave);
+      //     // item.addEventListener('touchend', handleDragEnd);
+      //     // item.addEventListener('drop', handleDrop);
+
+      //       // attaching each event listener
+      //       item.addEventListener('touchstart', function(){
+      //         console.log('btn touched');
+      //       })
+      //       item.addEventListener('touchend', function(){
+      //         console.log('btn leaved');
+      //       })
+      //       item.addEventListener('touchmove', function(){
+      //         console.log('btn leaved');
+      //       })
+      //       item.addEventListener('touchleave', function(){
+      //         console.log('btn moving end');
+      //       })
+      //       item.addEventListener('touchcancel', function(){
+      //         console.log('btn moving cancel');
+      //       })
+
+      //     });
       }
+
+
+
+
+
+      function initMobile(){
+        items = document.querySelectorAll('.container-grid .box');
+
+      }
+
+
+
+
+
+
+
 
 
       initListeners();

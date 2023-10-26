@@ -30,22 +30,72 @@
   .box.over {
     border: 3px dotted #666;
   }
+
+  /* .dropzone-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+.dropzone {
+    overflow: hidden;
+    margin: .5em;
+    padding: 1em;
+    width: 200px;
+    color: #666;
+    text-align: center;
+    background: #ccc;
+    line-height: 4em;
+    border: 4px dashed transparent;
+    transition: background .15s linear, border-color .15s linear;
+}
+
+.dropzone.-drop-possible { border-color: #666; }
+
+
+.dropzone.-drop-over {
+    background: #666;
+    color: #fff;
+}
+
+.draggable {
+    position: relative;
+    z-index: 10;
+    width: 200px;
+    margin: .25em;
+    padding: 1em 2em;
+    background-color: #29e;
+    color: #fff;
+    text-align: center;
+
+    -ms-touch-action: none;
+        touch-action: none;
+}
+
+.draggable.-drop-possible { background-color: #42bd41; }
+
       </style>
 
   </head>
   <body>
     
+    <div id="drag1" class="draggable js-drag">She</div>
+    <div id="drag2" class="draggable js-drag">loves</div>
+    <div id="drag3" class="draggable js-drag">me</div>
+    <div id="drag4" class="draggable js-drag">not</div>
+    
+
+
 
     <div class="container vh-100" id="maincontainer" style="background-color:pink;">
         <!--Question-->
         <div id="word_content" class="row h-75 justify-content-center align-items-center" style="background-color:rgb(79, 230, 154);">
-          <div id="game-wrapper" class="container-grid">
-            <!-- <div draggable="true" class="box">She</div>
-            <div draggable="true" class="box">driving</div>
-            <div draggable="true" class="box">car</div>
-            <div draggable="true" class="box">is</div>
-            <div draggable="true" class="box">a</div> -->
-          </div>
+          <div id="game-wrapper" class="container-grid dropzone-wrapper">
+            
+              <div id="drop1" class="box dropzone js-drop">...</div>
+              <div id="drop2" class="box dropzone js-drop">...</div>
+              <div id="drop3" class="box dropzone js-drop">...</div>
+              <div id="drop3" class="box dropzone js-drop">...</div>
           
         </div>
         <div class="row h-25 justify-content-center align-items-center" style="background-color:rgb(63, 240, 240);">
@@ -66,15 +116,7 @@
 
     <!-- Mobile-->
     <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
-    <script src="./js/mobile-d-d/index.min.js"></script>
-    <script>
-        // options are optional ;)
-        MobileDragDrop.polyfill({
-            // use this to make use of the scroll behaviour
-            dragImageTranslateOverride: MobileDragDrop.scrollBehaviourDragImageTranslateOverride
-        });
-    </script>
 
-    <script src="./js/index.js"></script>
+    <script src="./index-mobile.js"></script>
   </body>
 </html>
