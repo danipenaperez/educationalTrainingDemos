@@ -23,7 +23,9 @@ var options =[
 
     {word:"I "+placeholder+" playing chess.", correct: "am", example: "Yo estoy jugando al ajedrez."},
     {word:"I "+placeholder+" going to the museum .", correct: "am", example: "Yo estoy yendo al museo."},
-    {word:"I "+placeholder+" riding a horse.", correct: "am", example: "Yo estoy montado a caballo."}
+    {word:"I "+placeholder+" riding a horse.", correct: "am", example: "Yo estoy montado a caballo."},
+
+    {word:"Maria and me "+placeholder+" playing chess", correct: "are", example: "Maria y yo estamos jugando al ajedrez"}
 ];
 
 
