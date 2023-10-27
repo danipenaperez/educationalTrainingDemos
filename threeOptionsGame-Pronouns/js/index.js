@@ -27,9 +27,12 @@ var options =[
 //Buttons
 var availableOptions = 3;
 var successDivId;
+var averageCounter=0;
+
 
 function fillInitlWithRandomValues(excluded){
     resetResultStyles();
+    setAverage();
     if(!excluded)
         excluded =[];
     
@@ -42,6 +45,7 @@ function fillInitlWithRandomValues(excluded){
         $('#opt_'+i).off('click').click(function(e){
             e.preventDefault();
             applyResultStyles();
+            averageCounter=0;
             window.setTimeout(function() {
                 fillInitlWithRandomValues();
             }, 5 * 500);
@@ -74,7 +78,7 @@ function reload(excluded){
     $('#opt_'+successDivId).off('click').click(function(e){
         e.preventDefault();
         applyResultStyles();
-        
+        averageCounter=averageCounter+1;
         window.setTimeout(function() {
             fillInitlWithRandomValues([opt_index]); //Excluded last success, not repeat 
         }, 5 * 1000);
@@ -107,6 +111,12 @@ function resetResultStyles(){
         $('#opt_'+i).removeClass('btn-success');
         $('#opt_'+i).addClass('btn-primary');
     }
+}
+
+function setAverage(){
+    $('#averageCounter').html(averageCounter);
+    if(averageCounter==15)
+     alert('Lo has conseguido avisa a tus papas!!!!');
 }
 
 fillInitlWithRandomValues();

@@ -1,16 +1,3 @@
-// var modulea = require('./js/modulea');
-// console.log('soy yo');
-// console.log(modulea);
-
-$('#opt_1').click(function(){
-    alert("Fallo");
-});
-$('#opt_2').click(function(){
-    alert("Fallo");
-});
-$('#opt_3').click(function(){
-    alert("fallo");
-});
 
 
 var options =[
@@ -44,7 +31,7 @@ function fillInitlWithRandomValues(excluded){
             averageCounter=0;
             window.setTimeout(function() {
                 fillInitlWithRandomValues();
-            }, 4 * 1000);
+            }, 4 * 500);
             
         });
     }
@@ -77,7 +64,7 @@ function reload(excluded){
         averageCounter=averageCounter+1;
         window.setTimeout(function() {
             fillInitlWithRandomValues([opt_index]); //Excluded last success, not repeat 
-        }, 4 * 1000);
+        }, 4 * 500);
     
     });
 
