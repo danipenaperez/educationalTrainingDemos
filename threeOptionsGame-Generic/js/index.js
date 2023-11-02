@@ -10,10 +10,26 @@
 
 
 //Buttons
-var availableOptions = 2;
+
 var successDivId;
 var successOption={"word":"", correct:""};
 var averageCounter=0;
+
+
+function prepareMainBoard(){
+    //Average Menu
+    var averageTemplate = templates.getAverageHTMLTemplate();
+    document.getElementById('maincontainer').innerHTML= averageTemplate + document.getElementById('maincontainer').innerHTML;
+    
+    //Prepare Button Options
+    var buttons='';
+    for(i=0;i<availableOptions;i++){
+        buttons = buttons + templates.getOptionButtonHTMLTemplate('opt_'+i);
+    }
+    document.getElementById('optionsContainer').innerHTML = buttons;
+}
+
+prepareMainBoard();
 
 
 function fillInitlWithRandomValues(excluded){
@@ -87,7 +103,11 @@ function reload(excluded){
     var option = options[opt_index];
 
     successOption = option;
-    $('#word').text(option.word);
+    if(option.word!=null){
+        document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center h1">'+option.word+'</p>'; 
+    }else if(option.image){
+        document.getElementById('ask_content').innerHTML='<img id="ask" src="'+option.image+'" class="text-center" width="50%" height="50%"></img>'; 
+    }
 
     successDivId = Math.floor(Math.random()*availableOptions);
     
@@ -111,11 +131,11 @@ function applyResultStyles(status){
     if("success" == status){
         alert("suces");
         $("#maincontainer").addClass('test-word').removeClass('test-word-failed');
-        $("#word_content_example").addClass('test-examples').removeClass('test-examples-failed');
+        $("#ask_content_example").addClass('test-examples').removeClass('test-examples-failed');
     }else{
         alert("failed");
         $("#maincontainer").addClass('test-word-failed').removeClass('test-word');
-        $("#word_content_example").addClass('test-examples-failed').removeClass('test-examples');
+        $("#ask_content_example").addClass('test-examples-failed').removeClass('test-examples');
     }
 
     for(i=0;i<availableOptions;i++){
@@ -142,7 +162,7 @@ function resetResultStyles(){
         $('#opt_'+i).addClass('btn-primary');
     }
     $("#maincontainer").addClass('test-word').removeClass('test-word-failed');
-    $("#word_content_example").addClass('test-examples').removeClass('test-examples-failed');
+    $("#ask_content_example").addClass('test-examples').removeClass('test-examples-failed');
     
     $('#example_success').text("");
     
