@@ -12,7 +12,7 @@
 <body>
 
 
-    <div class="container vh-100" id="maincontainer" style="background-color:pink;">
+    <div class="vh-100" id="maincontainer" style="background-color:pink;">
         <!--Question-->
         <div id="word_content" class="row h-75 justify-content-center align-items-center" style="background-color:rgb(79, 230, 154);">
           <div id="game-wrapper" class="container-grid options-wrapper">
@@ -38,6 +38,28 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src=" https://cdn.jsdelivr.net/npm/squirrelly@9.0.0/dist/browser/squirrelly.min.js "></script>
 <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+
+<script>
+    /* you can pass in options here */
+    var PleaseRotateOptions = {
+    startOnPageLoad: true,
+    onHide: function(){
+        alert("me han cerrado")
+    },
+    onShow: function(){},
+    forcePortrait: false,
+    message: "Please Rotate Your Device",
+    subMessage: "(or click to continue)",
+    allowClickBypass: true,
+    onlyMobile: true,
+    zIndex: 1000,
+    iconNode: null
+};
+</script>
+<script src="./js/pleaserotate.min.js"></script>
+
+
 <script src="./index.js"></script>
 
 </body>
