@@ -10,7 +10,7 @@ var options =[
     {word:"outgoing", correct: "extrovertido"},
     {word:"serious", correct: "serio"},
     {word:"shy", correct: "timido"},
-    {word:"tidy", correct: "ordenado"},
+    {word:"tidy", correct: "ordenado"}
     
 ];
 
