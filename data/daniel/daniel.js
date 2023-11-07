@@ -24,3 +24,4 @@ var options = [
 ];
 var maxAverage =15;
 var availableOptions = 2;
+var explanation = "<div> 1x1 = 1 </br> 1x2 = 2</br> 1x3 = 3"

@@ -131,13 +131,12 @@ function reload(excluded){
 
 function applyResultStyles(status){
     if("success" == status){
+
         $("#maincontainer").addClass('test-word').removeClass('test-word-failed');
         $("#ask_content_example").addClass('test-examples').removeClass('test-examples-failed');
     }else{
-        
         if(explanation)
-            modal.show(explanation);
-        
+            modal.show(explanation(successOption));
         $("#maincontainer").addClass('test-word-failed').removeClass('test-word');
         $("#ask_content_example").addClass('test-examples-failed').removeClass('test-examples');
     }
