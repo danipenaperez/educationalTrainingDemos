@@ -40,6 +40,30 @@ function fillInitlWithRandomValues(excluded){
     console.log("FILL INIT TIME--------------");
     if(!excluded)
         excluded =[];
+    
+       console.log("fillInit with "+ JSON.stringify(excluded));
+    
+
+    for(i=0;i<availableOptions;i++){
+        var index = getRandomItem('excludedCorrectValues', excluded);
+        excluded.push(options[index].correct);
+        
+        var opt = options[index];
+        
+
+        $('#opt_'+i).text(opt.correct);
+        $('#opt_'+i).off('click').click(function(e){
+            e.preventDefault();
+            applyResultStyles('failed');
+            averageCounter=0;
+            window.setTimeout(function() {
+                fillInitlWithRandomValues();
+            }, 5 * 500);
+            
+        });
+    }
+
+
     reload(excluded);
     
 }
@@ -87,47 +111,64 @@ function reload(excluded){
         document.getElementById('ask_content').innerHTML='<img id="ask" src="'+option.image+'" class="text-center" width="50%" height="50%"></img>'; 
     }
 
-    //Input Text
-    var answerTextBoxId = 'answerUser';
-    document.getElementById('optionsContainer').innerHTML = templates.getInputTextHTMLTemplate(answerTextBoxId);
-
     successDivId = Math.floor(Math.random()*availableOptions);
     
-    $('#check_'+answerTextBoxId+'_Btn').off('click').click(function(e){
-        var response = $('#'+answerTextBoxId).val().trim();
-        if(successOption.correct == response){
-            averageCounter=averageCounter+1;
-            applyResultStyles('success');
-        }else{
-            averageCounter=0;
-            applyResultStyles('failed');
-        }
+    $('#opt_'+successDivId).text(option.correct);
+    $('#opt_'+successDivId).off('click').click(function(e){
         e.preventDefault();
-        
-        
+        applyResultStyles('success');
+        averageCounter=averageCounter+1;
         window.setTimeout(function() {
             fillInitlWithRandomValues([]); //Excluded last success, not repeat 
-        }, 4 * 500);
+        }, 5 * 500);
     
     });
 
-
+    $('#opt_'+successDivId).removeClass('highlight');
 
 }
 
 
 function applyResultStyles(status){
     if("success" == status){
-        $("#maincontainer").addClass('success-opt').removeClass('test-word');
+
+        $("#maincontainer").addClass('test-word').removeClass('test-word-failed');
+        $("#ask_content_example").addClass('test-examples').removeClass('test-examples-failed');
     }else{
         if(explanation)
             modal.show(explanation(successOption));
-        $("#maincontainer").addClass('falied-opt').removeClass('test-word');
+        $("#maincontainer").addClass('test-word-failed').removeClass('test-word');
+        $("#ask_content_example").addClass('test-examples-failed').removeClass('test-examples');
     }
-}
 
+    for(i=0;i<availableOptions;i++){
+        if(i!=successDivId){
+            $('#opt_'+i).removeClass('btn-primary');
+            $('#opt_'+i).removeClass('btn-success');
+            $('#opt_'+i).addClass('btn-danger');
+        }else{
+            $('#opt_'+i).removeClass('btn-danger');
+            $('#opt_'+i).removeClass('btn-primary');
+            $('#opt_'+i).addClass('btn-success');
+        }
+    }
+    var sentenceIncomplete = $('#word').text();
+    $('#word').text(sentenceIncomplete.replaceAll(placeholder, successOption.correct));
+    $('#example_success').text(successOption.example);
+    
+
+}
 function resetResultStyles(){
-    $("#maincontainer").addClass('test-word').removeClass('success-opt').removeClass('falied-opt');
+    for(i=0;i<availableOptions;i++){
+        $('#opt_'+i).removeClass('btn-danger');
+        $('#opt_'+i).removeClass('btn-success');
+        $('#opt_'+i).addClass('btn-primary');
+    }
+    $("#maincontainer").addClass('test-word').removeClass('test-word-failed');
+    $("#ask_content_example").addClass('test-examples').removeClass('test-examples-failed');
+    
+    $('#example_success').text("");
+    
 }
 function setAverage(){
     $('#averageCounter').html(averageCounter);
