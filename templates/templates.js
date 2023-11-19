@@ -28,6 +28,7 @@ templates.getInputTextHTMLTemplate = function (id){
                 // '</div>'+
                 // '<div class="mb-3">'+
                 '<button id="check_'+id+'_Btn" type="button" class="btn btn-default btn-primary" style="padding-top: 5;margin-top: 5px;" >Comprobar</button>'+
+                '<p id="example_success" class="text-center h1"></p>' +
                 '</div>';
         return content;
         

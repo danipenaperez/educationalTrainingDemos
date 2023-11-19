@@ -16,7 +16,8 @@ var successOption={"word":"", correct:""};
 var averageCounter=0;
 var answerTextBoxId = 'answerUser';
 var countDownTimeout;
-
+var countDownShow;
+var countDownValue = 15;
 function prepareMainBoard(){
     //Average Menu
     var averageTemplate = templates.getAverageHTMLTemplate();
@@ -108,12 +109,22 @@ function reload(excluded){
         // fillInitlWithRandomValues([]); //Excluded last success, not repeat 
         checkResult();
     }, 15 * 1000);
+    countDownValue = 15;
+    countDownShow = setInterval(function () {
+        countDownValue = countDownValue-1;
+        $('#example_success').html(countDownValue-1);
+    }, 1000);
+
+    
 }
 
 
 function checkResult(){
     if(countDownTimeout){
         clearTimeout(countDownTimeout);
+    }
+    if(countDownShow){
+        clearInterval(countDownShow);
     }
     var response = $('#'+answerTextBoxId).val().trim();
     if(successOption.correct == response){
