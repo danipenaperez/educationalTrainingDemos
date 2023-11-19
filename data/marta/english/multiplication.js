@@ -110,8 +110,7 @@ for(i=0;i<tableIndexs.length;i++){
         options.push(selectedTable[f]);
     }
 }
-console.log(options);
-alert('he metido '+ options);
+
 
 var maxAverage =15;
 var availableOptions = 3;

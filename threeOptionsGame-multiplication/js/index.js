@@ -14,7 +14,8 @@
 var successDivId;
 var successOption={"word":"", correct:""};
 var averageCounter=0;
-
+var answerTextBoxId = 'answerUser';
+var countDownTimeout;
 
 function prepareMainBoard(){
     //Average Menu
@@ -88,33 +89,44 @@ function reload(excluded){
     }
 
     //Input Text
-    var answerTextBoxId = 'answerUser';
+    
     document.getElementById('optionsContainer').innerHTML = templates.getInputTextHTMLTemplate(answerTextBoxId);
 
     successDivId = Math.floor(Math.random()*availableOptions);
     
     $('#check_'+answerTextBoxId+'_Btn').off('click').click(function(e){
-        var response = $('#'+answerTextBoxId).val().trim();
-        if(successOption.correct == response){
-            averageCounter=averageCounter+1;
-            applyResultStyles('success');
-        }else{
-            averageCounter=0;
-            applyResultStyles('failed');
-        }
         e.preventDefault();
-        
-        
-        window.setTimeout(function() {
-            fillInitlWithRandomValues([]); //Excluded last success, not repeat 
-        }, 4 * 500);
+        checkResult();
     
     });
 
 
 
+
+    countDownTimeout = window.setTimeout(function() {
+        alert('!!Date mas prisa!!');
+        // fillInitlWithRandomValues([]); //Excluded last success, not repeat 
+        checkResult();
+    }, 15 * 1000);
 }
 
+
+function checkResult(){
+    if(countDownTimeout){
+        clearTimeout(countDownTimeout);
+    }
+    var response = $('#'+answerTextBoxId).val().trim();
+    if(successOption.correct == response){
+        averageCounter=averageCounter+1;
+        applyResultStyles('success');
+        window.setTimeout(function() {
+            fillInitlWithRandomValues([]); //Excluded last success, not repeat 
+        }, 4 * 500);
+    }else{
+        averageCounter=0;
+        applyResultStyles('failed');
+    }
+}
 
 function applyResultStyles(status){
     if("success" == status){
@@ -139,3 +151,7 @@ function setAverage(){
 }
 fillInitlWithRandomValues();
 
+
+function closedExplanationModal(){
+    fillInitlWithRandomValues([]);
+}
