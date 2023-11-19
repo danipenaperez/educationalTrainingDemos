@@ -4,7 +4,9 @@ var placeholder= "...";
 var table2= "2"
 
 
-var options = [
+
+
+var main_options = [
     {word:"2 X 1", correct: "2"},
     {word:"2 X 2", correct: "4"},
     {word:"2 X 3", correct: "6"},
@@ -98,6 +100,19 @@ var options = [
 
 
 ];
+
+var options = [];
+let tablas = prompt("Escribe las tablas a practicar");
+const tableIndexs = tablas.split(',');
+for(i=0;i<tableIndexs.length;i++){
+    let selectedTable = main_options.filter(op => op.word.startsWith(tableIndexs[i]));
+    for(f=0;f<selectedTable.length;f++){
+        options.push(selectedTable[f]);
+    }
+}
+console.log(options);
+alert('he metido '+ options);
+
 var maxAverage =15;
 var availableOptions = 3;
 var explanation = function(correct, wrong){
