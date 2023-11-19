@@ -24,7 +24,7 @@ var main_options = [
     {word:"3 X 3", correct: "9"},
     {word:"3 X 4", correct: "12"},
     {word:"3 X 5", correct: "15"},
-    {word:"3 X 6", correct: "16"},
+    {word:"3 X 6", correct: "18"},
     {word:"3 X 7", correct: "21"},
     {word:"3 X 8", correct: "24"},
     {word:"3 X 9", correct: "27"},
