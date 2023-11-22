@@ -1,0 +1,13 @@
+
+
+
+.default-opt {
+    background-color: #b3b9b3;
+}
+.failed-opt {
+    background-color: #b3b9b3;
+}
+.success-opt {
+    background-color: #0dee2b;
+    background-image: linear-gradient(to right, #59ff90 0%, #299b55 100%);
+}
