@@ -13,7 +13,8 @@ var main_options = [
     {word:"¿Que significa el verbo live?", correct: "vivir", explanation: "<strong>Live</strong> significa <br><strong>vivir</strong>" },
     {word:"¿Que significa el verbo sail?", correct: "navegar", explanation: "<strong>Sail</strong> significa <br><strong>Navegar</strong>" },
     {word:"¿Que significa el verbo start?", correct: "empezar", explanation: "<strong>Start</strong> significa <br><strong>Empezar</strong>" },
-    {word:"Find significa encontrar, pero ¿como se escribe find en pasado?", correct: "found", explanation: "<strong>Find</strong> significa encontrar y se escribe en pasado <br><strong>Found</strong>" }
+    {word:"<strong>Find</strong> significa encontrar, pero ¿como se escribe find en pasado?", correct: "found", explanation: "<strong>Find</strong> significa encontrar y se escribe en pasado <br><strong>Found</strong>" },
+    {word:"<strong>Arrive</strong> significa llegar, pero ¿como se escribe Arrive en pasado? (Es un verbo regular)", correct: "arrive", explanation: "<strong>Arrive</strong> significa llegar y se escribe en pasado <br><strong>Arrived</strong>" }
 
 ];
 
