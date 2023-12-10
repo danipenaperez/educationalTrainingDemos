@@ -23,3 +23,39 @@ por ejemplo
 "pulsa sobre el sufijo de esta palabra"
 "pulsa sobre el verbo de la frase"
 "pulsa sobre el complemento directo" 
+
+
+1. TIPOS DE PREGUNTA
+	- Una pregunta de Texto
+	- Una imagen
+	- Un video
+        - OPCIONES:
+          - Con timeout
+          - Sin timeout 
+          - Con ayuda para la pregunta
+
+2. TIPOS DE RESPUESTA
+	- tres botones y eliges la correcta
+	- escribir la respuesta a mano
+    - Ordenar la frase
+    - selecciona una palabra de la frase
+3. ORDEN DE PREGUNTAS
+    - AL AZAR entre las que hay disponibles
+    - Por orden (ya que pretenden enseñar algo)
+    - Entre Pregunta y pregunta puede enseñar informacion o explicar ()
+      es util para test incremental.
+
+4. RESULTADOS
+    - FALLO:
+      - opcion correcta
+      - opcion correcta + explicacion
+      - explicacion
+    - CONSEGUIDO
+        - ACIERTO PREGUNTA:
+            - Personaje misterioso (opacidad o partes)
+            - Imagen batalla personajes
+    -
+5. GLOBALES
+    - TOTAL ACIERTOS
+    - USO RACHA
+
