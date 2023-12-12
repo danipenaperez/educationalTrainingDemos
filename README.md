@@ -34,11 +34,26 @@ por ejemplo
           - Sin timeout 
           - Con ayuda para la pregunta
 
+ var askModel = {
+    type: "text|fillWords|image|video|clickon (multi/single)|order|",
+    src: "text|urlVideo|urlImage"
+ }         
+
 2. TIPOS DE RESPUESTA
 	- tres botones y eliges la correcta
 	- escribir la respuesta a mano
     - Ordenar la frase
     - selecciona una palabra de la frase
+var answerModel = {
+  type: "buttons|text"
+  buttons:{
+     options: 3,
+     source
+  },
+  text:{
+
+  }
+}   
 3. ORDEN DE PREGUNTAS
     - AL AZAR entre las que hay disponibles
     - Por orden (ya que pretenden enseñar algo)
@@ -58,4 +73,6 @@ por ejemplo
 5. GLOBALES
     - TOTAL ACIERTOS
     - USO RACHA
+
+
 
