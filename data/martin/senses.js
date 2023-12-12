@@ -18,7 +18,7 @@ var pastVerbsResumen =
 var main_options = [
     {word:"Sensitivity is our hability to detect and respond to changes in our environment. These changes are called  "+placeholder, correct: "external stimuli" },
     {word:"There are 3 organs and systems: Sense Organs , Nervous System and "+placeholder , correct: "Skeletal and muscular Systems" },
-    {word:"Sense organs contains send information to the "+placeholder+" system.", correct: "nervous" },
+    {word:"Sense organs send information to the "+placeholder+" system.", correct: "nervous" },
     {word:"The nerve cells are called "+placeholder+" .", correct: "neurons" },
     {word:"[NEURONS] The neurons have three parts "+placeholder+ "  dendrites and axon", correct: "body" },
     {word:"[NEURONS] The neurons have three parts body ,"+placeholder+ " and axon", correct: "dendrites" },
