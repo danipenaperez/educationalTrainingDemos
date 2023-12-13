@@ -29,7 +29,7 @@ var resultChecker = {
 
             });
         }
-        return sentenceBuffer.trim() == question.correctAnswer.trim();
+        return sentenceBuffer.trim().toLocaleUpperCase() == question.correctAnswer.trim().toLocaleUpperCase();
       },
 
       /**

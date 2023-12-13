@@ -11,12 +11,12 @@
 
 //Buttons
 
-var successDivId;
-var successOption={"word":"", correct:""};
-var averageCounter=0;
-var answerTextBoxId = 'answerUser';
-var countDownTimeout;
-var countDownShow;
+// var successDivId;
+// var successOption={"word":"", correct:""};
+// var averageCounter=0;
+// var answerTextBoxId = 'answerUser';
+// var countDownTimeout;
+// var countDownShow;
 // var countDownValue = 45;
 
 
@@ -27,10 +27,12 @@ const questionProvider = Object.create(question_provider);
 questionProvider.questions = options;
 
 const averageManager = Object.create(average_counter);
-averageManager.maxAverage = 15;
+averageManager.maxAverage = 4;
 
-
-
+const gamificationManager =  Object.create(gamification_provider);
+gamificationManager.configure({
+    mediaFilesPath: 'images/games/zelda'
+});
 
 
 const apperanceManager=  Object.create(apperance_manager);
@@ -41,7 +43,8 @@ currentGame.configure({
     questionProvider: questionProvider,
     apperanceManager: apperanceManager,
     averageManager: averageManager,
-    timeManager: timeManager
+    timeManager: timeManager,
+    gamificationManager:gamificationManager
 });
 
 

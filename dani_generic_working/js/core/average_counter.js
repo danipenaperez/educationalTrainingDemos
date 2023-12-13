@@ -22,7 +22,7 @@ var average_counter = {
     verify: function(){
         if(this.currentAverage >= this.maxAverage){
             console.log("Game terminado");
-            callBackMaxAverage();
+            this.callBackMaxAverage();
         }
     },
     getCurrent: function(){
