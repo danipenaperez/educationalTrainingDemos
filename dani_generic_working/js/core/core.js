@@ -23,8 +23,8 @@ var core = {
     /**
      * Load current question
      */
-    loadQuestion:function(question){
-        
+    loadQuestion:function(question, callbackResult){
+        instance = this;
         console.log(question);
 
         var checkResultFunction = null;
@@ -36,10 +36,8 @@ var core = {
             
             checkResultFunction = function(){
                 alert(question.correctAnswer);
-                let ok = resultChecker.checkResults(question, "ask");
-                if(ok){
-
-                }
+                let responseResult = resultChecker.checkResults(question, "ask");
+                callbackResult(question, responseResult);
                 
             }
         }
@@ -127,33 +125,26 @@ var core = {
         }
         return candidateIndex;
     },
-    checkResult:function (result){
-        if(countDownTimeout){
-            clearTimeout(countDownTimeout);
-        }
-        if(countDownShow){
-            clearInterval(countDownShow);
-        }
-    
-        
-        var response = $('#'+answerTextBoxId).val().trim();
-        if(successOption.correct.trim().toLowerCase() == response.trim().toLowerCase()){
-            averageCounter=averageCounter+1;
-            applyResultStyles('success');
-            window.setTimeout(function() {
-                fillInitlWithRandomValues([]); //Excluded last success, not repeat 
-            }, 4 * 500);
+    checkResult:function (question, result){
+        alert("estoy dentro "+result);
+        //Stop timers
+        time_manager.endQuestion();
+        if(result){
+            currentGame.applyResultStyles("success");
         }else{
-            averageCounter=0;
-            applyResultStyles('failed');
+            currentGame.applyResultStyles("failed", question.explanation);
         }
+        
+        
     },
-    applyResultStyles:function (status){
+    applyResultStyles:function (status, explanation){
         if("success" == status){
             $("#maincontainer").addClass('success-opt').removeClass('test-word');
         }else{
             if(explanation)
                 modal.show(explanation(successOption));
+            
+            modal.show('<div class="sprite-ken"></div>', " Te machaco Comes!!");
             $("#maincontainer").addClass('falied-opt').removeClass('test-word');
         }
     },
@@ -171,8 +162,9 @@ var core = {
     start: function(){
         this.prepareMainBoard();
         let currentQuestion = this.questions[0];
-        this.loadQuestion(currentQuestion);
-        time_manager.startQuestion(currentQuestion.timeout, this.dashboard.countDownWrapperId, function(){alert("finalizado")} );
+        //Show question and start timer countdown
+        this.loadQuestion(currentQuestion, this.checkResult);
+        time_manager.startQuestion(currentQuestion.timeout, this.dashboard.countDownWrapperId, function(){alert("Se te ha acabado el tiempo")} );
        
         // this.fillInitlWithRandomValues();
     }

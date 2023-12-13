@@ -44,7 +44,7 @@ templates.createInputText = function(id, options){
         var inputObject = document.createElement("INPUT");
         inputObject.setAttribute("type", "text");
         inputObject.setAttribute("id", "inputText_"+id);
-        // inputObject.setAttribute("class", "form-control");
+         inputObject.setAttribute("class", "form-control");
         return inputObject;
 }
 /**

@@ -1,0 +1,105 @@
+
+.sprite-ken {
+    width: 70px;
+    height: 100px;
+    display:block;	
+    margin:3em auto;
+    background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -835px 0px no-repeat;
+    animation: ken-helicoptero 2s steps(10);
+    animation-timing-function: step-end; /*Hace que no haya transicion y sea fotograma a fotograma*/
+}
+  
+  
+  @keyframes ken-helicoptero {
+    0% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) 0px 0px no-repeat;
+      margin: 3em auto;
+    }
+    7% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -71px 0px no-repeat;
+      margin: 3em auto;
+    }
+    14% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -141px 0px no-repeat;
+      margin: 3em auto;
+    }
+    20% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -211px 0px no-repeat;
+      margin: 3em auto;
+    }
+    25% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -276px 0px no-repeat;
+      margin: 3em auto;
+    }
+    30% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -345px 0px no-repeat;
+      margin: 3em auto;
+    }
+    40% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -421px 0px no-repeat;
+      margin: 3em auto;
+    }
+    50% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -559px 0px no-repeat;
+      margin: 3em auto;
+    }
+    60% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -620px 0px no-repeat;
+      margin: 3em auto;
+    }
+    70% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -690px 0px no-repeat;
+      margin: 3em auto;
+    }
+    90% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -766px 0px no-repeat;
+      margin: 3em auto;
+    }
+    90% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -835px 0px no-repeat;
+      margin: 3em auto;
+    }
+    100% {
+      width: 70px;
+      height: 100px;
+      display: block;
+      background: transparent url(../images/ken-tatsumaki-senpuu-kyaku.png) -835px 0px no-repeat;
+      margin: 3em auto;
+    }
+  }

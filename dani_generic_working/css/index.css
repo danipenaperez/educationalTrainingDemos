@@ -3,6 +3,7 @@
 
 .test-word {
     background-color: rgb(109, 242, 247);
+    background-image: url(../images/ZeldaBackground.jpg);
 }
 .test-word-failed { 
     background-color: #f06279; 
