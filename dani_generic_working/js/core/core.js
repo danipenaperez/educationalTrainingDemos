@@ -98,33 +98,7 @@ var core = {
     },
 
 
-    getRandomItem: function (strategy, excluded){
     
-        var candidateIndex ;
-        if('excludedCorrectValues' == strategy){
-            while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
-                if (!excluded.includes(options[candidateIndex].correct)){
-                    break;
-                }
-            }
-        }else if('excludedIndex' == strategy){
-            while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
-                if (!excluded.includes(candidateIndex)){
-                    break;
-                }
-            }
-        }else{
-            while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
-                if (!excluded.includes(candidateIndex)){
-                    break;
-                }
-            }
-        }
-        return candidateIndex;
-    },
     checkResult:function (question, result){
         alert("estoy dentro "+result);
         //Stop timers
@@ -144,7 +118,7 @@ var core = {
             if(explanation)
                 modal.show(explanation(successOption));
             
-            modal.show('<div class="sprite-ken"></div>', " Te machaco Comes!!");
+            modal.show('<div class="sprite-ken"></div>', " Te machaco Comes!!", function(){alert("valeeee ya te cierro");});
             $("#maincontainer").addClass('falied-opt').removeClass('test-word');
         }
     },
