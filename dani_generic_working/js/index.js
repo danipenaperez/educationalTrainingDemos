@@ -30,10 +30,10 @@ const averageManager = Object.create(average_counter);
 averageManager.maxAverage = 4;
 
 const gamificationManager =  Object.create(gamification_provider);
-var GamerName = window.prompt("Cual es tu nombre");
+var GamerName = window.prompt("Bienvenido Guerrero");
 gamificationManager.configure({
     mediaFilesPath: 'images/games/zelda',
-    :GamerName
+    userName:GamerName
 });
 
 
