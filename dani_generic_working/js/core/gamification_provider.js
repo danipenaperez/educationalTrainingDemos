@@ -3,9 +3,11 @@ var gamification_provider = {
     mediaFilesPathFail:null,
     modal:null,
     providerName: 'Ganon_',
+    userName: '',
     configure: function(args){
         this.mediaFilesPathSucces=args.mediaFilesPath+'/success';
         this.mediaFilesPathFail=args.mediaFilesPath+'/fail';
+        this.userName=args.userName;
     },
     init: function(){
         var html = templates.getModalGamificationTemplate(this.providerName);
@@ -21,7 +23,7 @@ var gamification_provider = {
 
     onSuccess: function(average, callback){
         this.modal.show('<img src="'+this.mediaFilesPathSucces+'/'+ average+'.gif" style="max-width:350px;width:100%" ></img>', 
-            "La furia de Martin", 
+            "!!! La furia de "+this.userName + "!!!", 
             function(){
                 callback();
             }
@@ -29,7 +31,7 @@ var gamification_provider = {
     },
     onFailed: function(average,callback){
         this.modal.show('<img src="'+this.mediaFilesPathFail+'/'+ average+'.gif" style="max-width:350px;width:100%"></img>', 
-            "Perdedor", 
+            this.userName+ " eres un perdedor!!!", 
             function(){
                 callback();
             }
