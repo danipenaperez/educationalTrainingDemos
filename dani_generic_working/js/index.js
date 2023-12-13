@@ -22,12 +22,28 @@ var countDownShow;
 
 
 const currentGame = Object.create(core);
-const timer =  Object.create(time_manager);
+const timeManager =  Object.create(time_manager);
+const questionProvider = Object.create(question_provider);
+questionProvider.questions = options;
+
+const averageManager = Object.create(average_counter);
+averageManager.maxAverage = 15;
+
+
+
+
+
+const apperanceManager=  Object.create(apperance_manager);
+
 
 currentGame.configure({
-    timer: timer
+    timeManager: timeManager,
+    questionProvider: questionProvider,
+    apperanceManager: apperanceManager,
+    averageManager: averageManager,
+    timeManager: timeManager
 });
-currentGame.questions = options;
+
 
 
 currentGame.start();

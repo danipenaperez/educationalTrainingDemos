@@ -19,7 +19,6 @@ var time_manager = {
             }, secs * 1000);
             this.currentCountDownValue = secs;
             this.countDownShow = setInterval(function () {
-                console.log("counter "+instance.currentCountDownValue);
                 instance.currentCountDownValue = instance.currentCountDownValue-1;
                 $('#'+wrapperCountDownHTMLId).html(instance.currentCountDownValue-1);
             }, 1000);

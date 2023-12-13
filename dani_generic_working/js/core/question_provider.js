@@ -1,29 +1,31 @@
 var question_provider = {
     questions: [],
     getQuestion: function(){
-
+        var selectedIndex = this.getRandomItem(null, []);
+        return this.questions[selectedIndex];
+        
     },
     getRandomItem: function (strategy, excluded){
     
         var candidateIndex ;
         if('excludedCorrectValues' == strategy){
             while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
-                if (!excluded.includes(options[candidateIndex].correct)){
+                candidateIndex = Math.floor(Math.random()*this.questions.length);
+                if (!excluded.includes(this.questions[candidateIndex].correct)){
                     break;
                 }
             }
         }else if('excludedIndex' == strategy){
             while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
+                candidateIndex = Math.floor(Math.random()*this.questions.length);
                 if (!excluded.includes(candidateIndex)){
                     break;
                 }
             }
         }else{
             while (true) {
-                candidateIndex = Math.floor(Math.random()*options.length);
-                if (!excluded.includes(candidateIndex)){
+                candidateIndex = Math.floor(Math.random()*this.questions.length);
+                if (excluded && !excluded.includes(candidateIndex)){
                     break;
                 }
             }

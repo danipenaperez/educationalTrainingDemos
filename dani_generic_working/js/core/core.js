@@ -1,6 +1,9 @@
 var core = {
-    questions: [],
-    timer: null,
+    questionProvider: null,
+    timeManager: null,
+    apperanceManager: null,
+    averageManager: null,
+    timeManager:null,
     dashboard:{
         countDownWrapperId: "example_success"
     },
@@ -9,17 +12,14 @@ var core = {
     },
 
     configure:function(args){
-        this.timer=args.timer;
+        this.timeManager=args.timeManager;
+        this.questionProvider=args.questionProvider;
+        this.apperanceManager=args.apperanceManager;
+        this.averageManager = args.averageManager;
+        this.averageManager.callBackMaxAverage=this.onEndGame;
     },
 
-    /**
-     * Prepare main screen aspect and basic elements
-     */
-    prepareMainBoard: function (){
-        //Average Menu
-        var averageTemplate = templates.getAverageHTMLTemplate();
-        document.getElementById('maincontainer').innerHTML= averageTemplate + document.getElementById('maincontainer').innerHTML;
-    },
+    
     /**
      * Load current question
      */
@@ -30,20 +30,16 @@ var core = {
         var checkResultFunction = null;
         //CREATE QUESTION
         if(question.sentence){
-            console.log("es sentence");
+            
             var assembledSentence = sentenceResolver.assemble(question.sentence);
             document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center h1">'+assembledSentence+'</p>'; 
             
             checkResultFunction = function(){
-                alert(question.correctAnswer);
                 let responseResult = resultChecker.checkResults(question, "ask");
                 callbackResult(question, responseResult);
                 
             }
         }
-
-
-
 
         //CREATE RESULT BUTTONS
         let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
@@ -51,14 +47,8 @@ var core = {
     },
 
 
-    fillInitlWithRandomValues: function (excluded){
-        this.resetResultStyles();
-        this.setAverage();
-        console.log("FILL INIT TIME--------------");
-        if(!excluded)
-            excluded =[];
-        this.reload(excluded);
-        
+    onEndGame: function(){
+        alert(" QUE BIEN HAS TERMINADO EL JUEGO");
     },
 
 
@@ -99,47 +89,81 @@ var core = {
 
 
     
-    checkResult:function (question, result){
-        alert("estoy dentro "+result);
+    onEndQuestion:function (question, result){
+        
         //Stop timers
-        time_manager.endQuestion();
+        currentGame.timeManager.endQuestion();
+        let currentAverage;
         if(result){
-            currentGame.applyResultStyles("success");
-        }else{
-            currentGame.applyResultStyles("failed", question.explanation);
-        }
-        
-        
-    },
-    applyResultStyles:function (status, explanation){
-        if("success" == status){
-            $("#maincontainer").addClass('success-opt').removeClass('test-word');
-        }else{
-            if(explanation)
-                modal.show(explanation(successOption));
+            currentAverage = currentGame.averageManager.success();
+            currentGame.applyResultStyles("success", null, currentAverage);
             
-            modal.show('<div class="sprite-ken"></div>', " Te machaco Comes!!", function(){alert("valeeee ya te cierro");});
-            $("#maincontainer").addClass('falied-opt').removeClass('test-word');
+        }else{
+            currentAverage = currentGame.averageManager.fail();
+            currentGame.applyResultStyles("failed", question.explanation, currentAverage);
+            
+
+        }
+
+        currentGame.apperanceManager.setAverage(currentAverage);
+    },
+    applyResultStyles:function (status, explanation, average){
+        that = this;
+        if("success" == status){
+            
+            // modal.show('<div class="sprite-ken"></div>', 
+            //             " Te machaco Comes!!", 
+            //             function(){
+            //                 alert("valeeee ya te cierro");
+            //                 that.newQuestionStart();
+            //             }
+            // );
+
+            modal.show('<img src="images/people/link/'+ average+'.gif" style="max-width:350px;width:100%" ></img>', 
+                "La furia de Martin", 
+                function(){
+                    that.newQuestionStart();
+                }
+            );
+
+
+        }else{
+            // if(explanation)
+            //     modal.show(explanation(successOption));
+            
+            // modal.show('<div class="sprite-ken"></div>', 
+            //             " Te machaco Comes!!", 
+            //             function(){
+            //                 alert("valeeee ya te cierro");
+            //                 that.newQuestionStart();
+            //             }
+            // );
+            modal.show('<img src="images/people/zelda_malvados/'+ average+'.gif" style="max-width:350px;width:100%"></img>', 
+            "Perdedor", 
+            function(){
+                that.newQuestionStart();
+            }
+            );
         }
     },
-    resetResultStyles:function (){
-        $("#maincontainer").addClass('test-word').removeClass('success-opt').removeClass('falied-opt');
-    },
+
     setAverage: function (){
         $('#averageCounter').html(averageCounter);
         if(averageCounter == this.gameBehaviour.maxAverage){
             alert('Lo has conseguido avisa a tus papas!!!!');
             fillInitlWithRandomValues([]);
         }
-    
+    },
+    newQuestionStart:function(){
+        this.apperanceManager.askMode();
+        let currentQuestion = this.questionProvider.getQuestion();
+        //Show question and start timer countdown
+        this.loadQuestion(currentQuestion, this.onEndQuestion);
+        currentGame.timeManager.startQuestion(currentQuestion.timeout, this.dashboard.countDownWrapperId, function(){alert("Se te ha acabado el tiempo")} );
+       
     },
     start: function(){
-        this.prepareMainBoard();
-        let currentQuestion = this.questions[0];
-        //Show question and start timer countdown
-        this.loadQuestion(currentQuestion, this.checkResult);
-        time_manager.startQuestion(currentQuestion.timeout, this.dashboard.countDownWrapperId, function(){alert("Se te ha acabado el tiempo")} );
-       
-        // this.fillInitlWithRandomValues();
+        this.apperanceManager.prepareMainBoard();
+        this.newQuestionStart();
     }
 }

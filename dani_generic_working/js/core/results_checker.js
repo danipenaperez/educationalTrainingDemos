@@ -12,7 +12,6 @@ var resultChecker = {
         if(current){
             
             current.childNodes.forEach(node => {
-                console.log(node.nodeType);
                 switch(node.nodeType){
                     case Node.ELEMENT_NODE:
                         sentenceBuffer = sentenceBuffer+ this.getElementNodeValue(node);
@@ -30,7 +29,7 @@ var resultChecker = {
 
             });
         }
-        return sentenceBuffer.trim() == question.correctAnswer;
+        return sentenceBuffer.trim() == question.correctAnswer.trim();
       },
 
       /**
