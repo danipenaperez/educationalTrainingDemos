@@ -31,7 +31,11 @@ var core = {
         console.log(question);
 
         var checkResultFunction = null;
+        
         //CREATE QUESTION
+        /**
+         * Each type question has the responsability to create the ask and create the answer mode
+         */
         if(question.sentence){
             
             var assembledSentence = sentenceResolver.assemble(question.sentence);
@@ -42,11 +46,28 @@ var core = {
                 callbackResult(question, responseResult);
                 
             }
+
+            //CREATE RESULT BUTTONS
+            let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
+            document.getElementById('optionsContainer').appendChild(checkResultsButton);
+        
+        }else if(question.ask){
+            //Print ask
+            document.getElementById('ask_content').innerHTML=question.ask; 
+            //Print text box result
+            document.getElementById('optionsContainer').innerHTML=templates.getInputTextHTMLTemplate("typedAnswer");
+            
+            //CREATE CHECK FUNCTION AND RESULT BUTTONS
+            checkResultFunction = function(){
+                let responseResult = resultChecker.checkResults(question, "typedAnswer");
+                callbackResult(question, responseResult);
+                
+            }
+            let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
+            document.getElementById('optionsContainer').appendChild(checkResultsButton);
         }
 
-        //CREATE RESULT BUTTONS
-        let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
-        document.getElementById('optionsContainer').appendChild(checkResultsButton);
+        
     },
 
 

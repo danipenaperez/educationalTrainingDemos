@@ -1,9 +1,21 @@
 
 
 
+#maincontainer { 
+    margin: 0; 
+    padding: 0;
+    background: url('../images/ZeldaBackgroundQuestion_simple.png') ; 
+    width: 100vw;
+    height: 100vh;
+    /* background: url(../images/hero.jpg); */
+    background-size: cover;
+    /* background-position: center, center; */
+}
+
+
 .test-word {
     /* background-color: rgb(109, 242, 247); */
-    background-image: url(../images/ZeldaBackground.jpg);
+    /* background-image: url(../images/ZeldaBackgroundQuestion_simple.png); */
     /* background-repeat: no-repeat; */
 }
 .test-word-failed { 

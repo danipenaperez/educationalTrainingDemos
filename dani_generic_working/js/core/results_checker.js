@@ -8,30 +8,41 @@ var resultChecker = {
      */
     checkResults: function (question, resultWrapperHTMLId){
         var current=document.getElementById(resultWrapperHTMLId);
-        let sentenceBuffer = "";
+        
+        let answerValue;
         if(current){
-            
-            current.childNodes.forEach(node => {
-                switch(node.nodeType){
-                    case Node.ELEMENT_NODE:
-                        sentenceBuffer = sentenceBuffer+ this.getElementNodeValue(node);
-                        break;
-                    case Node.ATTRIBUTE_NODE:
-                        console.log("node");
-                        console.log(node);
-                        break;
-                    case Node.TEXT_NODE: //Input text elements
-                        sentenceBuffer = sentenceBuffer+node.nodeValue;
-                        break;
-                    default:
-                        
-                }
+            if(!current.hasChildNodes()){ //One element form
+                answerValue = this.getValueByNodeType(current);
+            }else{
+                let sentenceBuffer = "";
+                current.childNodes.forEach(node => {
+                    sentenceBuffer = sentenceBuffer+ this.getValueByNodeType(node);
+                });
+                answerValue= sentenceBuffer;
+            }
 
-            });
         }
-        return sentenceBuffer.trim().toLocaleUpperCase() == question.correctAnswer.trim().toLocaleUpperCase();
+
+        return answerValue.trim().toLocaleUpperCase() == question.correctAnswer.trim().toLocaleUpperCase();
       },
 
+      getValueByNodeType:function(node){
+        var value;
+        switch(node.nodeType){
+            case Node.ELEMENT_NODE:
+                value= this.getElementNodeValue(node);
+                break;
+            case Node.ATTRIBUTE_NODE:
+                console.log("node");
+                console.log(node);
+                break;
+            case Node.TEXT_NODE: //Input text elements
+                value = node.nodeValue;
+                break;
+            default:
+        }
+        return value;
+      },
       /**
        * Extract value from an expecified element Type (such as select, checkbox, etc..)
        * @param {*} node 

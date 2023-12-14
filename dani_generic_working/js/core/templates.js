@@ -92,13 +92,13 @@ templates.createCheckResultsButton = function(id, text, callback){
 
 templates.getInputTextHTMLTemplate = function (id){
     
-        var content =  '<div class="form-group mb-3">'+
-                '<label for="'+id+'" class="form-label">Tu Respuesta:</label>'+
+        var content =  '<div class="form-group mb-3" id="id">'+
+                // '<label for="'+id+'" class="form-label">Tu Respuesta:</label>'+
                 '<input type="text" class="form-control" id="'+id+'"></input>'+
                 // '</div>'+
                 // '<div class="mb-3">'+
-                '<button id="check_'+id+'_Btn" type="button" class="btn btn-default btn-primary" style="padding-top: 5;margin-top: 5px;" >Comprobar</button>'+
-                '<p id="example_success" class="text-center h1"></p>' +
+                // '<button id="check_'+id+'_Btn" type="button" class="btn btn-default btn-primary" style="padding-top: 5;margin-top: 5px;" >Comprobar</button>'+
+                // '<p id="example_success" class="text-center h1"></p>' +
                 '</div>';
         return content;
         
