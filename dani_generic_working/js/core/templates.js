@@ -146,8 +146,8 @@ templates.getModalLoginTemplate = function (id){
                                 '<div class="modal-body mx-3">'+
                                 
                                         '<div class="md-form mb-5">'+
-                                        '  <label data-error="wrong" data-success="right" for="defaultForm-email">Escribe tu nombre:</label>'+
-                                        '  <input type="text" name="UserNameGame" id="loginName" class="form-control validate" />'+
+                                        '  <label >Escribe tu nombre:</label>'+
+                                        '  <input type="text" name="UserNameGame" id="loginName" class="form-control" />'+
                                         '</div>'+
 
                                         '<div class="md-form mb-4">'+

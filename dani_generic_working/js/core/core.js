@@ -19,12 +19,41 @@ var core = {
         this.averageManager = args.averageManager;
         this.averageManager.callBackMaxAverage=this.onEndGame;
         this.loginManager=args.loginManager;
-        this.loginManager.init();
         this.gamificationManager=args.gamificationManager;
-        this.gamificationManager.userName="martita";
-        this.gamificationManager.init();
-    },
+        // this.loginManager.init({
+        //     onLoginCallBack: this.configureUser
+        // });
 
+        let sign = prompt("¿¿Como te llamas??");
+        var random_boolean = Math.random() < 0.5;
+        let gameName ="zelda";
+        if(random_boolean){
+            alert("Bienvenido "+ sign+" a la aventura de ZELDA" );
+            gameName="zelda";
+        }else{
+            alert("Bienvenido "+ sign+" a la aventura de los animales" );
+            gameName="animales";
+        }
+        currentGame.gamificationManager.configure({
+            gameName:gameName,
+            userName:sign,
+        });
+        currentGame.gamificationManager.init();
+        
+    },
+    /**
+     * After login configure gamification and other services
+     * @param {*} args 
+     */
+    // configureUser:function(args){
+    //     alert("sooouuu "+ args.userName);
+    //     currentGame.gamificationManager.configure({
+    //         mediaFilesPath:args.gameName,
+    //         userName:args.userName,
+    //     });
+    //     alert('init del gaminfication');
+    //     currentGame.gamificationManager.init();
+    // },
     
     /**
      * Load current question

@@ -27,16 +27,13 @@ const questionProvider = Object.create(question_provider);
 questionProvider.questions = options;
 
 const averageManager = Object.create(average_counter);
-averageManager.maxAverage = 4;
+averageManager.maxAverage = 10;
 
 
 const loginManager =  Object.create(login_provider);
 
 const gamificationManager =  Object.create(gamification_provider);
 
-gamificationManager.configure({
-    mediaFilesPath: 'images/games/animales',
-});
 
 
 const apperanceManager=  Object.create(apperance_manager);

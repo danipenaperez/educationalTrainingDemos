@@ -2,10 +2,11 @@ var login_provider = {
     modal:null,
     loginModalName: 'loginModal',
     userName: '',
+    onLoginCallBack:null,
     configure: function(args){
         this.userName=args.userName;
     },
-    init: function(){
+    init: function(args){
         var html = templates.getModalLoginTemplate(this.loginModalName);
         document.body.innerHTML += html;
         //Configure modal
@@ -15,7 +16,7 @@ var login_provider = {
         this.modal.modalSelector= '#'+this.loginModalName+'Long';
         this.modal.contentSelector= '#'+this.loginModalName+'ModalContent';
         this.modal.current= 'hide';
-        this.modal.currentCallBack=null;
+        this.onLoginCallBack =args.onLoginCallBack;
         this.onstart(null);
     },
 
@@ -23,15 +24,14 @@ var login_provider = {
         this.modal.show(null, 
             "!!! LOGIN!!!", 
             function(){
-                alert("gracias por hacer login")
+                alert("gracias por hacer login");
             }
         );
     },
     onLogin: function(gameName){
-        alert('has elegido '+gameName + " "+ $('#loginName').val());
-        console.log(document.getElementById('loginName'));
         let userName = document.getElementById('loginName').value;
-        alert('has elegido '+userName);
+        this.modal.destroy();
+        this.onLoginCallBack({userName:userName, gameName:gameName});
     },
     onFinish: function(){
         alert("lo has conseguido");

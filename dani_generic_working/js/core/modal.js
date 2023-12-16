@@ -20,6 +20,15 @@ var modal ={
         $(this.modalSelector).modal('hide');
         
     },
+    destroy:function(){
+        const element = document.getElementById(this.id+'Long');
+        element.remove();
+
+        // $('#'+this.id+'Long').modal('hide');
+        // $(document.body).removeClass('modal-open');
+        // $('.modal-backdrop').remove();
+
+    },
     toogle: function(){
         $(this.modalSelector).modal('toggle');
         
