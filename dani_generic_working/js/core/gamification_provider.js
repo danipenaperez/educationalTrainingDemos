@@ -29,23 +29,23 @@ var gamification_provider = {
         let currentPhrase;
         if(this.gameName =='zelda'){
             var phrases = [
-                'La furia de '+this.userName,
-                this.userName + " acabará contigo!!",
-                "!!TODOPODEROSO "+this.userName+ " !!",
-                "EL BIEN ACABARA CON EL MAL!",
-                "No ...soy...un ... bebéeee!!",
-                "Mi poder no tiene final!"
+                "!!Bien!!" + 'La furia de '+this.userName,
+                "!!Bien!!" +this.userName + " acabará contigo!!",
+                "!!Bien!!" +"!!TODOPODEROSO "+this.userName+ " !!",
+                "!!Bien!!" +"EL BIEN ACABARA CON EL MAL!",
+                "!!Bien!!" +"No ...soy...un ... bebéeee!!",
+                "!!Bien!!" +"Mi poder no tiene final!"
             ];
             currentPhrase= phrases[candidateIndex];
         }else{
             var phrases = [
-                'BIENNN',
-                'Te voy a rascar la barriga '+this.userName,
-                "¿" +this.userName + " quieres un masajito ??",
-                "Me como las preguntas, tienes mas??",
-                this.userName + " te traigo un regalito por haberlo hecho tan bien!!",
-                "Mas preguntas, mas preguntas ya!!!!!",
-                "¿Quien me quiere , quien me quiere??"
+                "!!Bien!!" +'BIENNN',
+                "!!Bien!!" +'Te voy a rascar la barriga '+this.userName,
+                "!!Bien!!" +"¿" +this.userName + " quieres un masajito ??",
+                "!!Bien!!" +"Me como las preguntas, tienes mas??",
+                "!!Bien!!" +this.userName + " te traigo un regalito por haberlo hecho tan bien!!",
+                "!!Bien!!" +"Mas preguntas, mas preguntas ya!!!!!",
+                "!!Bien!!" +"¿Quien me quiere , quien me quiere??"
             ];
             currentPhrase= phrases[candidateIndex];
 
@@ -64,22 +64,22 @@ var gamification_provider = {
         let currentPhrase;
         if(this.gameName =='zelda'){
             var phrases = [
-                'Eres un perdedor '+this.userName,
-                this.userName + "no puedes luchar contra mi inteligencia superior",
-                "rebota rebota y en tu culo explota",
-                "Yo tengo el poder y tu no!",
-                "!! Acabare contigo "+ this.userName +" !!",
-                "Hasta la cacho pega mas fuerte que tú jajajjaaj"
+                "!!Mal!!" +'Eres un perdedor '+this.userName,
+                "!!Mal!!" +this.userName + "no puedes luchar contra mi inteligencia superior",
+                "!!Mal!!" +"rebota rebota y en tu culo explota",
+                "!!Mal!!" +"Yo tengo el poder y tu no!",
+                "!!Mal!!" +"!! Acabare contigo "+ this.userName +" !!",
+                "!!Mal!!" +"Hasta la cacho pega mas fuerte que tú jajajjaaj"
             ];
             currentPhrase= phrases[candidateIndex];
         }else{
             var phrases = [
-                'Ohhh pobrecilla',
-                this.userName + " anda mejor, Dame un masajito",
-                "Jiiii que mal lo haces "+this.userName+ " !!",
-                "Tu papá es mucho mas guapo que tu!!",
-                "JAJAJA que mal lo haces!!",
-                "No tienes ni idea ajjajaja!!"
+                "!!Mal!!" +'Ohhh pobrecilla',
+                "!!Mal!!" +this.userName + " anda mejor, Dame un masajito",
+                "!!Mal!!" +"Jiiii que mal lo haces "+this.userName+ " !!",
+                "!!Mal!!" +"Tu papá es mucho mas guapo que tu!!",
+                "!!Mal!!" +"JAJAJA que mal lo haces!!",
+                "!!Mal!!" +"No tienes ni idea ajjajaja!!"
             ];
             currentPhrase= phrases[candidateIndex];
 
