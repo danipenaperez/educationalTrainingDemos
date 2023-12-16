@@ -14,6 +14,7 @@ var gamification_provider = {
         document.body.innerHTML += html;
         //Configure modal
         this.modal =  Object.create(modal);
+        this.modal.id= this.providerName;
         this.modal.modalTitle= '#'+this.providerName+'LongTitle';
         this.modal.modalSelector= '#'+this.providerName+'Long';
         this.modal.contentSelector= '#'+this.providerName+'ModalContent';

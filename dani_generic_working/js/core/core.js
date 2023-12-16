@@ -18,7 +18,10 @@ var core = {
         this.apperanceManager=args.apperanceManager;
         this.averageManager = args.averageManager;
         this.averageManager.callBackMaxAverage=this.onEndGame;
+        this.loginManager=args.loginManager;
+        this.loginManager.init();
         this.gamificationManager=args.gamificationManager;
+        this.gamificationManager.userName="martita";
         this.gamificationManager.init();
     },
 
@@ -65,6 +68,39 @@ var core = {
             }
             let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
             document.getElementById('optionsContainer').appendChild(checkResultsButton);
+        }else if(question.chooseOne){
+            //Print ask
+            var assembledSentence = sentenceResolver.assemble(question.chooseOne.substring(question.chooseOne.indexOf('[')));
+            alert(assembledSentence);
+            document.getElementById('ask_content').innerHTML=question.chooseOne.substring(0, question.chooseOne.indexOf('[')-1);
+
+            document.getElementById('optionsContainer').innerHTML=assembledSentence;
+
+            search = '<item id="item1">firstItem</item><item id="item2">secondItem</item>';
+            regex = new RegExp(/<([^\s]+).*?id="([^"]*?)".*?>(.+?)<\/\1>/gi);
+            matches = search.match(regex);
+            results = {};
+            for (i in matches) {
+                let parts = regex.exec(matches[i]);
+                if(parts)
+                    results[parts[2]] = parts[3];
+            }
+            
+            console.log('y lo conseguido es ');
+            console.log(results);
+
+
+
+            //Print text box result
+            
+            //CREATE CHECK FUNCTION AND RESULT BUTTONS
+            // checkResultFunction = function(){
+            //     let responseResult = resultChecker.checkResults(question, "typedAnswer");
+            //     callbackResult(question, responseResult);
+                
+            // }
+            // let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
+            // document.getElementById('optionsContainer').appendChild(checkResultsButton);
         }
 
         

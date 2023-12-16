@@ -13,8 +13,8 @@ var sentenceResolver ={
                     isExp=true;
                     //interpretar
                 }if("]" == currentChar){
-                    let revolvedObject = this.resolveExp({exprValue:currentExpr, id:i});
-                    currentChar = revolvedObject.html;
+                    let resolvedObject = this.resolveExp({exprValue:currentExpr, id:i});
+                    currentChar = resolvedObject.html;
                     isExp=false;
                 }
 
@@ -39,6 +39,14 @@ var sentenceResolver ={
             let selectOptions = evaluate.split('|')[1].split(',');
             let selectObject = templates.createSelect("select_"+args.id, selectOptions);
             args.html = selectObject.outerHTML;
+        
+        }else if ("chooseOne"== command){
+            let selectOptions = evaluate.split('|')[1].split(',');
+            var buttons='';
+            selectOptions.forEach(element => {
+                buttons = buttons + templates.getOptionButtonHTMLTemplate(element);
+            });
+            args.html = buttons;
         
         }
 

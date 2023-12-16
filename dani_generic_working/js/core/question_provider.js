@@ -3,7 +3,7 @@ var question_provider = {
     getQuestion: function(){
         var selectedIndex = this.getRandomItem(null, []);
         return this.questions[selectedIndex];
-        // return this.questions[5];
+        //  return this.questions[6];
         
     },
     getRandomItem: function (strategy, excluded){

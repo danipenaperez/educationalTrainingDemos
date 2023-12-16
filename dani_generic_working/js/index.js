@@ -29,11 +29,13 @@ questionProvider.questions = options;
 const averageManager = Object.create(average_counter);
 averageManager.maxAverage = 4;
 
+
+const loginManager =  Object.create(login_provider);
+
 const gamificationManager =  Object.create(gamification_provider);
-var GamerName = window.prompt("Bienvenido Guerrero");
+
 gamificationManager.configure({
-    mediaFilesPath: 'images/games/zelda',
-    userName:GamerName
+    mediaFilesPath: 'images/games/animales',
 });
 
 
@@ -47,7 +49,8 @@ currentGame.configure({
     apperanceManager: apperanceManager,
     averageManager: averageManager,
     timeManager: timeManager,
-    gamificationManager:gamificationManager
+    gamificationManager:gamificationManager,
+    loginManager:loginManager
 });
 
 

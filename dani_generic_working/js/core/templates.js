@@ -9,19 +9,16 @@ templates.getAverageHTMLTemplate = function (){
 
 
 templates.getOptionButtonHTMLTemplate = function (id){
-    
-    var content =  '<div class="col h-100 btn-group d-flex">'+
-            '<button id="'+id+'" type="button" class="btn btn-default w-100 btn-primary"  >Left</button>'+
-            '</div>';
-    return content;
-            // var template = document.createElement('template');
-    // let html = content.trim(); // Never return a text node of whitespace as the result
-    // template.innerHTML = html;
-    // return template.content.firstChild;
+    let formmatedId = id.trim();
+    var content =  //'<div class="col h-100 btn-group d-flex">'+
+            '<button id="opt_'+formmatedId+'" type="button" class="btn btn-default w-100 btn-primary">'+formmatedId+'</button>'
+            //+'</div>';
+     return content;
+
 }
 
 templates.getInputNumberHTMLTemplate = function (id){
-    
+        
         var content =  '<div class="form-group mb-3">'+
                 '<label for="'+id+'" class="form-label">Tu Respuesta:</label>'+
                 '<input type="number" class="form-control" id="'+id+'"></input>'+
@@ -126,5 +123,50 @@ templates.getModalGamificationTemplate = function (id){
         '</div>'+
         '</div>';
         return content;
+        
+}
+
+
+
+templates.getModalLoginTemplate = function (id){
+    
+        var content =  
+        '<div class="modal fade" id="'+id+'Long" tabindex="-1" role="dialog" aria-labelledby="'+id+'LongTitle" aria-hidden="true">'+
+                '<div class="modal-dialog" role="document">'+
+                        '<div class="modal-content">'+
+                        '   <div class="modal-header">'+
+                        '     <h5 class="modal-title" id="'+id+'LongTitle">Modal title</h5>'+
+                        '     <button id="'+id+'modalCloseButtonTop" onclick="currentGame.loginManager.modal.onCloseModal()" type="button" class="close" data-dismiss="modal" aria-label="Close">'+
+                        '       <span aria-hidden="true">&times;</span>'+
+                        '     </button>'+
+                        '   </div>'+
+
+                        '   <div id="'+id+'ModalContent" class="modal-body">'+
+
+                                '<div class="modal-body mx-3">'+
+                                
+                                        '<div class="md-form mb-5">'+
+                                        '  <label data-error="wrong" data-success="right" for="defaultForm-email">Escribe tu nombre:</label>'+
+                                        '  <input type="text" name="UserNameGame" id="loginName" class="form-control validate" />'+
+                                        '</div>'+
+
+                                        '<div class="md-form mb-4">'+
+                                        '  <label>Elige tu juego:</label><br/>'+
+                                        '     <button id="'+id+'modalCloseButtonDown" onclick="currentGame.loginManager.onLogin(\'zelda\')"  type="button" class="btn btn-primary" data-dismiss="modal">Zelda</button>'+
+                                        '     <button id="'+id+'modalCloseButtonDown" onclick="currentGame.loginManager.onLogin(\'animales\')"  type="button" class="btn btn-secondary" data-dismiss="modal">Animales</button>'+
+                                        '</div>'+
+                                '</div>'+
+                        '  </div>'+
+                        '  <div>'+
+                                '   <div class="modal-footer">'+
+                                '     <button id="'+id+'modalCloseButtonDown" onclick="currentGame.loginManager.modal.onCloseModal()"  type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>'+
+                                '   </div>'+
+                        '  </div>'+
+                '</div>'+
+        '</div>';
+
+
+        return content;
+
         
 }
