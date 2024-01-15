@@ -1,0 +1,41 @@
+
+
+
+#maincontainer { 
+    /* margin: 0; 
+    padding: 0; */
+    background: url('../images/ZeldaBackgroundQuestion_simple.png') ; 
+    width: 100vw;
+    height: 100vh;
+    /* background: url(../images/hero.jpg); */
+    background-size: cover;
+    /* background-position: center, center; */
+}
+
+
+.test-word {
+    /* background-color: rgb(109, 242, 247); */
+    /* background-image: url(../images/ZeldaBackgroundQuestion_simple.png); */
+    /* background-repeat: no-repeat; */
+}
+.test-word-failed { 
+    background-color: #f06279; 
+}
+.test-examples {
+    background-color: rgb(109, 242, 247);
+}
+.test-examples-failed { 
+    background-color: #f06279; 
+}
+
+.failed-opt {
+    background-color: #b3b9b3;
+}
+.success-opt {
+    background-color: #0dee2b;
+    background-image: linear-gradient(to right, #59ff90 0%, #299b55 100%);
+}
+.falied-opt {
+    background-color: #ee0d33;
+    background-image: linear-gradient(to right, #59ff90 0%, #299b55 100%);
+}

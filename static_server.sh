@@ -27,7 +27,7 @@ case $ACTION in
 		echo '*******************'
 		;;
 	* )
-		echo "Command not found for certificates features: $ACTION "
+		echo "Command not found for static server features: $ACTION "
 
     ;;
 esac

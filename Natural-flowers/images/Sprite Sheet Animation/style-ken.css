@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #3168ff;
+}
+.container {
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  background: url(ken-tatsumaki-senpuu-kyaku.png);
+  /*Steps should be equal to number of frames*/
+  animation: kick 3s steps(8) infinite;
+}
+@keyframes kick {
+  0% {
+    background-position: -923px 0;
+  }
+  15% {
+    background-position: -823px 0;
+  }
+  30% {
+    background-position: -723px 0;
+  }
+  45% {
+    background-position: -623px 0;
+  }
+  60% {
+    background-position: -523px 0;
+  }
+  75% {
+    background-position: -423px 0;
+  }
+  90% {
+    background-position: -323px 0;
+  }
+  /* Use height of image here as y position */
+  100% {
+    background-position: 0px 0px ;
+  }
+}
