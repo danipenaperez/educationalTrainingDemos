@@ -170,6 +170,7 @@ var core = {
         currentGame.newQuestionStart();
     },
     onEndGame: function(){
-        alert(" QUE BIEN HAS TERMINADO EL JUEGO");
+        alert(" QUE BIEN HAS TERMINADO EL JUEGO  <br> AVISA A TUS PAPAS!!");
+        window.location.reload();
     }
 }
