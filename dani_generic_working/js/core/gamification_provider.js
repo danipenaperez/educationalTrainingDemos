@@ -59,8 +59,18 @@ var gamification_provider = {
             }
         );
     },
-    onFailed: function(average,callback){
-        let candidateIndex = Math.floor(Math.random()*6);
+    onFailed: function(average,callback, question){
+        
+        if(question){
+            
+            this.modal.show(question.explanation, 
+                "repasa con atencion", 
+                function(){
+                    callback();
+                }
+            );
+        }else{
+            let candidateIndex = Math.floor(Math.random()*6);
         let currentPhrase;
         if(this.gameName =='zelda'){
             var phrases = [
@@ -92,7 +102,10 @@ var gamification_provider = {
                 callback();
             }
         );
+        }
+        
     },
+    
     onFinish: function(){
         alert("lo has conseguido");
     },

@@ -148,8 +148,9 @@ var core = {
             currentGame.gamificationManager.onSuccess(currentAverage, currentGame.newQuestionStart);
             
         }else{
+            
             currentAverage = currentGame.averageManager.fail();
-            currentGame.gamificationManager.onFailed(currentAverage, currentGame.newQuestionStart);
+            currentGame.gamificationManager.onFailed(currentAverage, currentGame.newQuestionStart, question);
             
 
         }
