@@ -12,30 +12,30 @@ var verbsExplanation =
 
 var options = [
     //ask Type question variations
-    {ask:".... | Dreamt | Dreamt| Soñar  ", correctAnswer: "Dream", timeout: 30, explanation:verbsExplanation},
-    {ask:"Dream | .... | Dreamt | Soñar", correctAnswer: "Dreamt", timeout: 30, explanation:verbsExplanation},
-    {ask:"Dream | Dreamt | .... | Soñar", correctAnswer: "Dreamt", timeout: 30, explanation:verbsExplanation},
-    {ask:"Dream | Dreamt | Dreamt | ....", correctAnswer: "Soñar", timeout: 30, explanation:verbsExplanation},
+    {ask:".... | Dreamt | Dreamt| Soñar  ", correctAnswer: "Dream", timeout: 45, explanation:verbsExplanation},
+    {ask:"Dream | .... | Dreamt | Soñar", correctAnswer: "Dreamt", timeout: 45, explanation:verbsExplanation},
+    {ask:"Dream | Dreamt | .... | Soñar", correctAnswer: "Dreamt", timeout: 45, explanation:verbsExplanation},
+    {ask:"Dream | Dreamt | Dreamt | ....", correctAnswer: "Soñar", timeout: 45, explanation:verbsExplanation},
     
-    {ask:".... | Felt | Felt | Sentir  ", correctAnswer: "Feel", timeout: 30, explanation:verbsExplanation},
-    {ask:"Feel | .... | Felt | Sentir", correctAnswer: "Felt", timeout: 30, explanation:verbsExplanation},
-    {ask:"Feel | Felt | .... | Sentir", correctAnswer: "Felt", timeout: 30, explanation:verbsExplanation},
-    {ask:"Feel | Felt | Felt | ....", correctAnswer: "Sentir", timeout: 30, explanation:verbsExplanation},
+    {ask:".... | Felt | Felt | Sentir  ", correctAnswer: "Feel", timeout: 45, explanation:verbsExplanation},
+    {ask:"Feel | .... | Felt | Sentir", correctAnswer: "Felt", timeout: 45, explanation:verbsExplanation},
+    {ask:"Feel | Felt | .... | Sentir", correctAnswer: "Felt", timeout: 45, explanation:verbsExplanation},
+    {ask:"Feel | Felt | Felt | ....", correctAnswer: "Sentir", timeout: 45, explanation:verbsExplanation},
 
-    {ask:".... | Meant | Meant | significar  ", correctAnswer: "Mean", timeout: 30, explanation:verbsExplanation},
-    {ask:"Mean | .... | Meant | significar", correctAnswer: "Meant", timeout: 30, explanation:verbsExplanation},
-    {ask:"Mean | Meant | .... | significar", correctAnswer: "Meant", timeout: 30, explanation:verbsExplanation},
-    {ask:"Mean | Meant | Meant | ....", correctAnswer: "significar", timeout: 30, explanation:verbsExplanation},
+    {ask:".... | Meant | Meant | significar  ", correctAnswer: "Mean", timeout: 45, explanation:verbsExplanation},
+    {ask:"Mean | .... | Meant | significar", correctAnswer: "Meant", timeout: 45, explanation:verbsExplanation},
+    {ask:"Mean | Meant | .... | significar", correctAnswer: "Meant", timeout: 45, explanation:verbsExplanation},
+    {ask:"Mean | Meant | Meant | ....", correctAnswer: "significar", timeout: 45, explanation:verbsExplanation},
 
-    {ask:".... | left | left | dejar partir salir", correctAnswer: "Leave", timeout: 30, explanation:verbsExplanation},
-    {ask:"Leave | .... | left | dejar partir salir", correctAnswer: "left", timeout: 30, explanation:verbsExplanation},
-    {ask:"Leave | left | .... | dejar partir salir", correctAnswer: "left", timeout: 30, explanation:verbsExplanation},
-    {ask:"Leave | left | left | ....", correctAnswer: "dejar partir salir", timeout: 30, explanation:verbsExplanation},
+    {ask:".... | left | left | dejar partir salir", correctAnswer: "Leave", timeout: 45, explanation:verbsExplanation},
+    {ask:"Leave | .... | left | dejar partir salir", correctAnswer: "left", timeout: 45, explanation:verbsExplanation},
+    {ask:"Leave | left | .... | dejar partir salir", correctAnswer: "left", timeout: 45, explanation:verbsExplanation},
+    {ask:"Leave | left | left | ....", correctAnswer: "dejar partir salir", timeout: 45, explanation:verbsExplanation},
     
-    {ask:".... | met | met | Quedar Conocer", correctAnswer: "Meet", timeout: 30, explanation:verbsExplanation},
-    {ask:"Meet | .... | met | Quedar Conocer", correctAnswer: "met", timeout: 30, explanation:verbsExplanation},
-    {ask:"Meet | met | .... | Quedar Conocer", correctAnswer: "met", timeout: 30, explanation:verbsExplanation},
-    {ask:"Meet | met | met | ....", correctAnswer: "Quedar conocer", timeout: 30, explanation:verbsExplanation},
+    {ask:".... | met | met | Quedar Conocer", correctAnswer: "Meet", timeout: 45, explanation:verbsExplanation},
+    {ask:"Meet | .... | met | Quedar Conocer", correctAnswer: "met", timeout: 45, explanation:verbsExplanation},
+    {ask:"Meet | met | .... | Quedar Conocer", correctAnswer: "met", timeout: 45, explanation:verbsExplanation},
+    {ask:"Meet | met | met | ....", correctAnswer: "Quedar conocer", timeout: 45, explanation:verbsExplanation},
 
 ];
 
