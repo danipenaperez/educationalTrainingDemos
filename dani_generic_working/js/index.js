@@ -6,7 +6,7 @@ const questionProvider = Object.create(question_provider);
 questionProvider.questions = options;
 
 const averageManager = Object.create(average_counter);
-averageManager.maxAverage = 10;
+averageManager.maxAverage = 20;
 
 
 const loginManager =  Object.create(login_provider);
