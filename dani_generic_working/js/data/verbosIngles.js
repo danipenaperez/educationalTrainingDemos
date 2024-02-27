@@ -1,3 +1,119 @@
+var verbsExplanationGroup1 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Cost</td><td>cost</td><td>cost</td><td>costar</td></tr>" +
+"<tr><td> Cut</td><td>cut</td><td>cut</td><td>cortar</td></tr>" +
+"<tr><td> Hit</td><td>hit</td><td>hit</td><td>golpear</td></tr>" +
+"<tr><td> Hurt</td><td>hurt</td><td>hurt</td><td>herir</td></tr>" +
+"<tr><td> Let</td><td>let</td><td>let</td><td>dejar</td></tr>" +
+"<tr><td> Put</td><td>put</td><td>put</td><td>Poner colocar</td></tr>" +
+"<tr><td> Set</td><td>set</td><td>set</td><td>Poner fijar</td></tr>" +
+"<tr><td> Shut</td><td>shut</td><td>shut</td><td>cerrar</td></tr>" +
+"</table>";
+
+
+
+
+var group1 = [
+    //ask Type question variations
+    {ask:".... | Cost | Cost | Construir  ", correctAnswer: "Cost", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cost | .... | Cost | Construir", correctAnswer: "Cost", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cost | Cost | .... | Construir", correctAnswer: "Cost", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cost | Cost | Cost | ....", correctAnswer: "Construir", timeout: 45, explanation:verbsExplanationGroup1},
+    
+    {ask:".... | Cut | Cut | cortar  ", correctAnswer: "Cut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cut | .... | Cut | cortar", correctAnswer: "Cut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cut | Cut | .... | cortar", correctAnswer: "Cut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Cut | Cut | Cut | ....", correctAnswer: "cortar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {ask:".... | Hit | Hit | golpear  ", correctAnswer: "Hit", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hit | .... | Hit | golpear", correctAnswer: "Hit", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hit | Hit | .... | golpear", correctAnswer: "Hit", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hit | Hit | Hit | ....", correctAnswer: "golpear", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {ask:".... | Hurt | Hurt | herir", correctAnswer: "Hurt", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hurt | .... | Hurt | herir", correctAnswer: "Hurt", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hurt | Hurt | .... | herir", correctAnswer: "Hurt", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Hurt | Hurt | Hurt | ....", correctAnswer: "herir", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {ask:".... | Let | Let | dejar", correctAnswer: "Let", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Let | .... | Let | dejar", correctAnswer: "Let", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Let | Let | .... | dejar", correctAnswer: "Let", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Let | Let | Let | ....", correctAnswer: "dejar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {ask:".... | Put | Put | Poner colocar", correctAnswer: "Put", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Put | .... | Put | Poner colocar", correctAnswer: "Put", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Put | Put | .... | Poner colocar", correctAnswer: "Put", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Put | Put | Put | ....", correctAnswer: "Poner colocar", timeout: 45, explanation:verbsExplanationGroup1},
+    
+    {ask:".... | Set | Set | Poner fijar", correctAnswer: "Set", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Set | .... | Set | Poner fijar", correctAnswer: "Set", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Set | Set | .... | Poner fijar", correctAnswer: "Set", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Set | Set | Set | ....", correctAnswer: "Poner fijar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {ask:".... | Shut | Shut | cerrar", correctAnswer: "Shut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Shut | .... | Shut | cerrar", correctAnswer: "Shut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Shut | Shut | .... | cerrar", correctAnswer: "Shut", timeout: 45, explanation:verbsExplanationGroup1},
+    {ask:"Shut | Shut | Shut | ....", correctAnswer: "cerrar", timeout: 45, explanation:verbsExplanationGroup1}
+    
+];
+
+
+
+
+var verbsExplanationGroup2 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Build</td><td>built</td><td>built</td><td>Construir</td></tr>" +
+"<tr><td> Burn</td><td>burnt</td><td>burnt</td><td>Quemar</td></tr>" +
+"<tr><td> Learn</td><td>learnt</td><td>learnt</td><td>Aprender</td></tr>" +
+"<tr><td> Lend</td><td>lent</td><td>lent</td><td>Prestar</td></tr>" +
+"<tr><td> Send</td><td>sent</td><td>sent</td><td>Enviar</td></tr>" +
+"<tr><td> Smell</td><td>smelt</td><td>smelt</td><td>Oler</td></tr>" +
+"<tr><td> Spend</td><td>spent</td><td>spent</td><td>Gastar</td></tr>" +
+"</table>";
+
+
+var group2 = [
+    //ask Type question variations
+    {ask:".... | built | built | Construir  ", correctAnswer: "Build", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Build | .... | built | Construir", correctAnswer: "built", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Build | built | .... | Construir", correctAnswer: "built", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Build | built | built | ....", correctAnswer: "Construir", timeout: 45, explanation:verbsExplanationGroup2},
+    
+    {ask:".... | burnt | burnt | Quemar  ", correctAnswer: "Burn", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Burn | .... | burnt | Quemar", correctAnswer: "burnt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Burn | burnt | .... | Quemar", correctAnswer: "burnt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Burn | burnt | burnt | ....", correctAnswer: "Quemar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {ask:".... | learnt | learnt | Aprender  ", correctAnswer: "Learn", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Learn | .... | learnt | Aprender", correctAnswer: "learnt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Learn | learnt | .... | Aprender", correctAnswer: "learnt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Learn | learnt | learnt | ....", correctAnswer: "Aprender", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {ask:".... | lent | lent | Prestar", correctAnswer: "Lend", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Lend | .... | lent | Prestar", correctAnswer: "lent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Lend | lent | .... | Prestar", correctAnswer: "lent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Lend | lent | lent | ....", correctAnswer: "Prestar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {ask:".... | sent | sent | Enviar", correctAnswer: "Send", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Send | .... | sent | Enviar", correctAnswer: "sent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Send | sent | .... | Enviar", correctAnswer: "sent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Send | sent | sent | ....", correctAnswer: "Enviar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {ask:".... | smelt | smelt | Oler", correctAnswer: "Smell", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Smell | .... | smelt | Oler", correctAnswer: "smelt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Smell | smelt | .... | Oler", correctAnswer: "smelt", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Smell | smelt | smelt | ....", correctAnswer: "Oler", timeout: 45, explanation:verbsExplanationGroup2},
+    
+    {ask:".... | spent | spent | Gastar", correctAnswer: "Spend", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Spend | .... | spent | Gastar", correctAnswer: "spent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Spend | spent | .... | Gastar", correctAnswer: "spent", timeout: 45, explanation:verbsExplanationGroup2},
+    {ask:"Spend | spent | spent | ....", correctAnswer: "Gastar", timeout: 45, explanation:verbsExplanationGroup2}
+    
+];
+
+
 var verbsExplanationGroup3 = 
 "<table border=1>"+
 "<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
@@ -96,5 +212,7 @@ var group4 = [
 
 
 var options = [];
+options = options.concat(group1);
+options = options.concat(group2);
 options = options.concat(group3);
 options = options.concat(group4)
