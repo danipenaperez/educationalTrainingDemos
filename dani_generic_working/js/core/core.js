@@ -71,7 +71,7 @@ var core = {
         if(question.sentence){
             
             var assembledSentence = sentenceResolver.assemble(question.sentence);
-            document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center h1">'+assembledSentence+'</p>'; 
+            document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center">'+assembledSentence+'</p>'; 
             
             checkResultFunction = function(){
                 let responseResult = resultChecker.checkResults(question, "ask");
