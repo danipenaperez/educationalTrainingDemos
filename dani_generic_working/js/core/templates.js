@@ -41,7 +41,8 @@ templates.createInputText = function(id, options){
         var inputObject = document.createElement("INPUT");
         inputObject.setAttribute("type", "text");
         inputObject.setAttribute("id", "inputText_"+id);
-         inputObject.setAttribute("class", "form-control");
+        // inputObject.setAttribute("class", "form-control"); Hace width 100% y no queda bien
+        inputObject.setAttribute("size", "10"); //default input text size
         return inputObject;
 }
 /**
@@ -68,6 +69,27 @@ templates.createSelect = function(id, options){
             
 }
 /**
+ * Create Default held Button
+ * @param {*} id 
+ * @param {*} text 
+ * @param {*} callback 
+ * @returns 
+ */
+templates.createHelpOnQuestionButton = function(id, text, callback){
+        var button = document.createElement('a');
+        button.id=id;
+        button.innerHTML = text?text:'ayuda?';
+        button.href='#';
+        // button.setAttribute("class", "btn btn-primary btn-lg btn-block");
+        button.onclick = function(e){
+            e.preventDefault();
+            callback();
+            return false;
+        };  
+        return button;  
+}
+
+/**
  * Create Default Check Result Button
  * @param {*} id 
  * @param {*} text 
@@ -91,7 +113,7 @@ templates.getInputTextHTMLTemplate = function (id){
     
         var content =  '<div class="form-group mb-3" id="id">'+
                 // '<label for="'+id+'" class="form-label">Tu Respuesta:</label>'+
-                '<input type="text" class="form-control" id="'+id+'" size="10"></input>'+
+                '<input type="text" class="form-control" id="'+id+'"></input>'+
                 // '</div>'+
                 // '<div class="mb-3">'+
                 // '<button id="check_'+id+'_Btn" type="button" class="btn btn-default btn-primary" style="padding-top: 5;margin-top: 5px;" >Comprobar</button>'+

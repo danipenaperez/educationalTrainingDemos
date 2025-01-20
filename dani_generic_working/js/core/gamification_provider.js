@@ -59,49 +59,58 @@ var gamification_provider = {
             }
         );
     },
+    /**
+     * Si la respuesta tiene el campo explanation, se muestra 
+     * Si no lo tiene saltan las frases tontas con las imagenes del juego
+     * @param {*} average 
+     * @param {*} callback 
+     * @param {*} question 
+     */
     onFailed: function(average,callback, question){
         
         if(question){
-            
-            this.modal.show(question.explanation, 
-                "repasa con atencion", 
+            let modalExplanationContent = question.explanation;
+            if(question.explanationExtended){
+                modalExplanationContent= modalExplanationContent + "<br><br>"+question.explanationExtended;
+            }
+            this.modal.show(modalExplanationContent, 
+                "<div style=\"color:red\">Repasa con Atencion:</div>", 
                 function(){
                     callback();
                 }
             );
         }else{
             let candidateIndex = Math.floor(Math.random()*6);
-        let currentPhrase;
-        if(this.gameName =='zelda'){
-            var phrases = [
-                "!!Mal!!" +'Eres un perdedor '+this.userName,
-                "!!Mal!!" +this.userName + "no puedes luchar contra mi inteligencia superior",
-                "!!Mal!!" +"rebota rebota y en tu culo explota",
-                "!!Mal!!" +"Yo tengo el poder y tu no!",
-                "!!Mal!!" +"!! Acabare contigo "+ this.userName +" !!",
-                "!!Mal!!" +"Hasta la cacho pega mas fuerte que tú jajajjaaj"
-            ];
-            currentPhrase= phrases[candidateIndex];
-        }else{
-            var phrases = [
-                "!!Mal!!" +'Ohhh pobrecilla',
-                "!!Mal!!" +this.userName + " anda mejor, Dame un masajito",
-                "!!Mal!!" +"Jiiii que mal lo haces "+this.userName+ " !!",
-                "!!Mal!!" +"Tu papá es mucho mas guapo que tu!!",
-                "!!Mal!!" +"JAJAJA que mal lo haces!!",
-                "!!Mal!!" +"No tienes ni idea ajjajaja!!"
-            ];
-            currentPhrase= phrases[candidateIndex];
+            let currentPhrase;
+            if(this.gameName =='zelda'){
+                var phrases = [
+                    "!!Mal!!" +'Eres un perdedor '+this.userName,
+                    "!!Mal!!" +this.userName + "no puedes luchar contra mi inteligencia superior",
+                    "!!Mal!!" +"rebota rebota y en tu culo explota",
+                    "!!Mal!!" +"Yo tengo el poder y tu no!",
+                    "!!Mal!!" +"!! Acabare contigo "+ this.userName +" !!",
+                    "!!Mal!!" +"Hasta brigitte pega mas fuerte que tú jajajjaaj"
+                ];
+                currentPhrase= phrases[candidateIndex];
+            }else{
+                var phrases = [
+                    "!!Mal!!" +'Ohhh pobrecilla',
+                    "!!Mal!!" +this.userName + " anda mejor, Dame un masajito",
+                    "!!Mal!!" +"Jiiii que mal lo haces "+this.userName+ " !!",
+                    "!!Mal!!" +"Tu papá es mucho mas guapo que tu!!",
+                    "!!Mal!!" +"JAJAJA que mal lo haces!!",
+                    "!!Mal!!" +"No tienes ni idea ajjajaja!!"
+                ];
+                currentPhrase= phrases[candidateIndex];
 
-        }
-
-
-        this.modal.show('<img src="'+this.mediaFilesPathFail+'/'+ candidateIndex+'.gif" style="max-width:350px;width:100%" ></img>', 
-            currentPhrase, 
-            function(){
-                callback();
             }
-        );
+
+            this.modal.show('<img src="'+this.mediaFilesPathFail+'/'+ candidateIndex+'.gif" style="max-width:350px;width:100%" ></img>', 
+                currentPhrase, 
+                function(){
+                    callback();
+                }
+            );
         }
         
     },

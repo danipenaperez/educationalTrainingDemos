@@ -24,7 +24,7 @@ var core = {
         //     onLoginCallBack: this.configureUser
         // });
 
-        let sign = prompt("¿¿Como te llamas??");
+        let sign = prompt("¿Como te llamas?");
         var random_boolean = Math.random() < 0.5;
         let gameName ="zelda";
         if(random_boolean){
@@ -63,6 +63,7 @@ var core = {
         console.log(question);
 
         var checkResultFunction = null;
+        var showhHelpQuestionFunction = null;
         
         //CREATE QUESTION
         /**
@@ -73,13 +74,21 @@ var core = {
             var assembledSentence = sentenceResolver.assemble(question.sentence);
             document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center">'+assembledSentence+'</p>'; 
             
-            checkResultFunction = function(){
-                let responseResult = resultChecker.checkResults(question, "ask");
-                callbackResult(question, responseResult);
-                
+            
+            //CREATE HELP BUTTON if help is available
+            if(question.help){
+                showhHelpQuestionFunction = function(){
+                    alert(question.help);
+                }
+                let helpQuestionButton = templates.createHelpOnQuestionButton("help_question_btn", "ayuda?", showhHelpQuestionFunction);
+                document.getElementById('optionsContainer').appendChild(helpQuestionButton);
             }
 
             //CREATE RESULT BUTTONS
+            checkResultFunction = function(){
+                let responseResult = resultChecker.checkResults(question, "ask");
+                callbackResult(question, responseResult);
+            }
             let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
             document.getElementById('optionsContainer').appendChild(checkResultsButton);
         
@@ -146,13 +155,9 @@ var core = {
         if(result){
             currentAverage = currentGame.averageManager.success();
             currentGame.gamificationManager.onSuccess(currentAverage, currentGame.newQuestionStart);
-            
         }else{
-            
             currentAverage = currentGame.averageManager.fail();
             currentGame.gamificationManager.onFailed(currentAverage, currentGame.newQuestionStart, question);
-            
-
         }
         currentGame.apperanceManager.setAverage(currentAverage);
     },
