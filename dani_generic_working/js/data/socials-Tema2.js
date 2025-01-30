@@ -81,9 +81,124 @@ var options = [
         correctAnswer: "Places at higher altitude have colder temperatures", 
         help: " warmer: calurosas \n colder: frias", 
         timeout: 30, 
-        help: "higher: alta \n rays: rayos", 
         explanation: "<b>higher</b> (altas), <b>warmer</b> (calidas). <b>colder</b>(frias)",
         explanationExtended:"Lugares (<b>places</b>) a alta altitud tienen temperaturas mas frias"
+    },
+
+
+    {
+        sentence:"Typical Mediterranean (coasts) has [selectOption| ,mild,cold] temperatures (10º-25º) and [selectOption| ,high,low] precipitation", 
+        correctAnswer: "Typical Mediterranean (coasts) has mild temperatures (10º-25º) and high precipitation", 
+        timeout: 30, 
+        help: "mild: medias (10º-25º) \n cold: frias", 
+        explanation: "Typical Mediterranea esta en la costa, por eso su temperatura es media todo el año pero llueve mucho(high)",
+        explanationExtended:""
+    },
+    {
+        sentence:"[selectOption| ,Typical,Inland, Dry] Mediterranean has cold winters (4º-24º), hot summer and mild precipitation (400 l/m)", 
+        correctAnswer: "Inland Mediterranean has cold winters (4º-24º), hot summer and mild precipitation (400 l/m)", 
+        timeout: 30, 
+        help: "Typical: costas \n Inland: peninsula \n Dry: peninsula sur (andalucia) ", 
+        explanation: "Inland es dentro de la peninsula, y ahi tenemos inviernos frios, veranos calurosos y llueve normal",
+        explanationExtended:""
+    },
+    {
+        sentence:"[selectOption| ,Typical,Inland, Dry] Mediterranean has high temperatures (45º) and low precipitation (300 l/m)", 
+        correctAnswer: "Dry Mediterranean has high temperatures (45º) and low precipitation (300 l/m)", 
+        timeout: 30, 
+        help: "Typical: costas \n Inland: peninsula \n Dry: peninsula sur (andalucia) ", 
+        explanation: "Dry siginifica seco, por lo que no llueve mucho y la temperatura es alta",
+        explanationExtended:""
+    }
+
+
+    ,
+    {
+        sentence:"Subtropical Climate have [selectOption| ,high,mild,low] temperatures and [selectOption| ,high,mild,low] precipitation", 
+        correctAnswer: "Subtropical Climate have low temperatures and low precipitation", 
+        timeout: 30, 
+        help: "Subtropical: islas canarias ", 
+        explanation: "Las islas canarias estan cerca del Equator por eso hace mucho calor y llueve poco",
+        explanationExtended:""
+    }
+
+    ,
+    {
+        sentence:"Mountain Climate have [selectOption| ,high,mild,low] temperatures more altitude", 
+        correctAnswer: "Mountain Climate have low temperatures more altitude", 
+        timeout: 30, 
+        help: "More altitude: mayor altitud ", 
+        explanation: "Cuanto mas alto estamos de la montaña mas frio hace.",
+        explanationExtended:"Cuando hace frio decimos que la temperatura es baja, porque se acerca a 0 grados"
+    },
+    {
+        sentence:"Mountain Climate have [selectOption| ,high,mild,low] precipitation and snow in winter", 
+        correctAnswer: "Mountain Climate have high precipitation and snow in winter", 
+        timeout: 30, 
+        help: "snow: nieve ", 
+        explanation: "En las montaña llueve mucho (high precipitation).",
+        explanationExtended:"Y como hace frio hay nieve (snow) en invierno"
     }
     
+
+    ,
+    {
+        sentence:"Oceanic Climate (Atlantic ocean and Cantabrian sea) have [selectOption| ,high,mild,low] temperature (11º-25º) and [selectOption| ,high,mild,low] precipitation (1100 l/m)", 
+        correctAnswer: "Oceanic Climate (Atlantic ocean and Cantabrian sea) have mild temperature (11º-25º) and high precipitation (1100 l/m)", 
+        timeout: 30, 
+        help: "snow: nieve ", 
+        explanation: "Como es en la costa las temperaturas son medias, pero claro llueve mucho",
+        explanationExtended:""
+    }
+    ,
+    {
+        sentence:"Climate Graphs shows the [inputText] average and [inputText] at particular [inputText]", 
+        correctAnswer: "Climate Graphs shows the temperature average and precipitation at particular area", 
+        timeout: 30, 
+        help: "Graphs: graficos \n average: media", 
+        explanation: "Los climate graphs muestran la temperatura y la precipitacion en un determinado lugar",
+        explanationExtended:""
+    },
+    {
+        sentence:"Temperature Range is the diference [inputText] max and min temperature", 
+        correctAnswer: "Temperature Range is the diference between max and min temperature", 
+        timeout: 30, 
+        help: "", 
+        explanation: "El temperature range es la diferencia entre la maxima y la minima temperatura",
+        explanationExtended:""
+    },
+
+    ,
+    {
+        sentence:"Garrigue, maquis and Esparto exists on [selectOption| ,Mediterranean,oceanic,mountain] climate", 
+        correctAnswer: "Garrigue, maquis and Esparto exists on mediterranean climate", 
+        timeout: 30, 
+        help: "", 
+        explanation: "El temperature range es la diferencia entre la maxima y la minima temperatura",
+        explanationExtended:""
+    },
+    {
+        sentence:"Teide violets, palm trees ans laurisilva fores exists on [selectOption| ,Mediterranean,oceanic,mountain,subtropical] climate", 
+        correctAnswer: "Teide violets, palm trees ans laurisilva fores exists on subtropical climate", 
+        timeout: 30, 
+        help: "Teide es un volcan de las islas canarias", 
+        explanation: "",
+        explanationExtended:""
+    },
+    {
+        sentence:"Decidous trees and mosses exists on [selectOption| ,Mediterranean,oceanic,mountain,subtropical] climate", 
+        correctAnswer: "Decidous trees and mosses exists on mountain climate", 
+        timeout: 30, 
+        help: "mosses: musgo", 
+        explanation: "",
+        explanationExtended:""
+    },
+    {
+        sentence:"Oaks, shrubs and meadows exists on [selectOption| ,Mediterranean,oceanic,mountain,subtropical] climate", 
+        correctAnswer: "Decidous trees and mosses exists on mountain climate", 
+        timeout: 30, 
+        help: "meadows: Lagos", 
+        explanation: "Los lagos estan arriba de las montañas",
+        explanationExtended:""
+    }
 ];
