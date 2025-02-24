@@ -1,0 +1,20 @@
+
+<img src="imagemaps/skeletalsystem/skeletalsystem.jpg" usemap="#skeletal-image-map">
+
+<map name="skeletal-image-map">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('skull');" coords="269,74,348,119" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('clavicle');" coords="446,72,549,102" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('jaw');" coords="139,182,231,219" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('sternum');" coords="42,333,140,370" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('rib');" coords="687,261,776,297" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('humerus');" coords="709,324,780,359" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('vertebral column');" coords="40,467,224,503" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('pelvis');" coords="42,549,123,582" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('femur');" coords="43,724,115,762" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('tibia');" coords="148,943,218,979" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('phalange');" coords="613,1067,707,1112" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('patella');" coords="714,792,798,834" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('carpus');" coords="722,579,790,619" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('ulna');" coords="723,507,788,544" shape="rect">
+    <area target="" alt="" title="" href="javascript:checkOneTimeQuestion('radius');" coords="709,442,789,477" shape="rect">
+</map>

@@ -48,6 +48,18 @@ var sentenceResolver ={
             });
             args.html = buttons;
         
+        }else if ("select"== command){
+            let selectOptions = evaluate.split('|')[1].split(',');
+            var checks='<div class="row">';
+                checks = checks + '<div class="col-md-12" style="text-align:center">';
+
+            selectOptions.forEach(element => {
+                checks = checks + templates.getOptionCheckHTMLTemplate(element);
+            });
+                checks=checks +'</div>';
+            checks=checks +'</div>';
+            args.html = checks;
+        
         }
 
         return args;

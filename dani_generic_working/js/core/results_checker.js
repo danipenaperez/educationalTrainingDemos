@@ -22,7 +22,8 @@ var resultChecker = {
             }
 
         }
-
+        console.log(answerValue.trim().toLocaleUpperCase());
+        console.log(question.correctAnswer.trim().toLocaleUpperCase());
         return answerValue.trim().toLocaleUpperCase() == question.correctAnswer.trim().toLocaleUpperCase();
       },
 
@@ -55,6 +56,9 @@ var resultChecker = {
                 break;
             case "INPUT":
                 nodeValue=node.value;
+            break;
+            case "BR":
+                nodeValue="<br>";
             break;
             default:
         }

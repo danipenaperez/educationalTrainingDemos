@@ -17,6 +17,18 @@ templates.getOptionButtonHTMLTemplate = function (id){
 
 }
 
+templates.getOptionCheckHTMLTemplate = function (id){
+        let formmatedId = id.trim();
+        var content =  '<div class="checkbox">'
+                        +  '<label>'
+                          +  '<input id="opt_'+formmatedId+'" class="form-check-input" type="checkbox" value="'+formmatedId+'" onclick="storeCheckValueToDiv(this);">' + formmatedId
+                         +'</label>'
+                        +'</div>';
+         return content;
+    
+}
+
+
 templates.getInputNumberHTMLTemplate = function (id){
         
         var content =  '<div class="form-group mb-3">'+
@@ -87,6 +99,15 @@ templates.createHelpOnQuestionButton = function(id, text, callback){
             return false;
         };  
         return button;  
+}
+
+templates.createImageHelpOnQuestionButton = function(id, text){
+        var div = document.createElement("div");
+        div.setAttribute("class","row h-25 justify-content-center align-items-center");
+        var image = document.createElement('img');
+        image.src = text;
+        div.appendChild(image);
+        return div;  
 }
 
 /**

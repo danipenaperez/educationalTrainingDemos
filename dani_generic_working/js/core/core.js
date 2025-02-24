@@ -66,15 +66,41 @@ var core = {
         var showhHelpQuestionFunction = null;
         
         //CREATE QUESTION
+        //Title if added
+        if(question.sentence_title){
+            document.getElementById('ask_title').innerHTML='<h2 class="text-center">'+question.sentence_title+'</h2>'; 
+        }
+        
+        
+        
         /**
          * Each type question has the responsability to create the ask and create the answer mode
          */
         if(question.sentence){
             
             var assembledSentence = sentenceResolver.assemble(question.sentence);
-            document.getElementById('ask_content').innerHTML='<p id="ask" class="text-center">'+assembledSentence+'</p>'; 
+            document.getElementById('ask_content').innerHTML=
+            '<div id="ask_content_internal" class="row h-25 justify-content-center align-items-center">'
+            +    '<p id="ask" class="text-center">'+assembledSentence+'</p>'
+            +'</div>'; 
             
-            
+            var divToCheckAnswer = "ask";
+
+            if(question.selectChecks){
+                var assembledChecks = sentenceResolver.assemble(question.selectChecks);
+                document.getElementById('ask_content').innerHTML = 
+                    document.getElementById('ask_content').innerHTML +
+                    assembledChecks+
+                    '<div id="selectResult" style="display: none;"></div>'
+                    ;
+                divToCheckAnswer = "selectResult";    
+            }
+
+            if(question.image){
+                let image = templates.createImageHelpOnQuestionButton("",question.image);
+                document.getElementById('ask_content').appendChild(image);
+            }
+
             //CREATE HELP BUTTON if help is available
             if(question.help){
                 showhHelpQuestionFunction = function(){
@@ -84,9 +110,32 @@ var core = {
                 document.getElementById('optionsContainer').appendChild(helpQuestionButton);
             }
 
+
+            if(question.imageMap){
+                
+                fetchRemoteContent('imagemaps/'+question.imageMap, function(content){
+                    document.getElementById('ask_content').innerHTML = 
+                    document.getElementById('ask_content').innerHTML +
+                    content
+                    +
+                    '<div id="selectResult" style="display: none;"></div>';
+
+                    //Prepare check result functions
+                    storeOneTimeQuestion(question, function(responseResult){
+                        callbackResult(question, responseResult);
+                    });
+
+                    return;  //NO further processing
+
+                });
+            }
+
+            
+
+
             //CREATE RESULT BUTTONS
             checkResultFunction = function(){
-                let responseResult = resultChecker.checkResults(question, "ask");
+                let responseResult = resultChecker.checkResults(question, divToCheckAnswer);
                 callbackResult(question, responseResult);
             }
             let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
@@ -126,19 +175,6 @@ var core = {
             
             console.log('y lo conseguido es ');
             console.log(results);
-
-
-
-            //Print text box result
-            
-            //CREATE CHECK FUNCTION AND RESULT BUTTONS
-            // checkResultFunction = function(){
-            //     let responseResult = resultChecker.checkResults(question, "typedAnswer");
-            //     callbackResult(question, responseResult);
-                
-            // }
-            // let checkResultsButton = templates.createCheckResultsButton("check_results_btn", "Comprobar", checkResultFunction);
-            // document.getElementById('optionsContainer').appendChild(checkResultsButton);
         }
 
         
