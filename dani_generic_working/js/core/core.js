@@ -180,9 +180,6 @@ var core = {
         
     },
 
-
-
-
     onEndQuestion:function (question, result){
         
         //Stop timers

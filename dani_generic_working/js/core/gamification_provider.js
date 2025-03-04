@@ -71,7 +71,10 @@ var gamification_provider = {
         if(question){
             let modalExplanationContent = question.explanation;
             if(question.explanationExtended){
-                modalExplanationContent= modalExplanationContent + "<br><br>"+question.explanationExtended;
+                modalExplanationContent= modalExplanationContent + "<br>"+question.explanationExtended;
+            }
+            if(question.explanationVideoURL){
+                modalExplanationContent= modalExplanationContent + '<br><iframe width="430" height="185" src="'+question.explanationVideoURL+'" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>';
             }
             this.modal.show(modalExplanationContent, 
                 "<div style=\"color:red\">Repasa con Atencion:</div>", 

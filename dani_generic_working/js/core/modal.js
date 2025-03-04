@@ -17,6 +17,7 @@ var modal ={
         
     },
     hide: function(){
+        $(this.contentSelector).html('');
         $(this.modalSelector).modal('hide');
         
     },
@@ -38,6 +39,7 @@ var modal ={
 
     },
     onCloseModal:function(){
+        $(this.contentSelector).html('');
         $('#'+this.id+'Long').modal('hide');
         $(document.body).removeClass('modal-open');
         $('.modal-backdrop').remove();
