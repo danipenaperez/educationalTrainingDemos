@@ -20,7 +20,7 @@ var verbsExplanationGroup1 =
 
 var group1 = [
     //ask Type question variations
-    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Cost | Cost : Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Cost | Cost | Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
     {sentence_title:"Verbos grupo 1" ,sentence:"Cost | [inputText] | Cost | Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
     {sentence_title:"Verbos grupo 1" ,sentence:"Cost | Cost | [inputText] | Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
     {sentence_title:"Verbos grupo 1" ,sentence:"Cost | Cost | Cost | [inputText]", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
