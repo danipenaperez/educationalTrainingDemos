@@ -1,0 +1,361 @@
+
+
+
+var verbsExplanationGroup1 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Cost</td><td>cost</td><td>cost</td><td>costar</td></tr>" +
+"<tr><td> Cut</td><td>cut</td><td>cut</td><td>cortar</td></tr>" +
+"<tr><td> Hit</td><td>hit</td><td>hit</td><td>golpear</td></tr>" +
+"<tr><td> Hurt</td><td>hurt</td><td>hurt</td><td>herir</td></tr>" +
+"<tr><td> Let</td><td>let</td><td>let</td><td>dejar</td></tr>" +
+"<tr><td> Put</td><td>put</td><td>put</td><td>Poner colocar</td></tr>" +
+"<tr><td> Set</td><td>set</td><td>set</td><td>Poner fijar</td></tr>" +
+"<tr><td> Shut</td><td>shut</td><td>shut</td><td>cerrar</td></tr>" +
+"<tr><td> Buy</td><td>bought</td><td>bought</td><td>Comprar</td></tr>" +
+"</table>";
+
+
+
+
+var group1 = [
+    //ask Type question variations
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Cost | Cost : Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cost | [inputText] | Cost | Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cost | Cost | [inputText] | Costar", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cost | Cost | Cost | [inputText]", correctAnswer: "Cost | Cost | Cost | Costar", timeout: 45, explanation:verbsExplanationGroup1},
+    
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Cut | Cut | cortar", correctAnswer: "Cut | Cut | Cut | Cortar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cut | [inputText] | Cut | cortar", correctAnswer: "Cut | Cut | Cut | Cortar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cut | Cut | [inputText] | cortar", correctAnswer: "Cut | Cut | Cut | Cortar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Cut | Cut | Cut | [inputText]", correctAnswer: "Cut | Cut | Cut | Cortar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Hit | Hit | Golpear", correctAnswer: "Hit | Hit | Hit | Golpear", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hit | [inputText] | Hit | Golpear", correctAnswer: "Hit | Hit | Hit | Golpear", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hit | Hit | [inputText] | Golpear", correctAnswer: "Hit | Hit | Hit | Golpear", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hit | Hit | Hit | [inputText]", correctAnswer: "Hit | Hit | Hit | Golpear", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Hurt | Hurt | Herir", correctAnswer: "Hurt | Hurt | Hurt | Herir", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hurt | [inputText] | Hurt | Herir", correctAnswer: "Hurt | Hurt | Hurt | Herir", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hurt | Hurt | [inputText] | Herir", correctAnswer: "Hurt | Hurt | Hurt | Herir", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Hurt | Hurt | Hurt | [inputText]", correctAnswer: "Hurt | Hurt | Hurt | Herir", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Let | Let | Dejar", correctAnswer: "Let | Let | Let | Dejar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Let | [inputText] | Let | Dejar", correctAnswer: "Let | Let | Let | Dejar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Let | Let | [inputText] | Dejar", correctAnswer: "Let | Let | Let | Dejar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Let | Let | Let | [inputText]", correctAnswer: "Let | Let | Let | Dejar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Put | Put | Poner colocar", correctAnswer: "Put | Put | Put | Poner colocar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Put | [inputText] | Put | Poner colocar", correctAnswer: "Put | Put | Put | Poner colocar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Put | Put | [inputText] | Poner colocar", correctAnswer: "Put | Put | Put | Poner colocar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Put | Put | Put | [inputText]", correctAnswer: "Put | Put | Put | Poner colocar", timeout: 45, explanation:verbsExplanationGroup1},
+    
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Set | Set | Poner fijar", correctAnswer: "Set | Set | Set | Poner fijar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Set | [inputText] | Set | Poner fijar", correctAnswer: "Set | Set | Set | Poner fijar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Set | Set | [inputText] | Poner fijar", correctAnswer: "Set | Set | Set | Poner fijar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Set | Set | Set | [inputText]", correctAnswer: "Set | Set | Set | Poner fijar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | Shut | Shut | Cerrar", correctAnswer: "Shut | Shut | Shut | Cerrar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Shut | [inputText] | Shut | Cerrar", correctAnswer: "Shut | Shut | Shut | Cerrar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Shut | Shut | [inputText] | Cerrar", correctAnswer: "Shut | Shut | Shut | Cerrar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"Shut | Shut | Shut | [inputText]", correctAnswer: "Shut | Shut | Shut | Cerrar", timeout: 45, explanation:verbsExplanationGroup1},
+
+    {sentence_title:"Verbos grupo 1" ,sentence:"[inputText] | bought | bought | Comprar", correctAnswer: "buy | bought | bought | Comprar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"buy | [inputText] | bought | Comprar", correctAnswer: "buy | bought | bought | Comprar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"buy | bought | [inputText] | Comprar", correctAnswer: "buy | bought | bought | Comprar", timeout: 45, explanation:verbsExplanationGroup1},
+    {sentence_title:"Verbos grupo 1" ,sentence:"buy | bought | bought | [inputText]", correctAnswer: "buy | bought | bought | Comprar", timeout: 45, explanation:verbsExplanationGroup1}
+    
+];
+
+
+
+
+var verbsExplanationGroup2 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Build</td><td>built</td><td>built</td><td>Construir</td></tr>" +
+"<tr><td> Burn</td><td>burnt</td><td>burnt</td><td>Quemar</td></tr>" +
+"<tr><td> Learn</td><td>learnt</td><td>learnt</td><td>Aprender</td></tr>" +
+"<tr><td> Lend</td><td>lent</td><td>lent</td><td>Prestar</td></tr>" +
+"<tr><td> Send</td><td>sent</td><td>sent</td><td>Enviar</td></tr>" +
+"<tr><td> Smell</td><td>smelt</td><td>smelt</td><td>Oler</td></tr>" +
+"<tr><td> Spend</td><td>spent</td><td>spent</td><td>Gastar</td></tr>" +
+"<tr><td> Drive</td><td>drove</td><td>driven</td><td>Conducir</td></tr>" +
+"<tr><td> Drink</td><td>drank</td><td>drunk</td><td>Beber</td></tr>" +
+"</table>";
+
+
+var group2 = [
+    //ask Type question variations
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | built | built | Construir", correctAnswer: "Build | built | built | Construir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Build | [inputText] | built | Construir", correctAnswer: "Build | built | built | Construir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Build | built | [inputText] | Construir", correctAnswer: "Build | built | built | Construir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Build | built | built | [inputText]", correctAnswer: "Build | built | built | Construir", timeout: 45, explanation:verbsExplanationGroup2},
+    
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | burnt | burnt | Quemar", correctAnswer: "Burn | burnt | burnt | Quemar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Burn | [inputText] | burnt | Quemar", correctAnswer: "Burn | burnt | burnt | Quemar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Burn | burnt | [inputText] | Quemar", correctAnswer: "Burn | burnt | burnt | Quemar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Burn | burnt | burnt | [inputText]", correctAnswer: "Burn | burnt | burnt | Quemar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | learnt | learnt | Aprender", correctAnswer: "Learn | learnt | learnt | Aprender", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Learn | [inputText] | learnt | Aprender", correctAnswer: "Learn | learnt | learnt | Aprender", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Learn | learnt | [inputText] | Aprender", correctAnswer: "Learn | learnt | learnt | Aprender", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Learn | learnt | learnt | [inputText]", correctAnswer: "Learn | learnt | learnt | Aprender", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | lent | lent | Prestar", correctAnswer: "Lend | lent | lent | Prestar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Lend | [inputText] | lent | Prestar", correctAnswer: "Lend | lent | lent | Prestar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Lend | lent | [inputText] | Prestar", correctAnswer: "Lend | lent | lent | Prestar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Lend | lent | lent | [inputText]", correctAnswer: "Lend | lent | lent | Prestar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | sent | sent | Enviar", correctAnswer: "Send | sent | sent | Enviar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Send | [inputText] | sent | Enviar", correctAnswer: "Send | sent | sent | Enviar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Send | sent | [inputText] | Enviar", correctAnswer: "Send | sent | sent | Enviar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Send | sent | sent | [inputText]", correctAnswer: "Send | sent | sent | Enviar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | smelt | smelt | Oler", correctAnswer: "Smell | smelt | smelt | Oler", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Smell | [inputText] | smelt | Oler", correctAnswer: "Smell | smelt | smelt | Oler", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Smell | smelt | [inputText] | Oler", correctAnswer: "Smell | smelt | smelt | Oler", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Smell | smelt | smelt | [inputText]", correctAnswer: "Smell | smelt | smelt | Oler", timeout: 45, explanation:verbsExplanationGroup2},
+    
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | spent | spent | Gastar", correctAnswer: "Spend | spent | spent | Gastar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Spend | [inputText] | spent | Gastar", correctAnswer: "Spend | spent | spent | Gastar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Spend | spent | [inputText] | Gastar", correctAnswer: "Spend | spent | spent | Gastar", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Spend | spent | spent | [inputText]", correctAnswer: "Spend | spent | spent | Gastar", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | drove | driven | Conducir", correctAnswer: "drive | drove | driven | Conducir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Drive | [inputText] | driven | Conducir", correctAnswer: "Drive | drove | driven | Conducir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Drive | drove | [inputText] | Conducir", correctAnswer: "Drive | drove | driven | Conducir", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"Drive | drove | driven | [inputText]", correctAnswer: "Drive | drove | driven | Conducir", timeout: 45, explanation:verbsExplanationGroup2},
+
+    {sentence_title:"Verbos grupo 2",sentence:"[inputText] | drank | drunk | Beber", correctAnswer: "drink | drank | drunk | Beber", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"drink | [inputText] | drunk | Beber", correctAnswer: "drink | drank | drunk | Beber", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"drink | drank | [inputText] | Beber", correctAnswer: "drink | drank | drunk | Beber", timeout: 45, explanation:verbsExplanationGroup2},
+    {sentence_title:"Verbos grupo 2",sentence:"drink | drank | drunk | [inputText]", correctAnswer: "drink | drank | drunk | Beber", timeout: 45, explanation:verbsExplanationGroup2}
+    
+    
+];
+
+
+var verbsExplanationGroup3 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> get</td><td>got</td><td>got</td><td>Obtener</td></tr>" +
+"<tr><td> keep</td><td>kept</td><td>kept</td><td>Guardar</td></tr>" +
+"<tr><td> light</td><td>lit</td><td>lit</td><td>Encender</td></tr>" +
+"<tr><td> lose</td><td>lost</td><td>lost</td><td>Perder</td></tr>" +
+"<tr><td> shoot</td><td>shot</td><td>shot</td><td>Disparar</td></tr>" +
+"<tr><td> sit</td><td>sat</td><td>sat</td><td>Sentarse</td></tr>" +
+"<tr><td> sleep</td><td>slept</td><td>slept</td><td>Dormir</td></tr>" +
+"<tr><td> eat</td><td>ate</td><td>eaten</td><td>Comer</td></tr>" +
+"</table>";
+
+
+
+var group3 = [
+    //ask Type question variations
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | Got | Got | Obtener", correctAnswer: "Get  | Got | Got | Obtener", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"Get | [inputText] | Got | Obtener", correctAnswer: "Get  | Got | Got | Obtener", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"Get | Got | [inputText] | Obtener", correctAnswer: "Get  | Got | Got | Obtener", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"Get | Got | Got | [inputText]", correctAnswer: "Get  | Got | Got | Obtener", timeout: 45, explanation:verbsExplanationGroup3},
+    
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | kept | kept | Guardar", correctAnswer: "keep | kept | kept | Guardar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"keep | [inputText] | kept | Guardar", correctAnswer: "keep | kept | kept | Guardar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"keep | kept | [inputText] | Guardar", correctAnswer: "keep | kept | kept | Guardar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"keep | kept | kept | [inputText]", correctAnswer: "keep | kept | kept | Guardar", timeout: 45, explanation:verbsExplanationGroup3},
+
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | lit | lit | Encender", correctAnswer: "light | lit | lit | Encender", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"light | [inputText] | lit | Encender", correctAnswer: "light | lit | lit | Encender", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"light | lit | [inputText] | Encender", correctAnswer: "light | lit | lit | Encender", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"light | lit | lit | [inputText]", correctAnswer: "light | lit | lit | Encender", timeout: 45, explanation:verbsExplanationGroup3},
+
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | lost | lost | Perder", correctAnswer: "lose | lost | lost | Perder", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"lose | [inputText] | lost | Perder", correctAnswer: "lose | lost | lost | Perder", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"lose | lost | [inputText] | Perder", correctAnswer: "lose | lost | lost | Perder", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"lose | lost | lost | [inputText]", correctAnswer: "lose | lost | lost | Perder", timeout: 45, explanation:verbsExplanationGroup3},
+    
+    
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | shot | shot | Disparar", correctAnswer: "shoot | shot | shot | Disparar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"shoot | [inputText] | shot | Disparar", correctAnswer: "shoot | shot | shot | Disparar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"shoot | shot | [inputText] | Disparar", correctAnswer: "shoot | shot | shot | Disparar", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"shoot | shot | shot | [inputText]", correctAnswer: "shoot | shot | shot | Disparar", timeout: 45, explanation:verbsExplanationGroup3},
+
+    
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | sat | sat | Sentarse", correctAnswer: "sit | sat | sat | Sentarse", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sit | [inputText] | sat | Sentarse", correctAnswer: "sit | sat | sat | Sentarse", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sit | sat | [inputText] | Sentarse", correctAnswer: "sit | sat | sat | Sentarse", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sit | sat | sat | [inputText]", correctAnswer: "sit | sat | sat | Sentarse", timeout: 45, explanation:verbsExplanationGroup3},
+
+
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | slept | slept | Dormir", correctAnswer: "sleep | slept | slept | Dormir", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sleep | [inputText] | slept | Dormir", correctAnswer: "sleep | slept | slept | Dormir", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sleep | slept | [inputText] | Dormir", correctAnswer: "sleep | slept | slept | Dormir", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"sleep | slept | slept | [inputText]", correctAnswer: "sleep | slept | slept | Dormir", timeout: 45, explanation:verbsExplanationGroup3},
+
+    {sentence_title:"Verbos grupo 3",sentence:"[inputText] | ate | eaten | Comer", correctAnswer: "eat | ate | eaten | Comer", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"eat | [inputText] | eaten | Comer", correctAnswer: "eat | ate | eaten | Comer", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"eat | ate | [inputText] | Comer", correctAnswer: "eat | ate | eaten | Comer", timeout: 45, explanation:verbsExplanationGroup3},
+    {sentence_title:"Verbos grupo 3",sentence:"eat | ate | eaten | [inputText]", correctAnswer: "eat | ate | eaten | Comer", timeout: 45, explanation:verbsExplanationGroup3}
+];
+
+var verbsExplanationGroup4 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> dream</td><td>dreamt</td><td>dreamt</td><td>soñar</td></tr>" +
+"<tr><td> feel</td><td>felt</td><td>felt</td><td>sentir</td></tr>" +
+"<tr><td> leave</td><td>left</td><td>left</td><td>dejar partir salir</td></tr>" +
+"<tr><td> mean</td><td>meant</td><td>meant</td><td>significar</td></tr>" +
+"<tr><td> meet</td><td>met</td><td>met</td><td>Quedar conocer</td></tr>" +
+"<tr><td> Draw</td><td>drew</td><td>drew</td><td>Dibujar</td></tr>" +
+"<tr><td> Fall</td><td>fell</td><td>fallen</td><td>Caer</td></tr>" +
+"<tr><td> Feed</td><td>fed</td><td>fed</td><td>Alimentar</td></tr>" +
+
+"</table>";
+
+
+
+var group4 = [
+    //ask Type question variations
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | Dreamt | Dreamt| Soñar", correctAnswer: "Dream | Dreamt | Dreamt | Soñar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Dream | [inputText] | Dreamt | Soñar", correctAnswer: "Dream | Dreamt | Dreamt | Soñar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Dream | Dreamt | [inputText] | Soñar", correctAnswer: "Dream | Dreamt | Dreamt | Soñar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Dream | Dreamt | Dreamt | [inputText]", correctAnswer: "Dream | Dreamt | Dreamt | Soñar", timeout: 45, explanation:verbsExplanationGroup4},
+    
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | Felt | Felt | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Feel | [inputText] | Felt | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Feel | Felt | [inputText] | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Feel | Felt | Felt | [inputText]", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup4},
+
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | Meant | Meant | significar", correctAnswer: "Mean | Meant | Meant | significar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Mean | [inputText] | Meant | significar", correctAnswer: "Mean | Meant | Meant | significar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Mean | Meant | [inputText] | significar", correctAnswer: "Mean | Meant | Meant | significar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Mean | Meant | Meant | [inputText]", correctAnswer: "Mean | Meant | Meant | significar", timeout: 45, explanation:verbsExplanationGroup4},
+
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | left | left | dejar partir salir", correctAnswer: "Leave | left | left | dejar partir salir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Leave | [inputText] | left | dejar partir salir", correctAnswer: "Leave | left | left | dejar partir salir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Leave | left | [inputText] | dejar partir salir", correctAnswer: "Leave | left | left | dejar partir salir", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Leave | left | left | [inputText]", correctAnswer: "Leave | left | left | dejar partir salir", timeout: 45, explanation:verbsExplanationGroup4},
+    
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | met | met | Quedar Conocer", correctAnswer: "Meet | met | met | Quedar Conocer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Meet | [inputText] | met | Quedar Conocer", correctAnswer: "Meet | met | met | Quedar Conocer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Meet | met | [inputText] | Quedar Conocer", correctAnswer: "Meet | met | met | Quedar Conocer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"Meet | met | met | [inputText]", correctAnswer: "Meet | met | met | Quedar Conocer", timeout: 45, explanation:verbsExplanationGroup4},
+
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | drew | drawn | Dibujar", correctAnswer: "draw | drew | drawn | Dibujar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"draw | [inputText] | drawn | Dibujar", correctAnswer: "draw | drew | drawn | Dibujar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"draw | drew | [inputText] | Dibujar", correctAnswer: "draw | drew | drawn | Dibujar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"draw | drew | drawn | [inputText]", correctAnswer: "draw | drew | drawn | Dibujar", timeout: 45, explanation:verbsExplanationGroup4},
+
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | fell | fallen | Caer", correctAnswer: "fall | fell | fallen | Caer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"fall | [inputText] | fallen | Caer", correctAnswer: "fall | fell | fallen | Caer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"fall | fell | [inputText] | Caer", correctAnswer: "fall | fell | fallen | Caer", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"fall | fell | fallen | [inputText]", correctAnswer: "fall | fell | fallen | Caer", timeout: 45, explanation:verbsExplanationGroup4},
+
+    {sentence_title:"Verbos grupo 4",sentence:"[inputText] | fed | fed | Alimentar", correctAnswer: "feed | fed | fed | Alimentar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"feed | [inputText] | fed | Alimentar", correctAnswer: "feed | fed | fed | Alimentar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"feed | fed | [inputText] | Alimentar", correctAnswer: "feed | fed | fed | Alimentar", timeout: 45, explanation:verbsExplanationGroup4},
+    {sentence_title:"Verbos grupo 4",sentence:"feed | fed | fed | [inputText]", correctAnswer: "feed | fed | fed | Alimentar", timeout: 45, explanation:verbsExplanationGroup4}
+
+];
+
+
+
+var verbsExplanationGroup5 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Feel</td><td>felt</td><td>felt</td><td>sentir</td></tr>" +
+"<tr><td> Find</td><td>Found</td><td>Found</td><td>Encontrar</td></tr>" +
+"<tr><td> Fly</td><td>Flew</td><td>Flown</td><td>Volar</td></tr>" +
+"<tr><td> Forget</td><td>Forgot</td><td>Forgotten</td><td>Olvidar</td></tr>" +
+"<tr><td> Get</td><td>Got</td><td>Got</td><td>Conseguir Obtener</td></tr>" +
+
+
+"</table>";
+
+
+
+var group5 = [
+
+    {sentence_title:"Verbos grupo 5",sentence:"[inputText] | Felt | Felt | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Feel | [inputText] | Felt | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Feel | Felt | [inputText] | Sentir", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Feel | Felt | Felt | [inputText]", correctAnswer: "Feel | Felt | Felt | Sentir", timeout: 45, explanation:verbsExplanationGroup5},
+
+
+    //ask Type question variations
+    {sentence_title:"Verbos grupo 5",sentence:"[inputText] | Found | Found | Encontrar", correctAnswer: "Find | Found | Found | Encontrar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Find | [inputText] | Found | Encontrar", correctAnswer: "Find | Found | Found | Encontrar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Find | Found | [inputText] | Encontrar", correctAnswer: "Find | Found | Found | Encontrar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Find | Found | Found | [inputText]", correctAnswer: "Find | Found | Found | Encontrar", timeout: 45, explanation:verbsExplanationGroup5},
+    
+
+    {sentence_title:"Verbos grupo 5",sentence:"[inputText] | Flew | Flown | Volar", correctAnswer: "Fly | Flew | Flown | Volar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Fly | [inputText] | Flown | Volar", correctAnswer: "Fly | Flew | Flown | Volar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Fly | Flew | [inputText] | Volar", correctAnswer: "Fly | Flew | Flown | Volar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Fly | Flew | Flown | [inputText]", correctAnswer: "Fly | Flew | Flown | Volar", timeout: 45, explanation:verbsExplanationGroup5},
+
+    {sentence_title:"Verbos grupo 5",sentence:"[inputText] | Forgot | Forgotten | Olvidar", correctAnswer: "Forget | Forgot | Forgotten | Olvidar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Forget | [inputText] | Forgotten | Olvidar", correctAnswer: "Forget | Forgot | Forgotten | Olvidar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Forget | Forgot | [inputText] | Olvidar", correctAnswer: "Forget | Forgot | Forgotten | Olvidar", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Forget | Forgot | Forgotten | [inputText]", correctAnswer: "Forget | Forgot | Forgotten | Olvidar", timeout: 45, explanation:verbsExplanationGroup5},
+
+    {sentence_title:"Verbos grupo 5",sentence:"[inputText] | Got | Got | Conseguir Obtener", correctAnswer: "Get | Got | Got | Conseguir Obtener", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Get | [inputText] | Got | Conseguir Obtener", correctAnswer: "Get | Got | Got | Conseguir Obtener", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Get | Got | [inputText] | Conseguir Obtener", correctAnswer: "Get | Got | Got | Conseguir Obtener", timeout: 45, explanation:verbsExplanationGroup5},
+    {sentence_title:"Verbos grupo 5",sentence:"Get | Got | Got | [inputText]", correctAnswer: "Get | Got | Got | Conseguir Obtener", timeout: 45, explanation:verbsExplanationGroup5}
+
+];
+
+
+
+var verbsExplanationGroup6 = 
+"<table border=1>"+
+"<tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>" +
+"<tr><td> Give</td><td>Gave</td><td>Given</td><td>Dar</td></tr>" +
+"<tr><td> Go</td><td>Went</td><td>Gone</td><td>Ir</td></tr>" +
+"<tr><td> grow</td><td>grew</td><td>grown</td><td>Crecer</td></tr>" +
+"<tr><td> have</td><td>had</td><td>had</td><td>Tener</td></tr>" +
+"<tr><td> hear</td><td>heard</td><td>heard</td><td>Escuchar</td></tr>" +
+
+
+"</table>";
+
+
+
+var group6 = [
+
+    {sentence_title:"Verbos grupo 6",sentence:"[inputText] | gave | given | Dar", correctAnswer: "give | gave | given | Dar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"give | [inputText] | given | Dar", correctAnswer: "give | gave | given | Dar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"give | gave | [inputText] | Dar", correctAnswer: "give | gave | given | Dar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"give | gave | given | [inputText]", correctAnswer: "give | gave | given | Dar", timeout: 45, explanation:verbsExplanationGroup6},
+
+    {sentence_title:"Verbos grupo 6",sentence:"[inputText] | went | gone | Ir", correctAnswer: "go | went | gone | Ir", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"go | [inputText] | gone | Ir", correctAnswer: "go | went | gone | Ir", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"go | went | [inputText] | Ir", correctAnswer: "go | went | gone | Ir", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"go | went | gone | [inputText]", correctAnswer: "go | went | gone | Ir", timeout: 45, explanation:verbsExplanationGroup6},
+
+    {sentence_title:"Verbos grupo 6",sentence:"[inputText] | grew | grown | Crecer", correctAnswer: "grow | grew | grown | Crecer", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"grow | [inputText] | grown | Crecer", correctAnswer: "grow | grew | grown | Crecer", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"grow | grew | [inputText] | Crecer", correctAnswer: "grow | grew | grown | Crecer", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"grow | grew | grown | [inputText]", correctAnswer: "grow | grew | grown | Crecer", timeout: 45, explanation:verbsExplanationGroup6},
+
+    {sentence_title:"Verbos grupo 6",sentence:"[inputText] | had | had | Tener", correctAnswer: "have | had | had | Tener", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"have | [inputText] | had | Tener", correctAnswer: "have | had | had | Tener", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"have | had | [inputText] | Tener", correctAnswer: "have | had | had | Tener", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"have | had | had | [inputText]", correctAnswer: "have | had | had | Tener", timeout: 45, explanation:verbsExplanationGroup6},
+
+    {sentence_title:"Verbos grupo 6",sentence:"[inputText] | heard | heard | Escuchar", correctAnswer: "hear | heard | heard | Escuchar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"hear | [inputText] | heard | Escuchar", correctAnswer: "hear | heard | heard | Escuchar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"hear | heard | [inputText] | Escuchar", correctAnswer: "hear | heard | heard | Escuchar", timeout: 45, explanation:verbsExplanationGroup6},
+    {sentence_title:"Verbos grupo 6",sentence:"hear | heard | heard | [inputText]", correctAnswer: "hear | heard | heard | Escuchar", timeout: 45, explanation:verbsExplanationGroup6}
+];
+
+
+
+
+var options = [];
+options = options.concat(group1);
+options = options.concat(group2);
+options = options.concat(group3);
+options = options.concat(group4);
+options = options.concat(group5);
+options = options.concat(group6);
