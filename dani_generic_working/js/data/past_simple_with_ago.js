@@ -1,0 +1,115 @@
+
+
+var options = [
+    {   
+        sentence_title:"Inventions",
+        sentence:"The romans [selectOption| ,build,built] roads 300 years ago", 
+        correctAnswer: "The romans built roads 300 years ago", 
+        timeout: 120, 
+        help: " build | built | built (construir) \n roads: carreteras ",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 300 años atras (300 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de construir (build) es (built)"
+    },
+    {   
+        sentence_title:"Inventions",
+        sentence:"The romans [selectOption| ,enjoy,enjoyed] sports 200 years ago", 
+        correctAnswer: "The romans enjoyed sports 200 years ago", 
+        timeout: 120, 
+        help: " enjoy: disfrutar",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 200 años atras (200 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de disfrutar (enjoy) es (enjoyed)"
+    },
+    {   
+        sentence_title:"Inventions",
+        sentence:"The romans [selectOption| ,wear,wore,worn] long clothes 150 years ago", 
+        correctAnswer: "The romans wore long clothes 150 years ago", 
+        timeout: 120, 
+        help: " wear | wore | worn : vestir \n clothes: ropas",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 150 años atras (150 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de vestir (wear) es (wore)"
+    },
+
+    {   
+        sentence_title:"Inventions",
+        sentence:"The romans [selectOption| ,travel,travelled] the Mediterranean Sea 150 years ago", 
+        correctAnswer: "The romans travelled the Mediterranean Sea 150 years ago", 
+        timeout: 120, 
+        help: " travel | travelled  : viajar ",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 150 años atras (150 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de viajar (travel) es (travelled)"
+    },
+    {   
+        sentence_title:"Inventions",
+        sentence:"I [selectOption| ,live,lived] at Aluche 5 years ago", 
+        correctAnswer: "I lived at Aluche 5 years ago", 
+        timeout: 120, 
+        help: " live | lived : vivir",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 5 años atras (5 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de vivir (live) es (lived).<br> Yo viví en Aluche 5 años atras."
+    },
+    {   
+        sentence_title:"Inventions",
+        sentence:"I [selectOption| ,eat,ate,eaten] macarrones 2 days ago", 
+        correctAnswer: "I ate macarrones 2 days ago", 
+        timeout: 120, 
+        help: " eat | ate | eaten : comer",
+        explanation: "Ago significa 'desde hace tiempo atras' . En este caso 2 dias atras (5 years ago)",
+        explanationExtended: "Siempre se usa con Past Simple + AGO.  En este caso el pasado simple de comer (eat) es (ate).<br> Yo comí macarrones 2 dias atras."
+    },
+    //Sentencias con AGO
+
+    {   
+        sentence_title:"AGO (tiempo atras)",
+        sentence:"Brigitte (viajar) [inputText] to Paris two years ago.", 
+        correctAnswer: "Brigitte (viajar) travelled to Paris two years ago.", 
+        timeout: 120, 
+        help: " Mirate los verbos!!",
+        explanation: "",
+        explanationExtended: "Las frases se forman con el past simple + ago"
+    },
+    {   
+        sentence_title:"AGO (tiempo atras)",
+        sentence:"Brigitte (usar) [inputText] her arenero two hours [inputText].", 
+        correctAnswer: "Brigitte (usar) used her arenero two hours ago.", 
+        timeout: 120, 
+        help: " Mirate los verbos!!",
+        explanation: "",
+        explanationExtended: "Las frases se forman con el past simple + ago"
+    },
+    {   
+        sentence_title:"AGO (tiempo atras)",
+        sentence:"I (empezar) [inputText] to live in Guadarrama five [inputText].", 
+        correctAnswer: "I (empezar) started to live in Guadarrama five years ago.", 
+        timeout: 120, 
+        help: " start: empezar",
+        explanation: "",
+        explanationExtended: "Las frases se forman con el past simple + ago"
+    },
+    {   
+        sentence_title:"Vocabulary",
+        sentence:"What is the meaning of feel frustrated? [selectOption| ,frustrado,orgulloso,triste].", 
+        correctAnswer: "What is the meaning of feel frustrated? frustrado.", 
+        timeout: 120, 
+        help: " feel : sentirse",
+        explanation: "Siempre se usan con el verbo feel (sentir), por ejemplo",
+        explanationExtended: "I feel frustrated (me siento frustrado), <br> Rapuntzell felt frustrated (Rapunzel se sintió frustrada) "
+    },
+    {   
+        sentence_title:"Vocabulary",
+        sentence:"What is the meaning of feel proud? [selectOption| ,frustrado,orgulloso,triste].", 
+        correctAnswer: "What is the meaning of feel proud? orgulloso.", 
+        timeout: 120, 
+        help: " feel: sentirse",
+        explanation: "Siempre se usan con el verbo feel (sentir), por ejemplo",
+        explanationExtended: "I feel orgulloso (me siento orgulloso), <br> Marta felt proud (Marta se sintió orgullosa) "
+    },
+    {   
+        sentence_title:"Vocabulary",
+        sentence:"What is the meaning of feel sad? [selectOption| ,frustrado,orgulloso,triste].", 
+        correctAnswer: "What is the meaning of feel sad? triste.", 
+        timeout: 120, 
+        help: "feel : sentirse ",
+        explanation: "Siempre se usan con el verbo feel (sentir), por ejemplo",
+        explanationExtended: "I feel sad (me siento triste), <br> Rapunzel felt sad (Rapunzel se sintió triste) "
+    }
+];
