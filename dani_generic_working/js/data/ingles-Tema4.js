@@ -40,7 +40,7 @@ var options = [
     {   
         sentence_title:"Inventions",
         sentence:"Daniel [selectOption| ,brought,built,enjoyed,explored,invented,said,sent,travelled,used,wore] be careful to Marta", 
-        correctAnswer: "Daniel [selectOption| ,brought,built,enjoyed,,explored,invented,said,sent,travelled,used,wore] be careful to Marta", 
+        correctAnswer: "Daniel said be careful to Marta", 
         timeout: 120, 
         help: " brought: traer, \n built: construir, \n enjoyed: disfrutar, \n explored: explorar, \n invented: inventar, \n said: decir, \n sent: enviar, \n travelled: viajar, \n used: usar, \n wore: vestir, \n invented: inventaron",
         explanation: "",
@@ -115,6 +115,7 @@ var options = [
     {   
         sentence_title:"Giving options (dando opciones)",
         sentence:
+        "<div style='text-align: left'>"+
         "Grandma: The bus is very late. Let's walk to the cinema.<br> "+
         "You:  [selectOption| ,I'm not sure about that (no estoy seguro), That sounds good (eso suena bien)]. It's a long way to walk. <br>"+
         "Grandad: [selectOption| ,I'm not sure about that (no estoy seguro), That sounds good (eso suena bien)]. It's a long way to walk."+
@@ -123,7 +124,9 @@ var options = [
         "You: I don't think that's [selectOption| ,I'm not sure about that (no estoy seguro), That's a great suggestion (es una gran idea), That sounds good (eso suena bien)]. We might be late if we go home first! Letś take a taxi instead. <br>"+ 
         "Grandad: I  [selectOption| ,I'm not sure about that (no estoy seguro), That's a great suggestion (es una gran idea), That sounds good (eso suena bien)] so. It's too expensive. <br>"+
         "You: [selectOption| ,I'm not sure about that (no estoy seguro), That's a great suggestion (es una gran idea), That sounds good (eso suena bien)] this?. We could walk the last part!. That way, it won be too expensive. <br>"+
-        "Grandma: [selectOption| ,I'm not sure about that (no estoy seguro), That's a great suggestion (es una gran idea), That sounds good (eso suena bien), That's a good idea (eso es una gran idea)] this?. We could walk the last part!. That way, it won be too expensive. <br>",
+        "Grandma: [selectOption| ,I'm not sure about that (no estoy seguro), That's a great suggestion (es una gran idea), That sounds good (eso suena bien), That's a good idea (eso es una gran idea)] this?. We could walk the last part!. That way, it won be too expensive. <br>"+
+        "</div>"
+        ,
         correctAnswer: 
         "Grandma: The bus is very late. Let's walk to the cinema.<br> "+
         "You:   That sounds good (eso suena bien). It's a long way to walk. <br>"+

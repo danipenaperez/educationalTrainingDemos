@@ -1,0 +1,87 @@
+
+
+var options = [
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"I [selectOption| ,was going to,were going to] jump at the street, but it started to rain", 
+        correctAnswer: "I was going to jump at the street, but it started to rain", 
+        timeout: 120, 
+        help: " jump: saltar \n started to: empezar a  \n rain: llover",
+        explanation: "Was going to (iba a ..) ",
+        explanationExtended: "Wasn't going to (No iba a ) <br>"+
+        "Was se usa con I, He, She , It:  I was going to, he was going to, she was going to. "
+    },
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"She [selectOption| ,was going to,were going to] finish her homework and go to bed", 
+        correctAnswer: "She was going to finish her homework and go to bed", 
+        timeout: 120, 
+        help: " homework: deberes \n go to: ir a \n bed: cama",
+        explanation: "Was going to (iba a ..) ",
+        explanationExtended: "Wasn't going to (No iba a ) <br>"+
+        "Was se usa con I, He, She , It:  I was going to, he was going to, she was going to. "
+    },
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"Titanic [selectOption| ,was going to,were going to] be the best ship", 
+        correctAnswer: "Titanic was going to be the best ship", 
+        timeout: 120, 
+        help: " best: el mejor \n ship: barco",
+        explanation: "Was going to (iba a ..) ",
+        explanationExtended: "Wasn't going to (No iba a ) <br>"+
+        "Was se usa con I, He, She , It:  El titanic es un barco (es una cosa, por eso es It) "
+    },
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"Titanic [selectOption| ,wasn't going to,weren't going to] sink", 
+        correctAnswer: "Titanic wasn't going to sink", 
+        timeout: 120, 
+        help: " sink: hundirse",
+        explanation: "Was going to (iba a ..) ",
+        explanationExtended: "Wasn't going to (No iba a ) <br>"+
+        "Was se usa con I, He, She , It:  El titanic es un barco (es una cosa, por eso es It) "
+    },
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"When Titanic sank: <br>"+
+        "The passengers [selectOption| ,was going to,were going to] arrive in New York <br>"+
+        "The passengers [selectOption| ,wasn't going to,weren't going to] need lifeboats", 
+        correctAnswer: "When Titanic sank: <br>"+
+        "The passengers were going to arrive in New York <br>"+
+        "The passengers weren't going to need lifeboats", 
+        timeout: 120, 
+        help: " sank: hundió",
+        explanation: "were goint to (iban a ) , weren't going to (no iban a)",
+        explanationExtended: "The passengers (los pasajeros) sustituyen a Ellos, por lo cual es were "
+    },
+    {   
+        sentence_title:"Was going to, Wasn't going to",
+        sentence:"She [selectOption| ,was going to,were going to] play football, but started to rain", 
+        correctAnswer: "She was going to play football, but started to rain",
+        timeout: 120, 
+        help: " sank: hundió",
+        explanation: "Was going to (iba a ..) ",
+        explanationExtended: null
+        
+    },
+    {   
+        sentence_title:"was going to vs were going to",
+        sentence:"We [selectOption| ,was going to,were going to] make a cake, but we needed chocolate", 
+        correctAnswer: "We were going to make a cake, but we needed chocolate",
+        timeout: 120, 
+        help: " cake: pastel",
+        explanation: "Were going to (Nosotros ibamos a ..) ",
+        explanationExtended: "We, You, They van con were (going to)"
+    },
+    {   
+        sentence_title:"was going to vs were going to",
+        sentence:"Mary and me [selectOption| ,was going to,were going to] swim in the sea", 
+        correctAnswer: "Mary and me were going to swim in the sea",
+        timeout: 120, 
+        help: null,
+        explanation: "Mary and me (nosotros ) We were going to (Nosotros ibamos a ..) ",
+        explanationExtended: "We, You, They van con were (going to)"
+    }
+
+
+];
