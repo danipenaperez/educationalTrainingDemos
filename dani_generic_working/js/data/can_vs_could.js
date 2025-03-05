@@ -95,5 +95,18 @@ var options = [
         help: " talk: hablar \n laptop: ordenador \n today: hoy",
         explanation: "Could se usa en frases en pasado (in 1980)",
         explanationExtended: "Can se usa en frases en presente (today)"
+    },
+    {   
+        sentence_title:"Can & Could Pregunta",
+        sentence:"It is cold at classroom <br> "+
+                   "[selectOption| ,Can,Could] I put my coat? [selectOption| ,Yes you can,Yes you could]<br>"+
+                   "[selectOption| ,Can,Could] you close the window, please? [selectOption| ,Yes I can,Yes I could]" , 
+        correctAnswer: "It is cold at classroom <br> "+
+                   "Can I put my coat? Yes you can<br>"+
+                   "Could you close the window, please? Yes I can", 
+        timeout: 120, 
+        help: " classroom: clase \n coat: abrigo \n window: ventana \ please: por favor",
+        explanation: "Can I (puedo yo) ponerme mi abrigo? Yes you can (si, tú puedes)",
+        explanationExtended: "Could yo (puedes tú) cerrar la ventana? Yes I can (si yo puedo)"
     }
 ];
