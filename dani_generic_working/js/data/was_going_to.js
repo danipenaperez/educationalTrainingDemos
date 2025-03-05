@@ -81,6 +81,24 @@ var options = [
         help: null,
         explanation: "Mary and me (nosotros ) We were going to (Nosotros ibamos a ..) ",
         explanationExtended: "We, You, They van con were (going to)"
+    },
+    {   
+        sentence_title:"was going to vs were going to",
+        sentence:"He [selectOption| ,wasn't going to,weren't going to] use a umbrella, but started to rain", 
+        correctAnswer: "He wasn't going to use a umbrella, but started to rain",
+        timeout: 120, 
+        help: "umbrella: paraguas \n started:empezar",
+        explanation: "He (tercera persona, asi que usa was). No iba a usar el paraguas ( wasn't to use the umbrella) ",
+        explanationExtended: "but started to rain ( pero tuvo que usarlo porque empezó a llover)"
+    },
+    {   
+        sentence_title:"was going to vs were going to",
+        sentence:"The train [selectOption| ,wasn't going to,weren't going to] stop at the station, but finally stopped.", 
+        correctAnswer: "The train [selectOption| ,wasn't going to,weren't going to] stop at the station, but finally stopped.",
+        timeout: 120, 
+        help: "stop: parar \n station: estacion de tren \n but: pero",
+        explanation: "The train (es una cosa It, por eso va con was),  no iba a parar en la estacion (wasn't going to stop)",
+        explanationExtended: "but finally stopped (pero al final paró)"
     }
 
 
