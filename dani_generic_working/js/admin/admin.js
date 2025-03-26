@@ -47,7 +47,7 @@ $( document ).ready(function() {
     let page = location.pathname.substring(1);
     let load_parameters = new URL(document.location.toString()).searchParams;  
     
-    if(page == "dynamic_game.html"){
+    if(page.includes("dynamic_game.html")){
         let gameId = load_parameters.get('gameId');
         admin_Core.loadGame(gameId);
     }else{
