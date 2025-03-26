@@ -37,8 +37,6 @@ admin_Core.loadGame=function(gameId){
 }
 
 
-
-
 $( document ).ready(function() {
     console.log( "ready!" );
 
