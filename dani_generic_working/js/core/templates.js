@@ -106,6 +106,7 @@ templates.createImageHelpOnQuestionButton = function(id, text){
         div.setAttribute("class","row h-25 justify-content-center align-items-center");
         var image = document.createElement('img');
         image.src = text;
+        image.style= "width:100%;max-width:600px";
         div.appendChild(image);
         return div;  
 }

@@ -130,7 +130,60 @@ var core = {
                 });
             }
 
-            
+            if(question.sentenceReorder){
+                
+                fetchRemoteContent('dropzones/dropzones_wrapper.html', function(content){
+                    document.getElementById('ask_content').innerHTML = 
+                    document.getElementById('ask_content').innerHTML +
+                    content
+                    +
+                    '<div id="selectResult" style="display: none;"></div>';
+
+                    
+                    
+                    //Shuffle sentence and print
+                    const sentenceElements = question.sentenceReorder.split(" ");
+                    let gameRandomId = crypto.randomUUID();
+                    let dragElementPrefix = "drag"+gameRandomId;
+                    shuffleArray(sentenceElements); //Disorder
+                    for(i=0;i<sentenceElements.length;i++){
+                        var ele = sentenceElements[i];
+                        $(".options-draggable-wrapper").append('<div id="'+dragElementPrefix+''+i+'" class="draggable js-drag" active="0">'+ele+'</div>');
+                        $(".options-draggable-wrapper").append('<div id="dragspace_'+i+'" style="display: none;"> </div>'); //Necesario para añadir espacioes entre palabras y que el checkresult coincida
+                    }
+
+                    //Load dependencies
+                    if(typeof dropZonesLoaded_flag == 'undefined') { //Flag for already loaded script
+                        loadjscssfile('dropzones/dropzones.css','css');
+                        // loadjscssfile('dropzones/dropzones.js','js');
+                        $.getScript( "dropzones/dropzones.js", function( data, textStatus, jqxhr ) {
+                            dropZonesReset();
+                            for(i=0;i<sentenceElements.length;i++){
+                                setupDropzone('#'+dragElementPrefix+''+i);
+                            }
+                        });
+                    }else{
+                        dropZonesReset();
+                        for(i=0;i<sentenceElements.length;i++){
+                            setupDropzone('#'+dragElementPrefix+''+i);
+                        }
+                    }
+
+                    
+
+
+                    //Prepare check result functions
+                    storeOneTimeQuestion(question, function(responseResult){
+                        callbackResult(question, responseResult);
+                    });
+
+                    
+                    divToCheckAnswer = "dropzones-wrapper";
+
+                    //return;  //NO further processing
+
+                });
+            }
 
 
             //CREATE RESULT BUTTONS

@@ -57,6 +57,9 @@ var resultChecker = {
             case "INPUT":
                 nodeValue=node.value;
             break;
+            case "DIV":
+                nodeValue=node.textContent ;
+            break;
             case "BR":
                 nodeValue="<br>";
             break;
