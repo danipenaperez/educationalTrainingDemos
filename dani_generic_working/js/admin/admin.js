@@ -5,7 +5,7 @@ admin_Core.containerSecctionsDivName = 'cardsMainDiv';
 
 admin_Core.loadMainMenu=function(){
     //Fetch Database
-    admin_Utils.fetchRemoteContent("/database.json", function(database){
+    admin_Utils.fetchRemoteContent("./database.json", function(database){
         database.sections.forEach(section => {
             let sectionCardHTML = admin_Templates.buildSectionCardTemplate(section);
             document.getElementById(admin_Core.containerSecctionsDivName).insertAdjacentHTML('beforeend', sectionCardHTML);
@@ -16,7 +16,7 @@ admin_Core.loadMainMenu=function(){
 
 admin_Core.loadSection=function(sectionName){
     //Fetch Database
-    admin_Utils.fetchRemoteContent("/database.json", function(database){
+    admin_Utils.fetchRemoteContent("./database.json", function(database){
         const section = database.sections.find((element) => element.id == sectionName);
         section.games.forEach(game => {
             let gameCardHTML = admin_Templates.buildGameCardTemplate(game);
@@ -29,7 +29,7 @@ admin_Core.loadSection=function(sectionName){
 
 admin_Core.loadGame=function(gameId){
     //Fetch Database
-    admin_Utils.fetchRemoteContent("/games/"+gameId+".json", function(gameData){
+    admin_Utils.fetchRemoteContent("./games/"+gameId+".json", function(gameData){
         document.title = gameData.title;
         let gameQuestions = gameData.questions; 
         gameLoader.init(gameQuestions);
