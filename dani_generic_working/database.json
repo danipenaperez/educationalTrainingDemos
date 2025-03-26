@@ -1,0 +1,64 @@
+{ 
+    "sections" : [
+        {
+            "id":"social_science",
+            "name":"Social Science",
+            "description": "Questions and Test about Social science",
+            "image":"https://m.media-amazon.com/images/I/71GmFBQB8xL._AC_UF1000,1000_QL80_.jpg",
+            "games":[
+                {
+                    "id": "socials_climate",
+                    "name": "Climate",
+                    "description": "Questions about the Climate",
+                    "image":"https://www.shutterstock.com/shutterstock/photos/1269582256/display_1500/stock-photo--climate-change-withered-earth-1269582256.jpg"
+                },
+                {
+                    "id": "socials_population_spain",
+                    "name": "Population of Spain",
+                    "description": "Questions about the population of Spain",
+                    "image":"https://as1.ftcdn.net/v2/jpg/02/68/97/94/1000_F_268979480_Brsxkk71iHTsWEfuY3JUSGXiRmNcJjmL.jpg"
+                }
+            ]
+        },
+        {
+            "id":"natural_science",
+            "name":"Natural Science",
+            "description": "Questions and Test about Natural science",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQL9VIP0bRZJFfCU4bbds7FNxaKHAI2tu7zw&s",
+            "games":[
+                {
+                    "id": "socials_climate",
+                    "name": "Climate",
+                    "description": "Questions about the Climate",
+                    "image":"https://www.shutterstock.com/shutterstock/photos/1269582256/display_1500/stock-photo--climate-change-withered-earth-1269582256.jpg"
+                },
+                {
+                    "id": "population_spain",
+                    "name": "Population of Spain",
+                    "description": "Questions about the population of Spain",
+                    "image":"https://as1.ftcdn.net/v2/jpg/02/68/97/94/1000_F_268979480_Brsxkk71iHTsWEfuY3JUSGXiRmNcJjmL.jpg"
+                }
+            ]
+        },
+        {
+            "id":"english",
+            "name":"English",
+            "description": "Questions and Test about English Grammar",
+            "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
+            "games":[
+                {
+                    "id": "socials_climate",
+                    "name": "Climate",
+                    "description": "Questions about the Climate",
+                    "image":"https://www.shutterstock.com/shutterstock/photos/1269582256/display_1500/stock-photo--climate-change-withered-earth-1269582256.jpg"
+                },
+                {
+                    "id": "population_spain",
+                    "name": "Population of Spain",
+                    "description": "Questions about the population of Spain",
+                    "image":"https://as1.ftcdn.net/v2/jpg/02/68/97/94/1000_F_268979480_Brsxkk71iHTsWEfuY3JUSGXiRmNcJjmL.jpg"
+                }
+            ]
+        }
+    ]
+}
