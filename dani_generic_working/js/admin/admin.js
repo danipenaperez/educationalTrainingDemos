@@ -30,9 +30,7 @@ admin_Core.loadSection=function(sectionName){
 admin_Core.loadGame=function(gameId){
     //Fetch Database
     admin_Utils.fetchRemoteContent("./games/"+gameId+".json", function(gameData){
-        document.title = gameData.title;
-        let gameQuestions = gameData.questions; 
-        gameLoader.init(gameQuestions);
+        gameLoader.init(gameData);
     });
 }
 

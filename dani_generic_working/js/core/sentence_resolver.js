@@ -60,6 +60,13 @@ var sentenceResolver ={
             checks=checks +'</div>';
             args.html = checks;
         
+        }else if ("ref"== command){
+            let ref_Target = evaluate.split('|')[1];
+            try{
+                args.html = eval(ref_Target);
+            }catch(e){
+                console.warn("unable to evaluate "+ref_Target);
+            }
         }
 
         return args;

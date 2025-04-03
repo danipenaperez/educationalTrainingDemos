@@ -10,6 +10,16 @@ var gamification_provider = {
         this.mediaFilesPathSucces='images/games/'+args.gameName+'/success';
         this.mediaFilesPathFail='images/games/'+args.gameName+'/fail';
         this.userName=args.userName;
+
+        //Voy por aqui
+        //Dynamic loading
+        // gamificationData = gamifications[randomIntFromInterval(0,gamifications.size)];
+        // this.gameName=gamificationData.id;
+        // this.mediaFilesPathSucces=gamificationData.sourceURL+'/success';
+        // this.mediaFilesPathFail=gamificationData.sourceURL+'/fail';
+        // this.userName=args.userName;
+        // alert("Bienvenido "+ this.userName+" "+ gamificationData.name );
+
     },
     init: function(){
         var html = templates.getModalGamificationTemplate(this.providerName);
@@ -69,7 +79,7 @@ var gamification_provider = {
     onFailed: function(average,callback, question){
         
         if(question){
-            let modalExplanationContent = question.explanation;
+            let modalExplanationContent = sentenceResolver.assemble(question.explanation);
             if(question.explanationExtended){
                 modalExplanationContent= modalExplanationContent + "<br>"+question.explanationExtended;
             }
@@ -120,7 +130,7 @@ var gamification_provider = {
     
     onFinish: function(){
         alert("lo has conseguido");
-    },
+    }
 
 
 }

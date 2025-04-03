@@ -1,0 +1,200 @@
+
+{
+    "title": "Verbs group from 7 to 13",
+    "context":{
+        "verbsExplanationGroup7" : "<table border=1><tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Keep</td><td>Kept</td><td>Kept</td><td>Mantener guardar</td></tr>  <tr><td> Know</td><td>Knew</td><td>Known</td><td>Saber conocer</td></tr><tr><td> Leave</td><td>Left</td><td>Left</td><td>Dejar abandonar</td></tr> <tr><td> Let</td><td>Let</td><td>Let</td><td>Permitir</td></tr> <tr><td> Lose</td><td>Lost</td><td>Lost</td><td>Perder</td></tr> </table>",
+        "verbsExplanationGroup8" : "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Make</td><td>made</td><td>made</td><td>Fabricar</td></tr> <tr><td> Meet</td><td>met</td><td>met</td><td>Conocer Encontar</td></tr> <tr><td> Pay</td><td>paid</td><td>paid</td><td>Pagar</td></tr> <tr><td> Put</td><td>put</td><td>put</td><td>Poner</td></tr> <tr><td> Read</td><td>read</td><td>read</td><td>Leer</td></tr>  </table>",
+        "verbsExplanationGroup9" : "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Ride</td><td>rode</td><td>ridden</td><td>Conducir</td></tr> <tr><td> Ring</td><td>rang</td><td>rung</td><td>Sonar</td></tr> <tr><td> Run</td><td>ran</td><td>run</td><td>Correr</td></tr> <tr><td> Say</td><td>said</td><td>said</td><td>Decir</td></tr><tr><td> See</td><td>saw</td><td>seen</td><td>Ver</td></tr> </table>",
+        "verbsExplanationGroup10": "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Sell</td><td>sold</td><td>sold</td><td>Vender</td></tr>  <tr><td> Send</td><td>sent</td><td>sent</td><td>Enviar</td></tr>   <tr><td> Show</td><td>showed</td><td>shown</td><td>Enseñar mostrar</td></tr> <tr><td> Sing</td><td>sang</td><td>sung</td><td>Cantar</td></tr> <tr><td> Sink</td><td>sank</td><td>sunk</td><td>Hundir</td></tr> </table>",
+        "verbsExplanationGroup11": "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Sit</td><td>sat</td><td>sat</td><td>Sentarse</td></tr>   <tr><td> Sleep</td><td>slept</td><td>slept</td><td>Dormir</td></tr>  <tr><td> Speak</td><td>spoke</td><td>spoken</td><td>Hablar</td></tr> <tr><td> Spend</td><td>spent</td><td>spent</td><td>Gastar</td></tr> <tr><td> Stand</td><td>stood</td><td>stood</td><td>Pararse</td></tr></table>",
+        "verbsExplanationGroup12": "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Steal</td><td>stole</td><td>stolen</td><td>Robar</td></tr> <tr><td> Swim</td><td>swam</td><td>swum</td><td>Nadar</td></tr>   <tr><td> Take</td><td>took</td><td>taken</td><td>Llevar</td></tr>   <tr><td> Teach</td><td>taught</td><td>taught</td><td>Enseñar</td></tr> <tr><td> Tell</td><td>told</td><td>told</td><td>Decir</td></tr>  </table>" ,
+        "verbsExplanationGroup13": "<table border=1>   <tr><th> Present (presente)</th><th>Past Simple </th><th>Past Participle </th><th>Traduccion</th></tr>   <tr><td> Think</td><td>thought</td><td>thought</td><td>Pensar</td></tr>   <tr><td> Understand</td><td>understood</td><td>understood</td><td>Entender</td></tr> <tr><td> Wake</td><td>woke</td><td>woken</td><td>Despertar</td></tr> <tr><td> Wear</td><td>wore</td><td>worn</td><td>Vestir</td></tr>  <tr><td> Win</td><td>won</td><td>won</td><td>Ganar</td></tr>   <tr><td> Write</td><td>wrote</td><td>written</td><td>Escribir</td></tr>   <tr><td> Catch</td><td>caught</td><td>caught</td><td>Coger atrapar</td></tr> </table>"
+    },
+    "questions": [
+        {"sentence_title":"Verbos grupo 7","sentence":"[inputText] | kept | kept | mantener guardar", "correctAnswer": "keep | kept | kept | mantener guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"keep | [inputText] | kept | mantener guardar", "correctAnswer": "keep | kept | kept | mantener guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"keep | kept | [inputText] | mantener guardar", "correctAnswer": "keep | kept | kept | mantener guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"keep | kept | kept | [inputText]", "correctAnswer": "keep | kept | kept | mantener guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+    
+        {"sentence_title":"Verbos grupo 7","sentence":"[inputText] | knew | known | Saber conocer", "correctAnswer": "know | knew | known | Saber conocer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"know | [inputText] | known | Saber conocer", "correctAnswer": "know | knew | known | Saber conocer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"know | knew | [inputText] | Saber conocer", "correctAnswer": "know | knew | known | Saber conocer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"know | knew | known | [inputText]", "correctAnswer": "know | knew | known | Saber conocer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+    
+        {"sentence_title":"Verbos grupo 7","sentence":"[inputText] | left | left | Dejar Abandonar", "correctAnswer": "leave | left | left | Dejar Abandonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"leave | [inputText] | left | Dejar Abandonar", "correctAnswer": "leave | left | left | Dejar Abandonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"leave | left | [inputText] | Dejar Abandonar", "correctAnswer": "leave | left | left | Dejar Abandonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"leave | left | left | [inputText]", "correctAnswer": "leave | left | left | Dejar Abandonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+    
+        {"sentence_title":"Verbos grupo 7","sentence":"[inputText] | let | let | Permitir", "correctAnswer": "let | let | let | Permitir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"let | [inputText] | let | Permitir", "correctAnswer": "let | let | let | Permitir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"let | let | [inputText] | Permitir", "correctAnswer": "let | let | let | Permitir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"let | let | let | [inputText]", "correctAnswer": "let | let | let | Permitir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+    
+        {"sentence_title":"Verbos grupo 7","sentence":"[inputText] | lost | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"lose | [inputText] | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"lose | lost | [inputText] | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+        {"sentence_title":"Verbos grupo 7","sentence":"lose | lost | lost | [inputText]", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup7]"},
+
+        {"sentence_title":"Verbos grupo 8","sentence":"[inputText] | made | made | fabricar", "correctAnswer": "make | made | made | fabricar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"make | [inputText] | made | fabricar", "correctAnswer": "make | made | made | fabricar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"make | made | [inputText] | fabricar", "correctAnswer": "make | made | made | fabricar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"make | made | made | [inputText]", "correctAnswer": "make | made | made | fabricar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+    
+        {"sentence_title":"Verbos grupo 8","sentence":"[inputText] | met | met | Conocer encontrar", "correctAnswer": "meet | met | met | Conocer encontrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"meet | [inputText] | met | Conocer encontrar", "correctAnswer": "meet | met | met | Conocer encontrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"meet | met | [inputText] | Conocer encontrar", "correctAnswer": "meet | met | met | Conocer encontrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"meet | met | met | [inputText]", "correctAnswer": "meet | met | met | Conocer encontrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+    
+        {"sentence_title":"Verbos grupo 8","sentence":"[inputText] | paid | paid | Pagar", "correctAnswer": "pay | paid | paid | Pagar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"pay | [inputText] | paid | Pagar", "correctAnswer": "pay | paid | paid | Pagar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"pay | paid | [inputText] | Pagar", "correctAnswer": "pay | paid | paid | Pagar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"pay | paid | paid | [inputText]", "correctAnswer": "pay | paid | paid | Pagar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+    
+        {"sentence_title":"Verbos grupo 8","sentence":"[inputText] | put | put | Poner colocar", "correctAnswer": "put | put | put | Poner colocar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"put | [inputText] | put | Poner colocar", "correctAnswer": "put | put | put | Poner colocar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"put | put | [inputText] | Poner colocar", "correctAnswer": "put | put | put | Poner colocar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"put | put | put | [inputText]", "correctAnswer": "put | put | put | Poner colocar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+    
+        {"sentence_title":"Verbos grupo 8","sentence":"[inputText] | read | read | Leer", "correctAnswer": "read | read | read | Leer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"read | [inputText] | read | Leer", "correctAnswer": "read | read | read | Leer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"read | read | [inputText] | Leer", "correctAnswer": "read | read | read | Leer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+        {"sentence_title":"Verbos grupo 8","sentence":"read | read | read | [inputText]", "correctAnswer": "read | read | read | Leer", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup8]"},
+
+        {"sentence_title":"Verbos grupo 9","sentence":"[inputText] | rode | ridden | conducir", "correctAnswer": "ride | rode | ridden | conducir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ride | [inputText] | ridden | conducir", "correctAnswer": "ride | rode | ridden | conducir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ride | rode | [inputText] | conducir", "correctAnswer": "ride | rode | ridden | conducir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ride | rode | ridden | [inputText]", "correctAnswer": "ride | rode | ridden | conducir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+    
+        {"sentence_title":"Verbos grupo 9","sentence":"[inputText] | rang | rung | Sonar", "correctAnswer": "ring | rang | rung | Sonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ring | [inputText] | rung | Sonar", "correctAnswer": "ring | rang | rung | Sonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ring | rang | [inputText] | Sonar", "correctAnswer": "ring | rang | rung | Sonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"ring | rang | rung | [inputText]", "correctAnswer": "ring | rang | rung | Sonar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+    
+        {"sentence_title":"Verbos grupo 9","sentence":"[inputText] | ran | run | Correr", "correctAnswer": "run | ran | run | Correr", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"run | [inputText] | run | Correr", "correctAnswer": "run | ran | run | Correr", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"run | ran | [inputText] | Correr", "correctAnswer": "run | ran | run | Correr", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"run | ran | run | [inputText]", "correctAnswer": "run | ran | run | Correr", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+    
+        {"sentence_title":"Verbos grupo 9","sentence":"[inputText] | said | said | Decir", "correctAnswer": "say | said | said | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"say | [inputText] | said | Decir", "correctAnswer": "say | said | said | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"say | said | [inputText] | Decir", "correctAnswer": "say | said | said | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"say | said | said | [inputText]", "correctAnswer": "say | said | said | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+    
+        {"sentence_title":"Verbos grupo 9","sentence":"[inputText] | saw | seen | Ver", "correctAnswer": "see | saw | seen | Ver", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"see | [inputText] | seen | Ver", "correctAnswer": "see | saw | seen | Ver", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"see | saw | [inputText] | Ver", "correctAnswer": "see | saw | seen | Ver", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+        {"sentence_title":"Verbos grupo 9","sentence":"see | saw | seen | [inputText]", "correctAnswer": "see | saw | seen | Ver", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup9]"},
+
+        {"sentence_title":"Verbos grupo 10","sentence":"[inputText] | sold | sold | vender", "correctAnswer": "sell | sold | sold | vender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sell | [inputText] | sold | vender", "correctAnswer": "sell | sold | sold | vender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sell | sold | [inputText] | vender", "correctAnswer": "sell | sold | sold | vender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sell | sold | sold | [inputText]", "correctAnswer": "sell | sold | sold | vender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+    
+        {"sentence_title":"Verbos grupo 10","sentence":"[inputText] | sent | sent | enviar", "correctAnswer": "send | sent | sent | enviar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"send | [inputText] | sent | enviar", "correctAnswer": "send | sent | sent | enviar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"send | sent | [inputText] | enviar", "correctAnswer": "send | sent | sent | enviar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"send | sent | sent | [inputText]", "correctAnswer": "send | sent | sent | enviar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+    
+        {"sentence_title":"Verbos grupo 10","sentence":"[inputText] | showed | shown | enseñar mostrar", "correctAnswer": "show | showed | shown | enseñar mostrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"show | [inputText] | shown | enseñar mostrar", "correctAnswer": "show | showed | shown | enseñar mostrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"show | showed | [inputText] | enseñar mostrar", "correctAnswer": "show | showed | shown | enseñar mostrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"show | showed | shown | [inputText]", "correctAnswer": "show | showed | shown | enseñar mostrar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+    
+        {"sentence_title":"Verbos grupo 10","sentence":"[inputText] | sang | sung | Cantar", "correctAnswer": "sing | sang | sung | Cantar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sing | [inputText] | sung | Cantar", "correctAnswer": "sing | sang | sung | Cantar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sing | sang | [inputText] | Cantar", "correctAnswer": "sing | sang | sung | Cantar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sing | sang | sung | [inputText]", "correctAnswer": "sing | sang | sung | Cantar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+    
+        {"sentence_title":"Verbos grupo 10","sentence":"[inputText] | sank | sunk | Hundir", "correctAnswer": "sink | sank | sunk | Hundir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sink | [inputText] | sunk | Hundir", "correctAnswer": "sink | sank | sunk | Hundir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sink | sank | [inputText] | Hundir", "correctAnswer": "sink | sank | sunk | Hundir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+        {"sentence_title":"Verbos grupo 10","sentence":"sink | sank | sunk | [inputText]", "correctAnswer": "sink | sank | sunk | Hundir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup10]"},
+
+        {"sentence_title":"Verbos grupo 11","sentence":"[inputText] | sat | sat | Sentarse", "correctAnswer": "sit | sat | sat | Sentarse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sit | [inputText] | sat | Sentarse", "correctAnswer": "sit | sat | sat | Sentarse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sit | sat | [inputText] | Sentarse", "correctAnswer": "sit | sat | sat | Sentarse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sit | sat | sat | [inputText]", "correctAnswer": "sit | sat | sat | Sentarse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+    
+        {"sentence_title":"Verbos grupo 11","sentence":"[inputText] | slept | slept | Dormir", "correctAnswer": "sleep | slept | slept | Dormir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sleep | [inputText] | slept | Dormir", "correctAnswer": "sleep | slept | slept | Dormir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sleep | slept | [inputText] | Dormir", "correctAnswer": "sleep | slept | slept | Dormir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"sleep | slept | slept | [inputText]", "correctAnswer": "sleep | slept | slept | Dormir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+    
+        {"sentence_title":"Verbos grupo 11","sentence":"[inputText] | spoke | spoken | Hablar", "correctAnswer": "speak | spoke | spoken | Hablar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"speak | [inputText] | spoken | Hablar", "correctAnswer": "speak | spoke | spoken | Hablar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"speak | spoke | [inputText] | Hablar", "correctAnswer": "speak | spoke | spoken | Hablar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"speak | spoke | spoken | [inputText]", "correctAnswer": "speak | spoke | spoken | Hablar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+    
+        {"sentence_title":"Verbos grupo 11","sentence":"[inputText] | spent | spent | Gastar", "correctAnswer": "spend | spent | spent | Gastar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"spend | [inputText] | spent | Gastar", "correctAnswer": "spend | spent | spent | Gastar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"spend | spent | [inputText] | Gastar", "correctAnswer": "spend | spent | spent | Gastar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"spend | spent | spent | [inputText]", "correctAnswer": "spend | spent | spent | Gastar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+    
+        {"sentence_title":"Verbos grupo 11","sentence":"[inputText] | stood | stood | Pararse", "correctAnswer": "stand | stood | stood | Pararse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"stand | [inputText] | stood | Pararse", "correctAnswer": "stand | stood | stood | Pararse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"stand | stood | [inputText] | Pararse", "correctAnswer": "stand | stood | stood | Pararse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+        {"sentence_title":"Verbos grupo 11","sentence":"stand | stood | stood | [inputText]", "correctAnswer": "stand | stood | stood | Pararse", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup11]"},
+
+        {"sentence_title":"Verbos grupo 12","sentence":"[inputText] | stole | stolen | Robar", "correctAnswer": "steal | stole | stolen | Robar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"steal | [inputText] | stolen | Robar", "correctAnswer": "steal | stole | stolen | Robar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"steal | stole | [inputText] | Robar", "correctAnswer": "steal | stole | stolen | Robar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"steal | stole | stolen | [inputText]", "correctAnswer": "steal | stole | stolen | Robar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+    
+        {"sentence_title":"Verbos grupo 12","sentence":"[inputText] | swam | swum | Nadar", "correctAnswer": "swim | swam | swum | Nadar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"swim | [inputText] | swum | Nadar", "correctAnswer": "swim | swam | swum | Nadar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"swim | swam | [inputText] | Nadar", "correctAnswer": "swim | swam | swum | Nadar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"swim | swam | swum | [inputText]", "correctAnswer": "swim | swam | swum | Nadar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+    
+        {"sentence_title":"Verbos grupo 12","sentence":"[inputText] | took | taken | Llevar", "correctAnswer": "take | took | taken | Llevar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"take | [inputText] | taken | Llevar", "correctAnswer": "take | took | taken | Llevar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"take | took | [inputText] | Llevar", "correctAnswer": "take | took | taken | Llevar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"take | took | taken | [inputText]", "correctAnswer": "take | took | taken | Llevar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+    
+        {"sentence_title":"Verbos grupo 12","sentence":"[inputText] | taught | taught | Enseñar", "correctAnswer": "teach | taught | taught | Enseñar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"teach | [inputText] | taught | Enseñar", "correctAnswer": "teach | taught | taught | Enseñar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"teach | taught | [inputText] | Enseñar", "correctAnswer": "teach | taught | taught | Enseñar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"teach | taught | taught | [inputText]", "correctAnswer": "teach | taught | taught | Enseñar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+    
+        {"sentence_title":"Verbos grupo 12","sentence":"[inputText] | told | told | Decir", "correctAnswer": "tell | told | told | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"tell | [inputText] | told | Decir", "correctAnswer": "tell | told | told | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"tell | told | [inputText] | Decir", "correctAnswer": "tell | told | told | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+        {"sentence_title":"Verbos grupo 12","sentence":"tell | told | told | [inputText]", "correctAnswer": "tell | told | told | Decir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup12]"},
+    
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | thought | thought | Pensar", "correctAnswer": "think | thought | thought | Pensar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"think | [inputText] | thought | Pensar", "correctAnswer": "think | thought | thought | Pensar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"think | thought | [inputText] | Pensar", "correctAnswer": "think | thought | thought | Pensar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"think | thought | thought | [inputText]", "correctAnswer": "think | thought | thought | Pensar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | understood | understood | Entender", "correctAnswer": "understand | understood | understood | Entender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"understand | [inputText] | understood | Entender", "correctAnswer": "understand | understood | understood | Entender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"understand | understood | [inputText] | Entender", "correctAnswer": "understand | understood | understood | Entender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"understand | understood | understood | [inputText]", "correctAnswer": "understand | understood | understood | Entender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | woke | woken | Despertar", "correctAnswer": "wake | woke | woken | Despertar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wake | [inputText] | woken | Despertar", "correctAnswer": "wake | woke | woken | Despertar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wake | woke | [inputText] | Despertar", "correctAnswer": "wake | woke | woken | Despertar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wake | woke | woken | [inputText]", "correctAnswer": "wake | woke | woken | Despertar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | wore | worn | Vestir", "correctAnswer": "wear | wore | worn | Vestir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wear | [inputText] | worn | Vestir", "correctAnswer": "wear | wore | worn | Vestir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wear | wore | [inputText] | Vestir", "correctAnswer": "wear | wore | worn | Vestir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"wear | wore | worn | [inputText]", "correctAnswer": "wear | wore | worn | Vestir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | won | won | Ganar", "correctAnswer": "win | won | won | Ganar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"win | [inputText] | won | Ganar", "correctAnswer": "win | won | won | Ganar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"win | won | [inputText] | Ganar", "correctAnswer": "win | won | won | Ganar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"win | won | won | [inputText]", "correctAnswer": "win | won | won | Ganar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"[inputText] | wrote | written | Escribir", "correctAnswer": "write | wrote | written | Escribir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"write | [inputText] | written | Escribir", "correctAnswer": "write | wrote | written | Escribir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"write | wrote | [inputText] | Escribir", "correctAnswer": "write | wrote | written | Escribir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"write | wrote | written | [inputText]", "correctAnswer": "write | wrote | written | Escribir", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+
+        {"sentence_title":"Verbos grupo 13","sentence":"inputText] | caught | caught | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"catch | inputText] | caught | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"catch | caught | inputText] | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
+        {"sentence_title":"Verbos grupo 13","sentence":"catch | caught | caught | inputText]", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"}
+            
+    ]
+}

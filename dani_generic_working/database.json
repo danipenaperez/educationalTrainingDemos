@@ -27,16 +27,16 @@
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQL9VIP0bRZJFfCU4bbds7FNxaKHAI2tu7zw&s",
             "games":[
                 {
-                    "id": "socials_climate",
-                    "name": "Climate",
-                    "description": "Questions about the Climate",
-                    "image":"https://www.shutterstock.com/shutterstock/photos/1269582256/display_1500/stock-photo--climate-change-withered-earth-1269582256.jpg"
+                    "id": "naturals_skeletal_system",
+                    "name": "Skeletal System",
+                    "description": "Questions about the Skeletal System",
+                    "image":"/imagemaps/skeletalsystem/skeletalsystem.jpg"
                 },
                 {
-                    "id": "population_spain",
-                    "name": "Population of Spain",
-                    "description": "Questions about the population of Spain",
-                    "image":"https://as1.ftcdn.net/v2/jpg/02/68/97/94/1000_F_268979480_Brsxkk71iHTsWEfuY3JUSGXiRmNcJjmL.jpg"
+                    "id": "naturals_muscular_system",
+                    "name": "Muscular System",
+                    "description": "Questions about the Muscular System",
+                    "image":"/imagemaps/muscularsystem/muscularsystem.png"
                 }
             ]
         },
@@ -47,18 +47,49 @@
             "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
             "games":[
                 {
-                    "id": "socials_climate",
-                    "name": "Climate",
-                    "description": "Questions about the Climate",
-                    "image":"https://www.shutterstock.com/shutterstock/photos/1269582256/display_1500/stock-photo--climate-change-withered-earth-1269582256.jpg"
+                    "id": "english_ago",
+                    "name": "Past Simple & Ago",
+                    "description": "Using Past Simple and Ago",
+                    "image":"https://gengolingo.com/wp-content/uploads/2017/09/icon-blog-before-ago-300x300.png"
                 },
                 {
-                    "id": "population_spain",
-                    "name": "Population of Spain",
-                    "description": "Questions about the population of Spain",
-                    "image":"https://as1.ftcdn.net/v2/jpg/02/68/97/94/1000_F_268979480_Brsxkk71iHTsWEfuY3JUSGXiRmNcJjmL.jpg"
+                    "id": "english_was_going_to",
+                    "name": "Was Going to ",
+                    "description": "Using Was Going to",
+                    "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjWfEemtwU4dUo_Vptp_hllH0OvSQO8M2SosBAKD81qh24MS_VtMXaw54CtkFmqi7Bo5lLJYwjj2PTiXAnzeNIsYEkkKKCY0ikBZsDUjQ_WqqfM1iibiCcXvm9Rju-zmG2Hoq1z-qfwWTq/w1200-h630-p-k-no-nu/Ingles2012.JPG"
+                },
+                {
+                    "id": "english_can_vs_could",
+                    "name": "Can or Could",
+                    "description": "Using Can or Could",
+                    "image":"https://static.wixstatic.com/media/ca579b_e8d264a9e0464797b668bd0eed8a6d22~mv2.png/v1/fill/w_740,h_416,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ca579b_e8d264a9e0464797b668bd0eed8a6d22~mv2.png"
+                },
+                {
+                    "id": "english_verbs_group_1_to_6",
+                    "name": "Verbs Group (1 to 6)",
+                    "description": "Learning the Verbs",
+                    "image":"https://m.media-amazon.com/images/I/61T+Mv1HLBL._SL1424_.jpg"
+                },
+                {
+                    "id": "english_verbs_group_7_to_13",
+                    "name": "Verbs Group (1 to 13)",
+                    "description": "Learning the Verbs",
+                    "image":"https://m.media-amazon.com/images/I/61T+Mv1HLBL._SL1424_.jpg"
                 }
             ]
         }
+    ],
+    "gamifications" : [
+        {
+            "id": "zelda",
+            "name": "Aventura del Universo Zelda",
+            "sourceURL": "images/games/zelda"
+        },
+        {
+            "id": "animales",
+            "name": "Aventura de los Animales",
+            "sourceURL": "images/games/animales"
+        }
+    
     ]
 }

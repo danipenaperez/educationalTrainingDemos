@@ -11,11 +11,18 @@ const loginManager =  Object.create(login_provider);
 const gamificationManager =  Object.create(gamification_provider);
 const apperanceManager=  Object.create(apperance_manager);
 
-gameLoader.init= function(gameQuestions){
+var context;
+gameLoader.init= function(gameData){
 
-    //Load questions into questionProvider
-    questionProvider.questions = gameQuestions;
     
+    //Load questions into questionProvider
+    questionProvider.questions = gameData.questions;
+    
+    //Set context if exist
+    if(gameData.context){
+        context=gameData.context;
+    }
+
     //Configure all data
     currentGame.configure({
         timeManager: timeManager,
@@ -27,7 +34,9 @@ gameLoader.init= function(gameQuestions){
         loginManager:loginManager
     });
     
-    
+    //Set Page Title
+    document.title = gameData.title;
+
     //Start
     currentGame.start();
     
