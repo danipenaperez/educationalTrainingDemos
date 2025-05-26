@@ -1,0 +1,14 @@
+
+{
+    "questions":
+        [
+            {   
+                "sentence_title": "Adverbios",
+                "sentence":"¿Cuales adjetivos aparecen en esta frase?<br> Paco tiene el pelo largo.<br>Adjetivos: [inputText]", 
+                "correctAnswer": "¿Cuales adjetivos aparecen en esta frase?<br> Paco tiene el pelo largo.<br>Adjetivos: largo", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "Si buscas los sustantivos vemos que solo hay Paco y pelo. De Paco no hay palabra que nos diga nada mas, pero en cambio de pelo si que hay una palabra que nos dice como es, ¿Como es el pelo?: largo, por eso largo es un adjetivo.",
+                "explanationExtended": ""
+            }        ]
+}

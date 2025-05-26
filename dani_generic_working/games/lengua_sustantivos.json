@@ -1,0 +1,87 @@
+
+{
+    "questions":
+        [
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Paco come salchichas sentado en la silla.<br>Sustantivos: [inputText],[inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Paco come salchichas sentado en la silla.<br>Sustantivos: Paco,salchichas,silla", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos son Paco, salchichas y silla, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Jose vive en España.<br>Sustantivos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Jose vive en España.<br>Sustantivos: Jose,España", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos son Jose y España, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Irene ha roto mi bicicleta.<br>Sustantivos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Irene ha roto mi bicicleta.<br>Sustantivos: Irene,bicicleta", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos son Irene y bicicleta, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha echado crema.<br>Sustantivos: [inputText],[inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha echado crema.<br>Sustantivos: Alicia,Sol,crema", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos son Alicia , Sol y crema, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Voy a ir a comer con mi padre.<br>Sustantivos: [inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Voy a ir a comer con mi padre.<br>Sustantivos: padre", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos es padre, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Ese señor es mi tio.<br>Sustantivos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Ese señor es mi tio.<br>Sustantivos: señor,tio", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "Los sustantivos son Señor y tío, porque son palabras que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Tengo que ir al gimnasio.<br>Sustantivos: [inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Ese señor es mi tio.<br>Sustantivos: gimnasio", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "El unico sustativo es Gimnasio, porque es la unica palabra que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> ¿Te gustan las manzanas?.<br>Sustantivos: [inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> ¿Te gustan las manzanas?.<br>Sustantivos: manzanas", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "El unico sustativo es Manzanas, porque es la unica palabra que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Sustantivos",
+                "sentence":"¿Cuales sustantivos aparecen en esta frase?<br> Los gusanos viven en sus cuevas con sus hijos.<br>Sustantivos: [inputText],[inputText],[inputText]", 
+                "correctAnswer": "¿Cuales sustantivos aparecen en esta frase?<br> Los gusanos viven en sus cuevas con sus hijos.<br>Sustantivos: gusanos,cuevas,hijos", 
+                "help": "Sustantivo: es una palabra que representa una persona, animal o cosa.",
+                "timeout": 120, 
+                "explanation": "El unico sustativo es Manzanas, porque es la unica palabra que representan una persona un animal o una cosa.",
+                "explanationExtended": ""
+            }
+        ]
+}

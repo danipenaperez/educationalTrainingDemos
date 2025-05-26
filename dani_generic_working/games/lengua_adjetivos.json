@@ -1,0 +1,69 @@
+
+{
+    "questions":
+        [
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales adjetivos aparecen en esta frase?<br> Paco tiene el pelo largo.<br>Adjetivos: [inputText]", 
+                "correctAnswer": "¿Cuales adjetivos aparecen en esta frase?<br> Paco tiene el pelo largo.<br>Adjetivos: largo", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "Si buscas los sustantivos vemos que solo hay Paco y pelo. De Paco no hay palabra que nos diga nada mas, pero en cambio de pelo si que hay una palabra que nos dice como es, ¿Como es el pelo?: largo, por eso largo es un adjetivo.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales adjetivos aparecen en esta frase?<br>Jose tiene un jersey rojo.<br>Adjetivos: [inputText]", 
+                "correctAnswer": "¿Cuales adjetivos aparecen en esta frase?<br>Jose tiene un jersey rojo.<br>Adjetivos: rojo", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo)",
+                "timeout": 120, 
+                "explanation": "Si buscas los sustantivos vemos que solo hay Jose y jersey. De Jose no dice nada la frase, pero al Jersey podemos preguntar ¿como es? : pues es rojo, por eso rojo es un adjetivo.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales adjetivos aparecen en esta frase?<br> Irene ha roto mi bicicleta nueva mientras montaba.<br>Adjetivos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales veAdjetivosrbos aparecen en esta frase?<br> Irene ha roto mi bicicleta nueva mientras montaba.<br>Adjetivos: nueva", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "Si buscas los sustantivos vemos que solo hay Irene y bicicleta. Irene no tiene ningun adjetivo porque no hay palabras que indiquen algo de ella, pero en cambio bicicleta si que tiene una palabra que indica como es, ¿como es la bicicleta?: nueva",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales Adjetivos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha una echado crema barata.<br>Adjetivos: [inputText]", 
+                "correctAnswer": "¿Cuales Adjetivos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha una echado crema barata.<br>Adjetivos: [inputText]", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "Sustantivos tenemos Alicia, Sol y crema. De Alicia y el Sol no nos dice nada la frase, pero de la crema si que nos dice ¿como es la crema?: barata. Por eso barata es un adjetivo.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales Adjetivos aparecen en esta frase?<br> Voy a ir a comer con mi primo preferido.<br>Adjetivo: [inputText]", 
+                "correctAnswer": "¿Cuales Adjetivos aparecen en esta frase?<br> Voy a ir a comer con mi primo preferido.<br>Adjetivo: [inputText]", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "Sustantivos tenemos solo primo. Y ademas hay una palabra que nos dice como es ese sustantivo ¿como es mi primo?: es mi preferido, por eso el adjetivo es preferido.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales Adjetivos aparecen en esta frase?<br> Ese señor raro ha robado mi chaqueta nueva.<br>Adjetivos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales Adjetivos aparecen en esta frase?<br> Ese señor raro ha robado mi chaqueta nueva.<br>Adjetivos: [inputText],[inputText]", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "En la frase hay 2 sustantivos: Señor y chaqueta. ¿Como es el Señor?: raro , por eso raro es un adjetivo y también podemos preguntar por el otro sustantivo ¿Como es la chaqueta?: nueva, por eso nueva es un adjetivo tambien.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Adjetivos",
+                "sentence":"¿Cuales Adjetivos aparecen en esta frase?<br> El martes fue un dia caluroso.<br>Adjetivos: [inputText]", 
+                "correctAnswer": "¿Cuales Adjetivos aparecen en esta frase?<br> El martes fue un dia caluroso.<br>Adjetivos: [inputText]", 
+                "help": "Adjetivo: es una palabra que indica como es una persona, animal o cosa (sustantivo) \n ¿Que sustantivos hay en la frase y si hay alguna palabra que nos diga algo de ellos?",
+                "timeout": 120, 
+                "explanation": "En la frase hay 2 sustantivos, martes y día. Y hay una palabra que nos dice ¿como fue el martes? o tambien ¿como fue el día? : caluroso. Por eso caluroso es un adjetivo.",
+                "explanationExtended": ""
+            }
+        ]
+}

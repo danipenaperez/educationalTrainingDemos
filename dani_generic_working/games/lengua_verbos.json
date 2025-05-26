@@ -1,0 +1,87 @@
+
+{
+    "questions":
+        [
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Paco come salchichas sentado en la silla.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Paco come salchichas sentado en la silla.<br>Verbos: come", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "Los verbos son come (comer), porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Jose vive en España.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Jose vive en España.<br>Verbos: vive", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "El unico verbo es vive (vivir), porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Irene ha roto mi bicicleta mientras montaba.<br>Verbos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Irene ha roto mi bicicleta.<br>Verbos: roto,montaba", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "Los Verbos son roto (romper) y montaba (montar, porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha echado crema.<br>Verbos: [inputText],[inputText],[inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Alicia se ha quemado con el Sol y se ha echado crema.<br>Verbos: quedamo,echado", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "Los Verbos son quedamo (quemar) y echado (echar), porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Voy a ir a comer con mi padre.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Voy a ir a comer con mi padre.<br>Verbos: comer", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "El unico verbo de comer, porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Ese señor es mi tio.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Ese señor es mi tio.<br>Verbos: es", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "El unico verbo es 'es' (ser), porque los verbos son palabras que representan una accion",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Tengo que ir al gimnasio.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Ese señor es mi tio.<br>Verbos: ir", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "El unico verbo que hay es ' ir ', porque los verbos son palabras que representan una accion.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> ¿Te gustan las manzanas?.<br>Verbos: [inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> ¿Te gustan las manzanas?.<br>Verbos: gustan", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "El unico verbo que hay es esta frase es ' gustan ' (gustar), porque los verbos son palabras que representan una accion.",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Verbos",
+                "sentence":"¿Cuales verbos aparecen en esta frase?<br> Yo cierro los ojos cuando duermo.<br>Verbos: [inputText],[inputText]", 
+                "correctAnswer": "¿Cuales verbos aparecen en esta frase?<br> Los gusanos viven en sus cuevas con sus hijos.<br>Verbos: cierro,duermo", 
+                "help": "Verbos: es una palabra que representa una accion.",
+                "timeout": 120, 
+                "explanation": "Los verbos que hay son ' cierro '(cerrar) y  ' duermo ' (dormir), porque los verbos son palabras que representan una accion.",
+                "explanationExtended": ""
+            }
+        ]
+}

@@ -7,6 +7,18 @@
             "image":"https://m.media-amazon.com/images/I/71GmFBQB8xL._AC_UF1000,1000_QL80_.jpg",
             "games":[
                 {
+                    "id": "socials_universe_6",
+                    "name": "Universe 6",
+                    "description": "Questions about the Climate 6",
+                    "image":"https://miro.medium.com/v2/resize:fit:720/format:webp/1*S4irHCUSQ3tCx1j5AtHIpQ.png"
+                },
+                {
+                    "id": "socials_climate_6",
+                    "name": "Climate 6",
+                    "description": "Questions about the Climate 6",
+                    "image":"https://wcespronew.s3.amazonaws.com/9788414407998.jpg"
+                },
+                {
                     "id": "socials_climate",
                     "name": "Climate",
                     "description": "Questions about the Climate",
@@ -47,6 +59,11 @@
             "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
             "games":[
                 {
+                    "id": "english_adverbs",
+                    "name": "Adverbios",
+                    "description": "Using adverbs",
+                    "image":"https://images.examples.com/wp-content/uploads/2023/09/Adverb.png"
+                },{
                     "id": "english_ago",
                     "name": "Past Simple & Ago",
                     "description": "Using Past Simple and Ago",

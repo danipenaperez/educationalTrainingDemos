@@ -81,8 +81,13 @@ function shuffleArray(array) {
 
 function randomIntFromInterval(min, max) { // min and max included 
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-  
+}
+
+function randomElementFromArray(array) { // min and max included 
+  let randomIndex = randomIntFromInterval(0, array.length-1);
+  return array[randomIndex];
+}
+
 /**
  * Add style class to element
  * @param {*} element 

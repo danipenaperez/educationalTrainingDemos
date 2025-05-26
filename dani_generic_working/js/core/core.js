@@ -25,17 +25,8 @@ var core = {
         // });
 
         let sign = prompt("¿Como te llamas?");
-        var random_boolean = Math.random() < 0.5;
-        let gameName ="zelda";
-        if(random_boolean){
-            alert("Bienvenido "+ sign+" a la aventura de ZELDA" );
-            gameName="zelda";
-        }else{
-            alert("Bienvenido "+ sign+" a la aventura de los animales" );
-            gameName="animales";
-        }
+
         currentGame.gamificationManager.configure({
-            gameName:gameName,
             userName:sign,
         });
         currentGame.gamificationManager.init();

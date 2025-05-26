@@ -1,0 +1,250 @@
+
+{
+    "questions":
+        [
+            {   
+                "sentence_title": "What is the Universe?",
+                "sentence":"The Universe is everything that exists in [inputText]. It is made up of billions of galaxies. Each galaxy contains millions and millions os stars, planets and other [inputText] bodies that are far apart. Most [inputText] believe the [inputText] began about [selectOption| ,10,15,100] billion years ago. At that time, the Universe was container within a single [inputText]. Then it suddenly started to expand. The stars, galaxies and other celestial bodies began to form. We call this the [inputText] theory.", 
+                "correctAnswer": "The Universe is everything that exists in space. It is made up of billions of galaxies. Each galaxy contains millions and millions os stars, planets and other celestial bodies that are far apart. Most astronomers believe the Universe began about 15 billion years ago. At that time, the Universe was container within a single point. Then it suddenly started to expand. The stars, galaxies and other celestial bodies began to form. We call this the Big Bang theory.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Celestial Bodies",
+                "sentence":"[selectOption| ,galaxies,stars,constellations] are enormous spheres of gas.<br> They vary in colour, size and brightness: <br> The hottest are [selectOption| ,white or blue,orange or red] and the coldest are [selectOption| ,white or blue,orange or red].<br> Brightness depends on their [selectOption| ,temperature,luminosity and distance from the Earth].", 
+                "correctAnswer": "Stars are enormous spheres of gas.<br> They vary in colour, size and brightness: <br> The hottest are white or blue and the coldest are orange or red.<br> Brightness depends on their luminosity and distance from the Earth.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Celestial Bodies",
+                "sentence":"[selectOption| ,galaxies,stars,constellations] are groups of millions of stars, planets, gas clouds and rock framents.<br>They have different shapes: [inputText], [inputText] or [inputText].", 
+                "correctAnswer": "Galaxies are groups of millions of stars, planets, gas clouds and rock framents.<br>They have different shapes: elliptical, spiral or irregular.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title":"Parts of the Universe",
+                "sentence":"Click on <b>Solar System</b>.", 
+                "imageMap":"galaxies/galaxies.imagemap",
+                "correctAnswer": "Solar System", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title":"Parts of the Universe",
+                "sentence":"Click on <b>Milky Way</b>.", 
+                "imageMap":"galaxies/galaxies.imagemap",
+                "correctAnswer": "Milky Way", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title":"Parts of the Universe",
+                "sentence":"Click on <b>Earth</b>.", 
+                "imageMap":"galaxies/galaxies.imagemap",
+                "correctAnswer": "Earth", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title":"Parts of the Universe",
+                "sentence":"Click on <b>Orion Arm</b>.", 
+                "imageMap":"galaxies/galaxies.imagemap",
+                "correctAnswer": "Orion Arm", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title": "What is the Solar System like?",
+                "sentence":"The Solar System consists of the Sun, eight planets, dwarf planets and smaller objects such as asteroids and comets: [selectOption| ,true,false].<br> The Sun provides the heat and light that make life possible on Earth: [selectOption| ,true,false]. <br> [inputText] are objects in orbit around a planet.<br> The planets travels around a star in a curved path called an [inputText].", 
+                "correctAnswer": "The Solar System consists of the Sun, eight planets, dwarf planets and smaller objects such as asteroids and comets: true.<br> The Sun provides the heat and light that make life possible on Earth: true. <br> Satellites are objects in orbit around a planet.<br> The planets travels around a star in a curved path called an orbit.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "What is the Solar System like?",
+                "sentence":"[selectOption| ,Planets,Dwarf planets,Comets,Asteroids] are celestial bodies, smaller than planets, that orbit stars.<br>[selectOption| ,Planets,Dwarf planets,Comets,Asteroids] are large, spherical celestial bodies.<br>[selectOption| ,Planets,Dwarf planets,Comets,Asteroids] are balls of dust and ice that orbit the Sun.<br>[selectOption| ,Planets, Dwarf planets,Comets,Asteroids] are large rocks that orbit the Sun.", 
+                "correctAnswer": "Dwarf planets are celestial bodies, smaller than planets, that orbit stars.<br>Planets are large, spherical celestial bodies.<br>Comets are balls of dust and ice that orbit the Sun.<br>Asteroids are large rocks that orbit the Sun.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Mercury</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Mercury", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Venus</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Venus", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            }, 
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Earth</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Earth", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            }, 
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Mars</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Mars", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Jupiter</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Jupiter", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            }, 
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Saturn</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Saturn", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            }, 
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Uranus</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Uranus", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            }, 
+            {   
+                "sentence_title":"Number the Planets in the Solar System",
+                "sentence":"Click on <b>Neptune</b>.", 
+                "imageMap":"galaxies/planets.imagemap",
+                "correctAnswer": "Neptune", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Fallo, Repasa con atencion!!"
+            },  
+            {   
+                "sentence_title": "Why the Earth is unique?",
+                "sentence":"The Earth is the [selectOption| ,fifth,third] planet from the Sun.<br>The Earth is the [selectOption| ,fifth-largest,fourth-largest] planet in the Solar System.<br>The Earth is a [selectOption| ,sphere,cube] , but is slightly flattened at the poles.<br>The Earth has a [selectOption| ,gaseous,solid] surface with mountains, valleys, plains,etc..", 
+                "correctAnswer": "The Earth is the third planet from the Sun.<br>The Earth is the fifth-largest planet in the Solar System.<br>The Earth is a sphere , but is slightly flattened at the poles.<br>The Earth has a solid surface with mountains, valleys, plains,etc..", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            }, 
+            {   
+                "sentence_title": "Rotation",
+                "sentence":"The Earth rotation, the Earth [selectOption| ,orbits aournd the Sun,spins on its own axis].<br>The Earth takes [selectOption| ,365 days,24 hours] to complete.<br>[selectOption| ,Day and night,Seasons] occurs because the Earth rotation movement.<br>It is daytime on the side of the Earth that [selectOption| ,faces away,faces] the Sun.<br>It is night time on the side of the Earth that [selectOption| ,faces away,faces] the Sun.", 
+                "correctAnswer": "The Earth rotation, the Earth spins on its own axis.<br>The Earth takes 24 hours to complete.<br>Day and night occurs because the Earth rotation movement.<br>It is daytime on the side of the Earth that faces the Sun.<br>It is night time on the side of the Earth that faces away the Sun.", 
+                "image": "games/images/earth_rotation.png",
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Revolution",
+                "sentence":"The Earth Revolution, the Earth [selectOption| ,orbits around the Sun,spins on its own axis].<br>The Earth takes [selectOption| ,365 days,24 hours] to complete.<br>[selectOption| ,Day and night,Seasons] occurs because the Earth Revolution movement.<br>In Winter the Northern Hemisphere is [selectOption| ,tilted away,tilted towards] from the Sun.<br>In Summer the Northern Hemisphere is [selectOption| ,tilted away,tilted towards] from the Sun", 
+                "correctAnswer": "The Earth Revolution, the Earth orbits around the Sun.<br>The Earth takes 365 days to complete.<br>Seasons occurs because the Earth Revolution movement.<br>In Winter the Northern Hemisphere is tilted away from the Sun.<br>In Summer the Northern Hemisphere is tilted towards from the Sun", 
+                "image": "games/images/earth_revolution.png",
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "What is the Moon like?",
+                "sentence":"In the Moon Rotation, the Moon [selectOption| ,orbits around the Earth,spins on its own axis].<br>The Moon rotation takes [selectOption| ,28 days,24 hours] to complete.", 
+                "correctAnswer": "In the Moon Rotation, the Moon spins on its own axis.<br>The Moon rotation takes 28 days to complete.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "What is the Moon like?",
+                "sentence":"In the Moon Revolution, the Moon [selectOption| ,orbits around the Earth,spins on its own axis].<br>The Moon revolution takes [selectOption| ,28 days,24 hours] to complete.", 
+                "correctAnswer": "In the Moon Revolution, the Moon orbits around the Earth.<br>The Moon revolution takes 28 days to complete.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "What is the Moon like?",
+                "sentence":"The Moon Revolution, the Moon [selectOption| ,orbits around the Earth,spins on its own axis].<br>The Moon revolution takes [selectOption| ,28 days,24 hours] to complete.", 
+                "correctAnswer": "The Moon Revolution, the Moon orbits around the Earth.<br>The Moon revolution takes 28 days to complete.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Moon phases",
+                "sentence":"The Moon does not emit its own light, it reflects light from the Sun.There are 4 phases:<br>Full moon: the side of the Moon lit by the Sun [selectOption| ,does not face,faces] the Earth.<br>New Moon: the side of the Moon lit by the Sun [selectOption| ,does not face,faces] the Earth.", 
+                "correctAnswer": "The Moon does not emit its own light, it reflects light from the Sun.There are 4 phases:<br>Full moon: the side of the Moon lit by the Sun faces the Earth.<br>New Moon: the side of the Moon lit by the Sun does not face the Earth.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Eclipses",
+                "sentence":"The image shows a [selectOption| ,Solar eclipse,Lunar eclipse] because the [selectOption| ,Earth,Moon] is between the [selectOption| ,Earth,Moon] and the Sun.<br>Part of the [selectOption| ,Earth,Moon] passes through the [selectOption| ,Earth,Moon] shadow.<br>From the Earth, it looks like the [selectOption| ,Sun,Earth,Moon] is going dark.", 
+                "correctAnswer": "The image shows a Solar eclipse because the Moon is between the Earth and the Sun.<br>Part of the Earth passes through the Moon shadow.<br>From the Earth, it looks like the Sun is going dark.", 
+                "image": "games/images/solar_eclipse.png",
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Eclipses",
+                "sentence":"The image shows a [selectOption| ,Solar eclipse,Lunar eclipse] because the [selectOption| ,Earth,Moon] is between the [selectOption| ,Sun,Earth,Moon] and the Moon.<br>The [selectOption| ,Earth,Moon] passes through the [selectOption| ,Earth,Moon] shadow.<br>From the Earth, it looks like the [selectOption| ,Sun,Earth,Moon] is gradually disappearing.", 
+                "correctAnswer": "The image shows a Lunar eclipse because the Earth is between the Sun and the Moon.<br>The Moon passes through the Earth shadow.<br>From the Earth, it looks like the Moon is gradually disappearing.", 
+                "image": "games/images/lunar_eclipse.png",
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Tides",
+                "sentence":"The Tide is the [selectOption| ,irregular,regular] rise and fall of the sea level.<br>It is caused by the [selectOption| ,Moon revolution movement,Moon gravitational push on the Earth].<br>High tide occurs when the water [selectOption| ,rises,falls] to its highest level.<br>Low tide occurs when the water [selectOption| ,rises,falls] to its lowest level.<br>There are about [inputText] hours between a high tide and low tide.", 
+                "correctAnswer": "The Tide is the regular rise and fall of the sea level.<br>It is caused by the Moon gravitational push on the Earth.<br>High tide occurs when the water rises to its highest level.<br>Low tide occurs when the water falls to its lowest level.<br>There are about six hours between a high tide and low tide.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": ""
+            }                                                                                      
+        ]
+}

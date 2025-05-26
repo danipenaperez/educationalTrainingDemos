@@ -1,0 +1,199 @@
+[
+    {
+        "id":"dancing_challenge",
+        "name":"El Reto de Bailes!!",
+        "description": "Questions and Test about Social science",
+        "success":[
+            {
+                "image": "/images/games/dancing_challengue/success/1.gif",
+                "phrase": "Eres un gran bailarin!!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/2.gif",
+                "phrase": "No hay quien te iguale!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/3.gif",
+                "phrase": "Naciste para bailar"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/4.gif",
+                "phrase": "Asi si, asi si!!!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/5.gif",
+                "phrase": "Mueve ese cuerpo!!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/6.gif",
+                "phrase": "!!Vamos a divertirnos!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/success/7.gif",
+                "phrase": "Ou yeaaaahhh!!!!"
+            }
+        ],
+        "fail": [
+            {
+                "image": "/images/games/dancing_challengue/fail/1.gif",
+                "phrase": "Asi no se puede!!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/2.gif",
+                "phrase": "Jajajaja, nunca lo conseguiras!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/3.gif",
+                "phrase": "Hasta una tortuga baila mejor que tú!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/4.gif",
+                "phrase": "anda, ponle algo mas de entusiasmo!!"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/5.gif",
+                "phrase": "No naciste para bailar??"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/6.gif",
+                "phrase": "Esos pasos de baile son muuuy raros, no?"
+            },
+            {
+                "image": "/images/games/dancing_challengue/fail/7.gif",
+                "phrase": "jajaja, me lo esperaba!!!"
+            }
+        ]
+    },
+    {
+        "id":"animals_adventure",
+        "name":"La aventura de los animales",
+        "description": "Alimenta a los animales para que crezcan fuertes!",
+        "success":[
+            {
+                "image": "/images/games/animales/success/1.gif",
+                "phrase": "!!Muy Bien <%=name%>!!"
+            },
+            {
+                "image": "/images/games/animales/success/2.gif",
+                "phrase": "!!Bien!! Te voy a rascar la barriga <%=name%>"
+            },
+            {
+                "image": "/images/games/animales/success/3.gif",
+                "phrase": "!!Bien!! ¿<%=name%> quieres un masajito ??"
+            },
+            {
+                "image": "/images/games/animales/success/4.gif",
+                "phrase": "!!Bien!! Me como las preguntas, tienes mas??"
+            },
+            {
+                "image": "/images/games/animales/success/5.gif",
+                "phrase": "!!Bien!! <%=name%> te traigo un regalito por haberlo hecho tan bien!!"
+            },
+            {
+                "image": "/images/games/animales/success/6.gif",
+                "phrase": "!!Bien!! Mas preguntas, mas preguntas ya!!!!!"
+            },
+            {
+                "image": "/images/games/animales/success/7.gif",
+                "phrase": "!!Bien!! ¿Quien me quiere , quien me quiere??"
+            }
+        ],
+        "fail":[
+            {
+                "image": "/images/games/animales/fail/1.gif",
+                "phrase": "!!Mal!! Ohhh pobrecilla"
+            },
+            {
+                "image": "/images/games/animales/fail/2.gif",
+                "phrase": "!!Mal!! anda, mejor dame un masajito"
+            },
+            {
+                "image": "/images/games/animales/fail/3.gif",
+                "phrase": "!!Mal!! Jiiii que mal lo haces <%=name%> !!"
+            },
+            {
+                "image": "/images/games/animales/fail/4.gif",
+                "phrase": "!!Mal!! Tu papá es mucho mas guapo que tu!!"
+            },
+            {
+                "image": "/images/games/animales/fail/5.gif",
+                "phrase": "!!Mal!! JAJAJA que mal lo haces!!"
+            },
+            {
+                "image": "/images/games/animales/fail/6.gif",
+                "phrase": "!!Mal!! No tienes ni idea ajjajaja!!"
+            },
+            {
+                "image": "/images/games/animales/fail/7.gif",
+                "phrase": "!!Mal!! No tienes ni idea ajjajaja!!"
+            }
+        ]
+        
+    },
+    {
+        "id":"zelda_adventure",
+        "name":"Salvar a la princesa Zelda",
+        "description": "Podras ayudar a la princesa Zelda?",
+        "success":[
+            {
+                "image": "/images/games/zelda/success/1.gif",
+                "phrase": "!!Bien!! La furia de <%=name%>"
+            },
+            {
+                "image": "/images/games/zelda/success/2.gif",
+                "phrase": "!!Bien!! <%=name%> acabará contigo!!"
+            },
+            {
+                "image": "/images/games/zelda/success/3.gif",
+                "phrase": "!!Bien!! !!TODOPODEROSO <%=name%> !!"
+            },
+            {
+                "image": "/images/games/zelda/success/4.gif",
+                "phrase": "!!Bien!! EL BIEN ACABARA CON EL MAL!"
+            },
+            {
+                "image": "/images/games/zelda/success/5.gif",
+                "phrase":  "!!Bien!! No ...soy...un ... bebéeee!!"
+            },
+            {
+                "image": "/images/games/zelda/success/6.gif",
+                "phrase": "!!Bien!! Mi poder no tiene final!"
+            },
+            {
+                "image": "/images/games/zelda/success/7.gif",
+                "phrase": "!!Bien!! Mi poder no tiene final!"
+            }
+        ]
+        ,"fail":[
+            {
+                "image": "/images/games/zelda/fail/1.gif",
+                "phrase": "!!Mal!! Eres un perdedor <%=name%>"
+            },
+            {
+                "image": "/images/games/zelda/fail/2.gif",
+                "phrase": "!!Mal!! <%=name%> no puedes luchar contra mi inteligencia superior"
+            },
+            {
+                "image": "/images/games/zelda/fail/3.gif",
+                "phrase": "!!Mal!! rebota rebota y en tu culo explota"
+            },
+            {
+                "image": "/images/games/zelda/fail/4.gif",
+                "phrase": "!!Mal!! Yo tengo el poder y tu no!"
+            },
+            {
+                "image": "/images/games/zelda/fail/5.gif",
+                "phrase": "!!Mal!! !! Acabare contigo <%=name%> !!"
+            },
+            {
+                "image": "/images/games/zelda/fail/6.gif",
+                "phrase": "!!Mal!! Hasta una tortuga pega mas fuerte que tú jajajjaaj"
+            },
+            {
+                "image": "/images/games/zelda/fail/7.gif",
+                "phrase": "!!Mal!! Hasta una tortuga pega mas fuerte que tú jajajjaaj"
+            }
+        ]
+    }
+
+    ]

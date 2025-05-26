@@ -38,13 +38,16 @@ var modal ={
         $(this.contentSelector).html(content);
 
     },
+    updateContent: function(content){
+        $(this.contentSelector).html(content);
+
+    },
     onCloseModal:function(){
         $(this.contentSelector).html('');
         $('#'+this.id+'Long').modal('hide');
         $(document.body).removeClass('modal-open');
         $('.modal-backdrop').remove();
 
-        
         if(this.currentCallBack)
             this.currentCallBack();
         else

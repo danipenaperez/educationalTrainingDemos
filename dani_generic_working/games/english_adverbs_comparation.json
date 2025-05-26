@@ -1,0 +1,167 @@
+{
+    "title": "Adverbs Comparative",
+    "questions":
+        [
+            {   
+                "sentence_title":"Comparative Adverbs",
+                "sentence":"I can run (fast) [selectOption| ,more fast,faster,fastest] than last year.", 
+                "correctAnswer": "I can run (fast) faster than last year.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png", 
+                "help": "Primero indentifica: ¿Es comparativa o superlativa? \n Segundo es un adverbio ¿terminado en -ly, es de tipo corto o es irregular?",
+                "explanation": "La frase es <b>comparativa</b> porque compara como corro ahora y como corria el año pasado (last year)",
+                "explanationExtended": "Fast (rapido) es de tipo corto, asi que el comparativo para tipos cortos es añadiendo <b>er</b>, con lo cual es <b>faster than</b>"
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "She can swim (well) [selectOption| ,more well,better,best] than before.",
+                "correctAnswer": "She can swim (well) better than before.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "Primero identifica: ¿Es comparativa o superlativa? \n Luego, ¿es un adverbio regular o irregular?",
+                "explanation": "La frase es <b>comparativa</b> porque compara cómo nada ahora con cómo nadaba antes (before).",
+                "explanationExtended": "El adverbio <b>well</b> es irregular, y su forma comparativa es <b>better</b>, por eso la forma correcta es <b>better than</b>."
+            },{
+                "sentence_title": "Superlative Adverbs",
+                "sentence": "Of all the swimmers, she swims (well) [selectOption| ,more well,better,the best] in the team.",
+                "correctAnswer": "Of all the swimmers, she swims (well) the best in the team.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/superlative_table.png",
+                "help": "¿Estás comparando entre dos personas o entre un grupo entero? \n Revisa si el adverbio es regular o irregular.",
+                "explanation": "Esta es una oración <b>superlativa</b> porque se compara a una persona con todo un grupo (all the swimmers).",
+                "explanationExtended": "El adverbio <b>well</b> es irregular. Su forma superlativa es <b>the best</b>. Por eso la forma correcta es: <b>she swims the best</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Swans fly (fast) [selectOption| ,faster,fastest,more fast] than eagles.",
+                "correctAnswer": "Swans fly (fast) faster than eagles.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "Identifica si es una comparación entre dos sujetos o una afirmación general. Luego decide si el adverbio es corto, largo o irregular.",
+                "explanation": "La oración es <b>comparativa</b> porque compara cómo vuelan los cisnes en relación con las águilas.",
+                "explanationExtended": "El adverbio <b>fast</b> es de tipo corto, así que se forma el comparativo añadiendo <b>-er</b>: <b>faster</b>. Por eso, la forma correcta es: <b>Swans fly faster than eagles</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Swans fly (fast) [selectOption| ,faster,fastest,more fast] than eagles.",
+                "correctAnswer": "Swans fly (fast) faster than eagles.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "Identifica si es una comparación entre dos sujetos o una afirmación general. Luego decide si el adverbio es corto, largo o irregular.",
+                "explanation": "La oración es <b>comparativa</b> porque compara cómo vuelan los cisnes en relación con las águilas.",
+                "explanationExtended": "El adverbio <b>fast</b> es de tipo corto, así que se forma el comparativo añadiendo <b>-er</b>: <b>faster</b>. Por eso, la forma correcta es: <b>Swans fly faster than eagles</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Sam swims [selectOption| ,faster,fastest,more fast] than Susie",
+                "correctAnswer": "Sam swims faster than Susie",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_swams.png",
+                "help": "Identifica si es una comparación entre dos sujetos o una afirmación general. \n Luego decide si el adverbio es corto, largo o irregular.",
+                "explanation": "La oración es <b>comparativa</b> porque compara quien nada mejor, si Sam Sussie o Sarah.",
+                "explanationExtended": "El adverbio <b>fast</b> es de tipo corto, así que se forma el comparativo añadiendo <b>-er</b>: <b>faster</b>. Por eso, la forma correcta es: <b>Sam fly faster than Sussie</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Sarah swims [selectOption| ,faster,the fastest,more fast]",
+                "correctAnswer": "Sarah swims the fastest",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_swams.png",
+                "help": "Identifica si es una comparación entre dos sujetos o una afirmación general. \n Luego decide si el adverbio es corto, largo o irregular.",
+                "explanation": "La oración es <b>superlativa</b> porque dice que Sarah es la que mejor nada (swims).",
+                "explanationExtended": "El adverbio <b>fast</b> es de tipo corto, así que se forma el comparativo añadiendo <b>-est</b>: <b>fastest</b>. Por eso, la forma correcta es: <b>Sarah swims the fastest</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Sam flies (well) [selectOption| ,more well,better,best] than Sarah.",
+                "correctAnswer": "Sam flies (well) better than Sarah.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "¿Se está comparando entre dos sujetos? ¿Es un adverbio regular o irregular?",
+                "explanation": "La oración es <b>comparativa</b> porque compara a Sam con Sarah.",
+                "explanationExtended": "<b>Well</b> es un adverbio irregular y su forma comparativa es <b>better</b>. Por eso, la forma correcta es: <b>flies better than</b>."
+            },
+            {
+                "sentence_title": "Superlative Adverbs",
+                "sentence": "Of all three, Sam flies (well) [selectOption| ,the better,the best,better] of all.",
+                "correctAnswer": "Of all three, Sam flies (well) the best of all.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/superlative_table.png",
+                "help": "¿Se está comparando con un grupo? ¿Qué forma tiene el superlativo del adverbio 'well'?",
+                "explanation": "La oración es <b>superlativa</b> porque compara a Sam con todos los demás.",
+                "explanationExtended": "El adverbio <b>well</b> es irregular y su forma superlativa es <b>the best</b>. Por eso se dice: <b>flies the best</b>."
+            },
+            {
+                "sentence_title": "Superlative Adverbs",
+                "sentence": "Susie flies (badly) [selectOption| ,the worst,worst,more badly] of all.",
+                "correctAnswer": "Susie flies (badly) the worst of all.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/superlative_table.png",
+                "help": "¿Es una comparación entre varios? 'Badly' es un adverbio irregular.",
+                "explanation": "La frase compara a Susie con los demás y muestra que vuela peor que todos.",
+                "explanationExtended": "El adverbio <b>badly</b> tiene una forma superlativa irregular: <b>the worst</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Susie sings (beautifully) [selectOption| ,more beautifully,beautifuler,beautifully] than Sam.",
+                "correctAnswer": "Susie sings (beautifully) more beautifully than Sam.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "¿El adverbio termina en -ly? Si es así, su comparativo se forma con 'more'.",
+                "explanation": "La oración compara la manera de cantar de Susie con la de Sam, por eso es comparativa.",
+                "explanationExtended": "El adverbio <b>beautifully</b> termina en -ly, por lo que el comparativo se forma con <b>more</b>. Así que: <b>more beautifully than</b> es correcto."
+            },
+            {
+                "sentence_title": "Superlative Adverbs",
+                "sentence": "Of all three, Susie sings (beautifully) [selectOption| ,the most beautifully,most beautifully,more beautifully] of all.",
+                "correctAnswer": "Of all three, Susie sings (beautifully) the most beautifully of all.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/superlative_table.png",
+                "help": "Para adverbios terminados en -ly, el superlativo se forma con 'the most'.",
+                "explanation": "Se compara la habilidad de cantar de Susie con la de los otros dos.",
+                "explanationExtended": "El adverbio <b>beautifully</b> es largo y termina en -ly, por eso el superlativo se forma con <b>the most</b>: <b>the most beautifully</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Sarah sings (badly) [selectOption| ,more badly,worser,worse] than Susie.",
+                "correctAnswer": "Sarah sings (badly) worse than Susie.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "¿Es un adverbio irregular? Revisa si 'worse' es correcto.",
+                "explanation": "Se compara la manera de cantar de Sarah con la de Susie.",
+                "explanationExtended": "El adverbio <b>badly</b> es irregular, su forma comparativa es <b>worse</b>."
+            },
+            {
+                "sentence_title": "Comparative Adverbs",
+                "sentence": "Sarah eats (noisily) [selectOption| ,more noisily,noisiier,noisiest] than Sam.",
+                "correctAnswer": "Sarah eats (noisily) more noisily than Sam.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/comparative_table.png",
+                "help": "El adverbio termina en -ly, así que para el comparativo usamos 'more'.",
+                "explanation": "La frase compara cómo come Sarah y Sam, por eso es una comparación.",
+                "explanationExtended": "El adverbio <b>noisily</b> termina en -ly, por lo que su forma comparativa se forma con <b>more</b>: <b>more noisily than</b>."
+            },
+            {
+                "sentence_title": "Superlative Adverbs",
+                "sentence": "Of all three, Susie eats (quietly) [selectOption| ,most quietly,the most quietly,more quietly] of all.",
+                "correctAnswer": "Of all three, Susie eats (quietly) the most quietly of all.",
+                "timeout": 120,
+                "image": "games/images/english_adverbs/superlative_table.png",
+                "help": "Para adverbios terminados en -ly, el superlativo se forma con 'the most'.",
+                "explanation": "La frase muestra que Susie es la que come con mayor silencio.",
+                "explanationExtended": "El adverbio <b>quietly</b> termina en -ly, por eso el superlativo es <b>the most quietly</b>."
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+       ]
+}

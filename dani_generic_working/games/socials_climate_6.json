@@ -1,0 +1,405 @@
+
+{
+    "sentence_title": "Climates",
+    "questions":
+        [
+            {   
+                "sentence_title": "What are Earth's climate like?",
+                "sentence":"The Earth is divided into [selectOption| ,four,five] zones: One [inputText] zone two [inputText] zones and two cold zones.", 
+                "correctAnswer": "The Earth is divided into five zones: One hot zone two temperature zones and two cold zones.", 
+                "timeout": 120, 
+                "explanation": "La tierra se divide en 5 (five) zones, una hot zone (que es la que esta en el equator), dos cold zones (cerca de los polos) y dos temperature zones que son las que quedan entre cada polo y la cold zone de su polo ",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Hot Climates",
+                "sentence":"The hot zone lies between the [selectOption| ,North Pole and the South Pole,Tropic of Capricorn,Tropic of Cancer and the Tropic of Capricorn]. <BR> The Sun's rays reach this zone [selectOption| ,perpendicularly,indirectly] all year. <br> For this reason the temperatures are [selectOption| ,low,high].", 
+                "correctAnswer": "The hot zone lies between the Tropic of Cancer and the Tropic of Capricorn. <BR> The Sun's rays reach this zone perpendicularly all year. <br> For this reason the temperatures are high.", 
+                "timeout": 120, 
+                "help": " hot : caliente \n reach: impactar",
+                "explanation": "La Hot zone esta en el equator y termina por arriba hasta el tropico de Cancer y por debajo hasta el Tropico de Capricornio.",
+                "explanationExtended": "Los rayos del sol (Sun rays) impacta (reach) directamente, por eso la temeperatura es siempre alta (high)"
+            },
+            {   
+                "sentence_title": "Hot Climates Types",
+                "sentence":"There are different types of hot climates: Equatorial Climate, [inputText] climate and [inputText] climate.", 
+                "correctAnswer": "There are different types of hot climates: Equatorial Climate, Tropical climate and Desert climate.", 
+                "timeout": 120, 
+                
+                "explanation": "Hay 3 tipos de hot climates: Equatorial, Tropical y Desert Climates",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Hot Climates Types",
+                "sentence":"Equatorial Climate : average annual temperature is [selectOption| ,25 ºC (litte different in every season),above 20 ºC].<br> Precipitation is [selectOption| ,scarce (less than 250 mm per year),regular and abundant (over 2.000 mm per year)]", 
+                "correctAnswer": "Equatorial Climate : average annual temperature is 25 ºC (litte different in every season).<br> Precipitation is regular and abundant (over 2.000 mm per year)", 
+                "timeout": 120, 
+                "help": " temperature average : temperatura media \n above: encima de \n over: cercano a \n scarce: escaso",
+                "explanation": "El clima ecuatorial tiene una temperatura media de 25ºC (en cada estacion del año puede cambiar pero siempre esta cerca)",
+                "explanationExtended": "La precipitacion es regular (constante) y abundante todo el año). Cae una cantidad cercana a 2,000 mm al año"
+            },
+            {   
+                "sentence_title": "Hot Climates Types",
+                "sentence":"Tropical Climate : average annual temperature is [selectOption| ,25 ºC (litte different in every season),above 20 ºC].<br> Precipitation is [selectOption| ,scarce (less than 250 per year),falls mostly in one web season (less than 2.000 mm per year)]", 
+                "correctAnswer": "Tropical Climate : average annual temperature is above 20 ºC.<br> Precipitation is falls mostly in one web season (less than 2.000 mm per year)", 
+                "timeout": 120, 
+                "help": " temperature average : temperatura media \n above: encima de \n over: cercano a \n scarce: escaso \n wet: humedo",
+                "explanation": "El clima tropical tiene una temperatura media cercana (over) a 20 ºC. ",
+                "explanationExtended": "La precipitacion se produce solo las estaciones humedas (wet) Primavera y Otoño. Cae menos (less) de 2.000 mm al año (per year)"
+            },
+            {   
+                "sentence_title": "Hot Climates Types",
+                "sentence":"Desert Climate : average annual temperature is [selectOption| ,above 20 ºC,above 20 ºC  but change at day and night].<br> Precipitation is [selectOption| ,scarce (less than 250 mm per year),falls mostly in one web season (less than 2,000 mm per year)]", 
+                "correctAnswer": "Desert Climate : average annual temperature is above 20 ºC  but change at day and night.<br> Precipitation is scarce (less than 250 mm per year)", 
+                "timeout": 120, 
+                "help": " temperature average : temperatura media \n above: encima de \n over: cercano a \n scarce: escaso \n wet: humedo",
+                "explanation": "El clima desertico tiene una temperatura media cercana (over) a 20 ºC pero puede variar por la noche. ",
+                "explanationExtended": "La precipitacion es escasa (scarce) todo el año. Cae menos (less) de 250 mm al año (per year)"
+            },
+
+            {   
+                "sentence_title": "How does climate influence landscapes?",
+                "sentence":"Temperatures are lower nearer the Equator: [selectOption| ,true,false].<br>Polar Regions are very cold becasuse they get very little direct sunlight: [selectOption| ,true,false].<br>Temperatures decrease as altitude increases: [selectOption| ,true,false].<br> Areas far from the sea have milder climate than coastal areas: [selectOption| ,true,false].", 
+                "correctAnswer": "Temperatures are lower nearer the Equator: false.<br>Polar Regions are very cold becasuse they get very little direct sunlight: true.<br>Temperatures decrease as altitude increases: true.<br> Areas far from the sea have milder climate than coastal areas: false.", 
+                "timeout": 120, 
+                "help": " lower temperature : temperatura baja \n near: cerca \n decrease: disminuir a \n increase: aumentar \n coastal: costas \n far: lejanas",
+                "explanation": "Las temperaturas cerca (near) del Equator son mas altas (high) recuerda que esa es la Hot Zone.",
+                "explanationExtended": "Las Areas lejos (far) de la costa no tienen temperatura media (milder), son las de la costa (coastal) las que tienen temperatura media (milder)"
+            },
+            {   
+                "sentence_title": "Temperature Climates Types",
+                "sentence":"Temperature zones lies between [selectOption| ,the tropics and the polar circles,the tropics and the equator].<br> Temperatures [selectOption| ,changes in every season,are always lower].<br> There are 3 Temperature climates: Mediterranean,[inputText] and [inputText] climate.", 
+                "correctAnswer": "Temperature zones lies between the tropics and the polar circles.<br> Temperatures changes in every season.<br> There are 3 Temperature climates: Mediterranean,oceanic and continental climate.", 
+                "timeout": 120, 
+                "help": " lies between : se encuentran entre ",
+                "explanation": "Hay 2 temperature zones, que estan entre cada tropico y el polo de su emisferio. ",
+                "explanationExtended": "Dentro de la temperature zone encontramos 3 tipos de climas distintos: Mediterraneo, oceanico y continental"
+            },
+            {   
+                "sentence_title": "Temperature Climates Types (Mediterranean)",
+                "sentence":"Mediterranean Climate Temperatures [selectOption| ,are mild in winter and high in summer, are mild all year,are very low in winter and high in summer].<br> Precipiation is [selectOption| ,irregular and scarce (300/900 mm year) summer drougth,regular and abundat 1000 all year, it rains mostly in the summer (500 mm per year)].", 
+                "correctAnswer": "Mediterranean Climate Temperatures are mild in winter and high in summer.<br> Precipiation is irregular and scarce (300/900 mm year) summer drougth.", 
+                "timeout": 120, 
+                "help": " summer drougth : sequia de verano ",
+                "explanation": "El clima mediterraneo la temperatura es alta (high) en verano (summer) y media (mild) en invierno (winter)",
+                "explanationExtended": "La precipitacion es irregular durante el año, es escasa (scarce) y hay sequia en verano (summer drougth)"
+            },
+            {   
+                "sentence_title": "Temperature Climates Types (Mediterranean)",
+                "sentence":"Oceanic Climate Temperatures [selectOption| ,are mild in winter and high in summer, are mild all year,are very low in winter and high in summer].<br> Precipiation is [selectOption| ,irregular and scarce (300/900 mm year) summer drougth,regular and abundat 1000 all year, it rains mostly in the summer (500 mm per year)].", 
+                "correctAnswer": "Oceanic Climate Temperatures  are mild all year.<br> Precipiation is regular and abundat 1000 all year.", 
+                "timeout": 120, 
+                "help": " summer drougth : sequia de verano ",
+                "explanation": "El clima oceanico la temperatura es media (mild) porque esta en las costas",
+                "explanationExtended": "La precipitacion es regular (constante) y abundate todo el año"
+            },
+            {   
+                "sentence_title": "Temperature Climates Types (Mediterranean)",
+                "sentence":"Continental Climate Temperatures [selectOption| ,are mild in winter and high in summer, are mild all year,are very low in winter and high in summer].<br> Precipiation is [selectOption| ,irregular and scarce (300/900 mm year) summer drougth,regular and abundat 1000 all year, it rains mostly in the summer (500 mm per year)].", 
+                "correctAnswer": "Continental Climate Temperatures are very low in winter and high in summer.<br> Precipiation is  it rains mostly in the summer (500 mm per year).", 
+                "timeout": 120, 
+                "help": " summer drougth : sequia de verano \n rain mostly: llueve mayormente en ",
+                "explanation": "El clima continental se refiere a las zonas que estan dentro de la peninsula. Aqui la temeperatura cambia mucho es alta (high) en verano (summer) y muy baja (very low) en invierno (winter)",
+                "explanationExtended": "La precipitacion es casi todo (mostly) en verano (verano) 500 mm al año."
+            },
+            {   
+                "sentence_title": "Cold Climates Types",
+                "sentence":"Cold zones are located [selectOption| ,between the tropics and the polar circles,in the polar cicles and high mountains].", 
+                "correctAnswer": "Cold zones are located in the polar cicles and high mountains.", 
+                "timeout": 120, 
+                "explanation": "Las Cold Zones (Zonas frias) son los polos y las montañas ",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Cold Climates Types",
+                "sentence":"There are 2 Cold zones : the [inputText] and [inputText] climate.", 
+                "correctAnswer": "There are 2 Cold zones : the polar and mountain climate.", 
+                "timeout": 120, 
+                "explanation": "Las Cold Zones (Zonas frias) son los polos y las montañas ",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Cold Climates Zones",
+                "sentence":"Polar Climate temperatures [selectOption| ,are very low in winter and cool in summer,are the lower on the planet (can reach -80ºC)].<br>Precipitation is [selectOption| ,very scarce,abundant and often snows].", 
+                "correctAnswer": "Polar Climate temperatures are the lower on the planet (can reach -80ºC)].<br>Precipitation is very scarce.", 
+                "timeout": 120, 
+                "explanation": "El clima polar tienen las temperaturas mas bajas (lowest) del planeta (-80ºC) y casi no llueve (scarce)",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Cold Climates Zones",
+                "sentence":"Mountain Climate temperatures [selectOption| ,are very low in winter and cool in summer,are the lower on the planet (can reach -80ºC)].<br>Precipitation is [selectOption| ,very scarce,abundant and often snows].", 
+                "correctAnswer": "Mountain Climate temperatures are very low in winter and cool in summer.<br>Precipitation is abundant and often snows.", 
+                "timeout": 120, 
+                "explanation": "La temperatura en las montañas (Guadarrama) en verano es alta (high) y en invierno es baja (low) y ademas llueve mucho (abundant) y nieva (snows)",
+                "explanationExtended": ""
+            },
+
+            {   
+                "sentence_title": "Landscapes",
+                "sentence":"Landscapes in the hot zone are [selectOption| ,polar and mountain,rainforest savannah and desert, mediterranean oceanic and continental] landscapes.", 
+                "correctAnswer": "Landscapes in the hot zone are rainforest savannah and desert landscapes.", 
+                "timeout": 120, 
+                "explanation": "Los paisajes (landscapes) que se encuentra en la hot zone son Rainforest (selvas) , savannah y desert (desiertos)",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Landscapes",
+                "sentence":"Landscapes in the temperature zone are [selectOption| ,polar and mountain,rainforest savannah and desert, mediterranean oceanic and continental] landscapes.", 
+                "correctAnswer": "Landscapes in the temperature zone are  mediterranean oceanic and continental landscapes.", 
+                "timeout": 120, 
+                "explanation": "Los paisajes (landscapes) que se encuentra en la temperature zone son el Mediterraneo, Oceanico y el Continental",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Landscapes",
+                "sentence":"Landscapes in the Cold zone are [selectOption| ,polar and mountain,rainforest savannah and desert, mediterranean oceanic and continental] landscapes.", 
+                "correctAnswer": "Landscapes in the Cold zone are polar and mountain landscapes.", 
+                "timeout": 120, 
+                "explanation": "Los paisajes (landscapes) que se encuentra en la Zona Polar zone son el Polar y el Montañoso (mountain) Landscape",
+                "explanationExtended": ""
+            },
+            {   
+                "sentence_title": "Hot Zones Landscapes",
+                "sentence":"Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> RainForest Location [selectOption| ,areas close to the equator: Amazon South American and Congo, between Tropic of cancer and Capricorn (mainly Africa),between Tropic of cancer and Capricorn (Northern Africa)]<br> RainForest Vegetation [selectOption| ,are large extensions of grassland with shrubs and trees,are two types: sandy deserts with dunes and rocky deserts wit rocks,evergreen trees]<br> RainForest Population [selectOption| ,few people live here excesive heat and humidity difficults to live here,are unhabited,peole live near the coast and rivers work in crop and livestock farming]", 
+                "correctAnswer": "Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> RainForest Location areas close to the equator: Amazon South American and Congo<br> RainForest Vegetation evergreen trees<br> RainForest Population few people live here excesive heat and humidity difficults to live here", 
+                "timeout": 120, 
+                "explanation": "Los Rainforest (Selvas) estan cerca del equador y generan rios con mucho caudal como el Amazonas, y el rio Congo.<br>La vegetacion es abundante sobre todo son evergreen trees (árboles de hoja perenne).",
+                "explanationExtended": "La poblacion es baja (few people) ya que la humedad y el calor dificultan vivir alli"
+            },
+            {   
+                "sentence_title": "Hot Zones Landscapes",
+                "sentence":"Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> Savannah Location [selectOption| ,areas close to the equator: Amazon South American and Congo, between Tropic of cancer and Capricorn (mainly Africa),between Tropic of cancer and Capricorn (Northern Africa)]<br> Savannah Vegetation [selectOption| ,are large extensions of grassland with shrubs and trees,are two types: sandy deserts with dunes and rocky deserts wit rocks,evergreen trees]<br> Savannah Population [selectOption| ,few people live here excesive heat and humidity difficults to live here,are unhabited,peole live near the coast and rivers work in crop and livestock farming]", 
+                "correctAnswer": "Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> Savannah Location  between Tropic of cancer and Capricorn (mainly Africa)<br> Savannah Vegetation are large extensions of grassland with shrubs and trees<br> Savannah Population peole live near the coast and rivers work in crop and livestock farming", 
+                "timeout": 120, 
+                "explanation": "Las Savannah son largas praderas (grassland) con shrubs (arbustos). La gente de la savannah vive cerca de las costas o los rios porque hay agua y trabajan en cultivos (crop) y granjas (livestock farms) .",
+                "explanationExtended": "Las savannahs tiene vegetacion verde en estaciones humedas (wet season) y la vegetacion se seca en las estaciones secas como el verano (dry season) "
+            },
+            {   
+                "sentence_title": "Hot Zones Landscapes",
+                "sentence":"Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> Deserts Location [selectOption| ,areas close to the equator: Amazon South American and Congo, between Tropic of cancer and Capricorn (mainly Africa),between Tropic of cancer and Capricorn (Northern Africa)]<br> Deserts Vegetation [selectOption| ,are large extensions of grassland with shrubs and trees,are two types: sandy deserts with dunes and rocky deserts wit rocks,evergreen trees]<br> Deserts Population [selectOption| ,few people live here excesive heat and humidity difficults to live here,are unhabited,peole live near the coast and rivers work in crop and livestock farming]", 
+                "correctAnswer": "Landscapes in the Hot Zone are RainForest, Savannah and Deserts.<br> Deserts Location between Tropic of cancer and Capricorn (Northern Africa)<br> Deserts Vegetation are two types: sandy deserts with dunes and rocky deserts wit rocks<br> Deserts Population are unhabited", 
+                "timeout": 120, 
+                "explanation": "Los desiertos sobre todo estan en el norte de Africa (North africa) y hay 2 tipos desiertos de arena (sandy deserts) con dunas y desiertos de rocas (rocky deserts)",
+                "explanationExtended": "Estan deshabitados (unhabited), la vegetacion es escasa (scarce)"
+            },
+
+            {   
+                "sentence_title": "Temperature Zones Landscapes",
+                "sentence":"Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Mediterranean Location [selectOption| , are found far from the sea in inland areas,are found along the western and northern coasts of Europe and in NorthAmerica, are found around the Mediterranean Sea]<br> Mediterranean Vegetation [selectOption| ,pines holm oaks and cork oaks, meadows - decidous forests and moorland, Taiga in clodest areas and grassland and steppes in warmer areas]<br> Mediterranean Population are highly humaised because the mild climate is favourable for human life.", 
+                "correctAnswer": "Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Mediterranean Location  are found around the Mediterranean Sea<br> Mediterranean Vegetation pines holm oaks and cork oaks<br> Mediterranean Population are highly humaised because the mild climate is favourable for human life.", 
+                "timeout": 120, 
+                "explanation": "El Mediterraean Landscape se encuentra alrededor del mar Mediterraneo. La vegeation es abundante, sobretodo pinos (pines), holm oaks (encinas) y cork oaks (alcornoques).",
+                "explanationExtended": "Estan altamente poblados (highly humanised) porque las temperaturas medias (mild climate ) son favorables para vivir aqui"
+            },
+            {   
+                "sentence_title": "Temperature Zones Landscapes",
+                "sentence":"Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Oceanic Climate Location [selectOption| , are found far from the sea in inland areas,are found along the western and northern coasts of Europe and in NorthAmerica, are found around the Mediterranean Sea]<br> Oceanic Vegetation [selectOption| ,pines holm oaks and cork oaks, meadows - decidous forests and moorland, Taiga in coldest areas and grassland and steppes in warmer areas]. <br>Landscape is transformed, many forest have been cut down to clear land for cities, roads.", 
+                "correctAnswer": "Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Oceanic Climate Location are found along the western and northern coasts of Europe and in NorthAmerica<br> Oceanic Vegetation  meadows - decidous forests and moorland<br> Mediterranean Population are highly humaised because the mild climate is favourable for human life. <br>Landscape is transformed, many forest have been cut down to clear land for cities, roads.", 
+                "timeout": 120, 
+                "explanation": "El Oceanic Landscape se encuentra en las costas de Europa y Norte America.<br> La vegetacion es abundante hay prados (meadows) en las costas y tambien deciduous forest y morland",
+                "explanationExtended": "Estan altamente poblados (highly humanised) porque las temperaturas medias (mild climate ) son favorables para vivir aqui"
+            },
+            {   
+                "sentence_title": "Temperature Zones Landscapes",
+                "sentence":"Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Continental Climate Location [selectOption| , are found far from the sea in inland areas,are found along the western and northern coasts of Europe and in NorthAmerica, are found around the Mediterranean Sea]<br> Continental Vegetation [selectOption| ,pines holm oaks and cork oaks, meadows - decidous forests and moorland, Taiga in coldest areas and grassland and steppes in warmer areas]<br> The grasslands are the most populated and therefore the most populated landscapes (with cities, crop farming and livestock farming)", 
+                "correctAnswer": "Landscapes in the Temperature Zone are Mediterranean, Oceanic and Continental.<br> Continental Climate Location  are found far from the sea in inland areas<br> Continental Vegetation  Taiga in coldest areas and grassland and steppes in warmer areas<br> The grasslands are the most populated and therefore the most populated landscapes (with cities, crop farming and livestock farming)", 
+                "timeout": 120, 
+                "explanation": "El Continental Landscape se refiere a las zonas de interior lejos lejos (far from the sea) de las costas y de los mares. En las zonas frias (montañosas) hay Taigas (que son bosques de arboles altos) y en las zonas mas calidas hay grassland (praderas) steppes (estepas)  ",
+                "explanationExtended": "Estan altamente poblados (highly humanised) porque las temperaturas medias (mild climate ) son favorables para vivir aqui"
+            },
+
+            {   
+                "sentence_title": "How does climate influence landscapes",
+                "sentence":"Temperatures are lower nearer the Equator [selectOption| ,false,true].<br>Polar regions are very cold because the get very little direct sunlight [selectOption| ,false,true].<br>Temperatures decrease as altitude increases [selectOption| ,false,true].<br>Areas far from the sea have milder climate than coastal areas [selectOption| ,false,true].", 
+                "correctAnswer": "Temperatures are lower nearer the Equator false.<br>Polar regions are very cold because the get very little direct sunlight true.<br>Temperatures decrease as altitude increases true.<br>Areas far from the sea have milder climate than coastal areas false.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"Natural Landscapes [selectOption| ,people work mainly in the secondary sector,people work maily in the primary sector, have more human features, have more physical features, people work mainly in the service and secondary sectors]", 
+                "correctAnswer": "Natural Landscapes people work maily in the primary sector", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"Humanised Landscapes [selectOption| ,people work mainly in the secondary sector,people work maily in the primary sector,have more human features,have more physical features,people work mainly in the service and secondary sectors]", 
+                "correctAnswer": "Humanised Landscapes have more human features", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"In rural Landscapes [selectOption| ,people work mainly in the secondary sector,people work maily in the primary sector,have more human features,have more physical features,people work mainly in the service and secondary sectors]", 
+                "correctAnswer": "In rural Landscapes people work mainly in the secondary sector", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"In industrial Landscapes [selectOption| ,people work mainly in the secondary sector,people work maily in the primary sector,have more human features,have more physical features,people work mainly in the service and secondary sectors]", 
+                "correctAnswer": "In industrial Landscapes people work mainly in the service and secondary sectors", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"In urban Landscapes [selectOption| ,people work mainly in the secondary sector,people work maily in the primary sector,have more human features,have more physical features,people work mainly in the service and secondary sectors]", 
+                "correctAnswer": "In urban Landscapes have more physical features", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Population in landscapes",
+                "sentence":"The [selectOption| ,tropical,desert] climate has scarce precipitation.<br>The [selectOption| ,ocenic,mediterranean] climate has summer droughts.<br>The [selectOption| ,polar,mountain] climate has the lowest temperatures on the planet.<br>The [selectOption| ,continental,equatorial] climate is located in the temperature zone.", 
+                "correctAnswer": "The desert climate has scarce precipitation.<br>The mediterranean climate has summer droughts.<br>The polar climate has the lowest temperatures on the planet.<br>The continental climate is located in the temperature zone.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Climate",
+                "sentence":"Based on the image:<br> Temperatures [selectOption| ,changes in every season,are hot during all year].<br> Precipitation [selectOption| ,is abundat during all year (over 2.000m),is scarce].<br> What climate is represented in the climate graph? [selectOption| ,Mountain,Oceanic,Mediterranean].", 
+                "image": "games/images/climate_diagraph.png",
+                "correctAnswer": "Based on the image:<br> Temperatures are hot during all year.<br> Precipitation is abundat during all year (over 2.000m).<br> What climate is represented in the climate graph? Mediterranean.", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Climate",
+                "sentence": "Write correctly",
+                "sentenceReorder":"precipitation Deserts areas little that receive are very", 
+                "correctAnswer": "Deserts are areas that receive very little precipitation", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Climate",
+                "sentence": "Write correctly",
+                "sentenceReorder":"are areas Rainforests tall trees mostly evergreen of", 
+                "correctAnswer": "Rainforests are areas of tall mostly evergreen trees", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Climate",
+                "sentence": "Write correctly",
+                "sentenceReorder":"deserts, There two rocky types of hot are sandy and", 
+                "correctAnswer": "There are two types of hot deserts, sandy and rocky", 
+                "timeout": 120, 
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "Climate",
+                "sentence": "There Great European [inputText] is an extensive plain the centre of the continent.<br> It is surrounded by [inputText] ranges to the north and south.<br> The [inputText] mountains make up Europe's natural border with Asia.<br> The [inputText] is Europe's higest peak. Europe has a very long and irregular [inputText].<br> Significant coastal landforms include: [inputText], islands, [inputText] and gulfs.",
+                "correctAnswer": "There Great European Plain is an extensive plain the centre of the continent.<br> It is surrounded by Mountain ranges to the north and south.<br> The Ural mountains make up Europe's natural border with Asia.<br> The Elbrus is Europe's higest peak. Europe has a very long and irregular coastline.<br> Significant coastal landforms include: peninsulas, islands, capes and gulfs.", 
+                "timeout": 120, 
+                "help": "Ural \n capes \n Plain \n peninsulas \n mountain \n coastline \n Elbrus",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "Rivers of Mediterranean Sea are : [selectOption| ,Dnieper - Don - Danube,Ebro - Po- Rhane,Vistula - Oder- Rhine,Pechora - Northern Dvina,Volga - Urel].",
+                "correctAnswer": "Rivers of Mediterranean Sea are : Ebro - Po- Rhane.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "Rivers of Black Sea are : [selectOption| ,Dnieper - Don - Danube,Ebro - Po- Rhane,Vistula - Oder- Rhine,Pechora - Northern Dvina,Volga - Urel].",
+                "correctAnswer": "Rivers of Black Sea are : Dnieper - Don - Danube.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "Rivers of Atlantic Ocean are : [selectOption| ,Dnieper - Don - Danube,Ebro - Po- Rhane,Vistula - Oder- Rhine,Pechora - Northern Dvina,Volga - Urel].",
+                "correctAnswer": "Rivers of Atlantic Ocean are : Vistula - Oder- Rhine.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "Rivers of Artic Ocean are : [selectOption| ,Dnieper - Don - Danube,Ebro - Po- Rhane,Vistula - Oder- Rhine,Pechora - Northern Dvina,Volga - Urel].",
+                "correctAnswer": "Rivers of Artic Ocean are : Pechora - Northern Dvina.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "Rivers of Caspian Sea are : [selectOption| ,Dnieper - Don - Danube,Ebro - Po- Rhane,Vistula - Oder- Rhine,Pechora - Northern Dvina,Volga - Urel].",
+                "correctAnswer": "Rivers of Caspian Sea are : Volga - Urel.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The rivers of Europe",
+                "sentence": "In Mediterranean landscapes, temperatures are [selectOption| ,cold,hot] in summer and mild in winter. Precipitation is [selectOption| ,scarce,abundant].",
+                "correctAnswer": "In Mediterranean landscapes, temperatures are hot in summer and mild in winter. Precipitation is abundant.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The Landscape Climate",
+                "sentence": "In Oceanic landscapes, temperatures are [selectOption| ,high,mild] all year. Precipitation is [selectOption| ,regular,irregular].",
+                "correctAnswer": "In Oceanic landscapes, temperatures are mild all year. Precipitation is regular.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The Landscape Climate",
+                "sentence": "In Continental landscapes, temperatures are  high in summer and [selectOption| ,very low,mild] in winter. Precipitation is more abundant in [selectOption| ,summer,winter].",
+                "correctAnswer": "In Continental landscapes, temperatures are  high in summer and very low in winter. Precipitation is more abundant in summer.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The Landscape Climate",
+                "sentence": "In Polar landscapes, temperatures are usually [selectOption| ,above,below] 0ºC most of the year. Precipitation is [selectOption| ,abundant,scarce].",
+                "correctAnswer": "In Polar landscapes, temperatures are usually below 0ºC most of the year. Precipitation is scarce.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            },
+            {   
+                "sentence_title": "The Landscape Climate",
+                "sentence": "In Mountain landscapes, temperatures are [selectOption| ,very low,mild] in winter and cool in summer. Precipitation is [selectOption| ,abundant,scarce].",
+                "correctAnswer": "In Mountain landscapes, temperatures are very low in winter and cool in summer. Precipitation is abundant.", 
+                "timeout": 120, 
+                "help": "",
+                "explanation": "",
+                "explanationExtended": "Revisa el libro!!"
+            }
+
+        ]
+}

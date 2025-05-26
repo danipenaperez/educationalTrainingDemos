@@ -1,0 +1,119 @@
+{
+    "title": "Adverbs",
+    "questions":
+        [
+            {   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How she bakes? She bakes [selectOption| ,well,happily,quietly,badly].", 
+                "correctAnswer": "How she bakes? She bakes badly.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/badly.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How she bakes? (¿como ella cocina?)",
+                "explanationExtended": "She bakes badly (Ella cocina malamente)"
+            },
+            {   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How they walk? They walk [selectOption| ,well,noisily,fast,slowly,hard].", 
+                "correctAnswer": "How they walk? They walk slowly.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/slowly.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How they walk? (¿como andan ellos?)",
+                "explanationExtended": "They walk slowly (Ellos andan lentamente)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How he is smiling? He is smiling [selectOption| ,peacefully,hard,noisily,happily].", 
+                "correctAnswer": "He is smiling [selectOption| ,peacefully,hard,noisily,happily].", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/happily.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How he is smiling? (¿como esta el sonriendo?)",
+                "explanationExtended": "He is smiling happily (El esta sonriendo felizmente)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"I can't hear you. Your are speaking too [selectOption| ,peacefully,quietly,fast,badly,noisily].", 
+                "correctAnswer": "I can't hear you. Your are speaking too quietly.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/quietly.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "I can't hear you. (No puedo oirte)",
+                "explanationExtended": "Your are speaking too quietly (You estas hablando demasiado silencioso)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How is she running? She is running [selectOption| ,peacefully,quietly,fast,badly,noisily].", 
+                "correctAnswer": "How is she running? She is running fast.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/fast.png", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is she running? (¿Como esta corriendo?)",
+                "explanationExtended": "She is running fast (Ella esta corriendo rapido)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"I can't call by phone because They are talking too [selectOption| ,noisily,quietly,fast,badly].", 
+                "correctAnswer": "I can't call by phone because They are talking too noisily.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/noisily.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "I can't call by phone (No puedo hablar por telefono)",
+                "explanationExtended": "because They are talking too noisly (Porque ellos estan hablando muy ruidosamente)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How is she sleeping? She is sleeping [selectOption| ,noisily,quietly,peacefully,badly].", 
+                "correctAnswer": "How is she sleeping? She is sleeping peacefully.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/peacefully.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is she sleeping? (¿Como esta durmiendo ella?)",
+                "explanationExtended": "She is sleeping peacefully (Ella esta durmiendo placidamente)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How is Daniel punching? Daniel is punching [selectOption| ,noisily,quietly,peacefully,hard,badly].", 
+                "correctAnswer": "How is Daniel punching? Daniel is punching hard.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/hard.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is Daniel punching? (¿Como esta golpeando Daniel?)",
+                "explanationExtended": "Daniel is punching hard (Daniel esta golpeando fuertemente)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"How is she playing piano? She is playing [selectOption| ,noisily,quietly,well,peacefully,hard,badly].", 
+                "correctAnswer": "How is she playing piano? She is playing well.", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/well.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is she play piano? (¿Como toca ella el piano?)",
+                "explanationExtended": "She is play piano well (Ella toca el piano bien)"
+            },
+            {   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence":"Hanna runs [inputText], but Sophine runs [inputText].<br>Hanna plays tennins [inputText], but Sophine play tennis [inputText].<br>Shopie likes exercising [inputText] and releaxing [inputText].<br>Hanna likes playing football and celebrating [inputText]", 
+                "correctAnswer": "Hanna runs fast, but Sophine runs slowly.<br>Hanna plays tennins badly, but Sophine play tennis well.<br>Shopie likes exercising quietly and releaxing peacefully.<br>Hanna likes playing football and celebrating noisily", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/conversation_adverbs.png", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "Presta atencion al texto",
+                "explanationExtended": "En la conversacion lo dicen todo"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence": "Write correctly",
+                "sentenceReorder":"How is she running? She is running fast", 
+                "correctAnswer": "How is she running? She is running fast", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/fast.png", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is she running? (¿Como esta corriendo?)",
+                "explanationExtended": "She is running fast (Ella esta corriendo rapido)"
+            },{   
+                "sentence_title":"How do you do your favourite activity?",
+                "sentence": "Write correctly",
+                "sentenceReorder":"How is he smiling? He is smiling happily", 
+                "correctAnswer": "How is he smiling? He is smiling happily", 
+                "timeout": 120,
+                "image": "games/images/english_adverbs/happily.jpg", 
+                "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
+                "explanation": "How is he smiling? (¿como esta el sonriendo?)",
+                "explanationExtended": "He is smiling happily (El esta sonriendo felizmente)"
+            }
+       ]
+}
