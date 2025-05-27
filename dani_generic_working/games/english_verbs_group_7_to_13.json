@@ -194,7 +194,7 @@
         {"sentence_title":"Verbos grupo 13","sentence":"inputText] | caught | caught | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
         {"sentence_title":"Verbos grupo 13","sentence":"catch | inputText] | caught | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
         {"sentence_title":"Verbos grupo 13","sentence":"catch | caught | inputText] | Coger atrapar", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"},
-        {"sentence_title":"Verbos grupo 13","sentence":"catch | caught | caught | inputText]", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"}
+        {"sentence_title":"Verbos grupo 13","sentence":"catch | caught | caught | [inputText]", "correctAnswer": "catch | caught | caught | Coger atrapar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup13]"}
             
     ]
 }

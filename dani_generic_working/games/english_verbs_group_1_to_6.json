@@ -101,25 +101,25 @@
             {"sentence_title":"Verbos grupo 2","sentence":"drink | drank | drunk | [inputText]", "correctAnswer": "drink | drank | drunk | Beber", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup2]"},
             
             {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | Got | Got | Obtener", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"Get | [inputText] | Got | Obtener", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"Get | Got | [inputText] | Obtener", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"Get | Got | Got | [inputText]", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    
-    {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | kept | kept | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"keep | [inputText] | kept | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"keep | kept | [inputText] | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"keep | kept | kept | [inputText]", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"Get | [inputText] | Got | Obtener", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"Get | Got | [inputText] | Obtener", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"Get | Got | Got | [inputText]", "correctAnswer": "Get  | Got | Got | Obtener", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            
+            {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | kept | kept | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"keep | [inputText] | kept | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"keep | kept | [inputText] | Guardar", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"keep | kept | kept | [inputText]", "correctAnswer": "keep | kept | kept | Guardar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
 
-    {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | lit | lit | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"light | [inputText] | lit | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"light | lit | [inputText] | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"light | lit | lit | [inputText]", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | lit | lit | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"light | [inputText] | lit | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"light | lit | [inputText] | Encender", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"light | lit | lit | [inputText]", "correctAnswer": "light | lit | lit | Encender", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
 
-    {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | lost | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"lose | [inputText] | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"lose | lost | [inputText] | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    {"sentence_title":"Verbos grupo 3","sentence":"lose | lost | lost | [inputText]", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
-    
+            {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | lost | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"lose | [inputText] | lost | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"lose | lost | [inputText] | Perder", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            {"sentence_title":"Verbos grupo 3","sentence":"lose | lost | lost | [inputText]", "correctAnswer": "lose | lost | lost | Perder", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
+            
     
     {"sentence_title":"Verbos grupo 3","sentence":"[inputText] | shot | shot | Disparar", "correctAnswer": "shoot | shot | shot | Disparar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},
     {"sentence_title":"Verbos grupo 3","sentence":"shoot | [inputText] | shot | Disparar", "correctAnswer": "shoot | shot | shot | Disparar", "timeout": 45, "explanation":"[ref|context.verbsExplanationGroup3]"},

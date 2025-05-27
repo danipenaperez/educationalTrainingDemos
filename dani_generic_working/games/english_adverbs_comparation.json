@@ -1,5 +1,8 @@
 {
     "title": "Adverbs Comparative",
+    "startExplanation": {
+        "videoURL":"games/explanations/adverbs_explanations.mp4"
+    },
     "questions":
         [
             {   
@@ -8,7 +11,10 @@
                 "correctAnswer": "I can run (fast) faster than last year.", 
                 "timeout": 120,
                 "image": "games/images/english_adverbs/comparative_table.png", 
-                "help": "Primero indentifica: ¿Es comparativa o superlativa? \n Segundo es un adverbio ¿terminado en -ly, es de tipo corto o es irregular?",
+                "help": {
+                    "videoURL":"games/explanations/adverbs_explanations.mp4",
+                    "showOnStart": false
+                },
                 "explanation": "La frase es <b>comparativa</b> porque compara como corro ahora y como corria el año pasado (last year)",
                 "explanationExtended": "Fast (rapido) es de tipo corto, asi que el comparativo para tipos cortos es añadiendo <b>er</b>, con lo cual es <b>faster than</b>"
             },
@@ -26,7 +32,7 @@
                 "sentence": "Of all the swimmers, she swims (well) [selectOption| ,more well,better,the best] in the team.",
                 "correctAnswer": "Of all the swimmers, she swims (well) the best in the team.",
                 "timeout": 120,
-                "image": "games/images/english_adverbs/superlative_table.png",
+                "image": "games/images/english_adverbs/comparative_table.png",
                 "help": "¿Estás comparando entre dos personas o entre un grupo entero? \n Revisa si el adverbio es regular o irregular.",
                 "explanation": "Esta es una oración <b>superlativa</b> porque se compara a una persona con todo un grupo (all the swimmers).",
                 "explanationExtended": "El adverbio <b>well</b> es irregular. Su forma superlativa es <b>the best</b>. Por eso la forma correcta es: <b>she swims the best</b>."
@@ -86,7 +92,7 @@
                 "sentence": "Of all three, Sam flies (well) [selectOption| ,the better,the best,better] of all.",
                 "correctAnswer": "Of all three, Sam flies (well) the best of all.",
                 "timeout": 120,
-                "image": "games/images/english_adverbs/superlative_table.png",
+                "image": "games/images/english_adverbs/comparative_table.png",
                 "help": "¿Se está comparando con un grupo? ¿Qué forma tiene el superlativo del adverbio 'well'?",
                 "explanation": "La oración es <b>superlativa</b> porque compara a Sam con todos los demás.",
                 "explanationExtended": "El adverbio <b>well</b> es irregular y su forma superlativa es <b>the best</b>. Por eso se dice: <b>flies the best</b>."
@@ -96,7 +102,7 @@
                 "sentence": "Susie flies (badly) [selectOption| ,the worst,worst,more badly] of all.",
                 "correctAnswer": "Susie flies (badly) the worst of all.",
                 "timeout": 120,
-                "image": "games/images/english_adverbs/superlative_table.png",
+                "image": "games/images/english_adverbs/comparative_table.png",
                 "help": "¿Es una comparación entre varios? 'Badly' es un adverbio irregular.",
                 "explanation": "La frase compara a Susie con los demás y muestra que vuela peor que todos.",
                 "explanationExtended": "El adverbio <b>badly</b> tiene una forma superlativa irregular: <b>the worst</b>."
@@ -116,7 +122,7 @@
                 "sentence": "Of all three, Susie sings (beautifully) [selectOption| ,the most beautifully,most beautifully,more beautifully] of all.",
                 "correctAnswer": "Of all three, Susie sings (beautifully) the most beautifully of all.",
                 "timeout": 120,
-                "image": "games/images/english_adverbs/superlative_table.png",
+                "image": "games/images/english_adverbs/comparative_table.png",
                 "help": "Para adverbios terminados en -ly, el superlativo se forma con 'the most'.",
                 "explanation": "Se compara la habilidad de cantar de Susie con la de los otros dos.",
                 "explanationExtended": "El adverbio <b>beautifully</b> es largo y termina en -ly, por eso el superlativo se forma con <b>the most</b>: <b>the most beautifully</b>."
@@ -146,22 +152,10 @@
                 "sentence": "Of all three, Susie eats (quietly) [selectOption| ,most quietly,the most quietly,more quietly] of all.",
                 "correctAnswer": "Of all three, Susie eats (quietly) the most quietly of all.",
                 "timeout": 120,
-                "image": "games/images/english_adverbs/superlative_table.png",
+                "image": "games/images/english_adverbs/comparative_table.png",
                 "help": "Para adverbios terminados en -ly, el superlativo se forma con 'the most'.",
                 "explanation": "La frase muestra que Susie es la que come con mayor silencio.",
                 "explanationExtended": "El adverbio <b>quietly</b> termina en -ly, por eso el superlativo es <b>the most quietly</b>."
             }
-
-
-
-
-
-
-
-
-
-
-
-
-       ]
+      ]
 }

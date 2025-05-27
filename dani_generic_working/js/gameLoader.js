@@ -38,7 +38,16 @@ gameLoader.init= function(gameData){
     document.title = gameData.title;
 
     //Start
-    currentGame.start();
+    if(gameData.startExplanation){
+        if(gameData.startExplanation.videoURL){
+            currentGame.gamificationManager.showQuestionPreExplanation('video', gameData.startExplanation.videoURL,function(){
+                currentGame.start();
+            });
+        }
+    }else{
+        currentGame.start();
+    }
+
     
 }
 

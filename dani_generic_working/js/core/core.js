@@ -32,19 +32,6 @@ var core = {
         currentGame.gamificationManager.init();
         
     },
-    /**
-     * After login configure gamification and other services
-     * @param {*} args 
-     */
-    // configureUser:function(args){
-    //     alert("sooouuu "+ args.userName);
-    //     currentGame.gamificationManager.configure({
-    //         mediaFilesPath:args.gameName,
-    //         userName:args.userName,
-    //     });
-    //     alert('init del gaminfication');
-    //     currentGame.gamificationManager.init();
-    // },
     
     /**
      * Load current question
@@ -92,13 +79,31 @@ var core = {
                 document.getElementById('ask_content').appendChild(image);
             }
 
+
+            if(question.preExplanation){
+                currentGame.gamificationManager.showQuestionPreExplanation(null,null,null);
+            }
+
+
             //CREATE HELP BUTTON if help is available
             if(question.help){
                 showhHelpQuestionFunction = function(){
-                    alert(question.help);
+                    //alert(question.help);
+                    if(question.help.videoURL){
+                        currentGame.gamificationManager.showQuestionPreExplanation('video', question.help.videoURL,null);
+                    }else{
+                       alert(question.help); 
+                    }
+                    
                 }
                 let helpQuestionButton = templates.createHelpOnQuestionButton("help_question_btn", "ayuda?", showhHelpQuestionFunction);
                 document.getElementById('optionsContainer').appendChild(helpQuestionButton);
+
+                //Check is must be show on preQuestion
+                if(question.help.videoURL && question.help.showOnStart){
+                    currentGame.gamificationManager.showQuestionPreExplanation('video', question.help.videoURL,null);
+                }
+
             }
 
 

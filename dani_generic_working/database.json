@@ -59,6 +59,11 @@
             "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
             "games":[
                 {
+                    "id": "english_adverbs_comparation",
+                    "name": "Comparando adverbios",
+                    "description": "Comparing Adverbs",
+                    "image":"https://images.examples.com/wp-content/uploads/2023/09/Adverb.png"
+                },{
                     "id": "english_adverbs",
                     "name": "Adverbios",
                     "description": "Using adverbs",

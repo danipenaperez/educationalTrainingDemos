@@ -23,12 +23,12 @@
                 "explanationExtended": "They walk slowly (Ellos andan lentamente)"
             },{   
                 "sentence_title":"How do you do your favourite activity?",
-                "sentence":"How he is smiling? He is smiling [selectOption| ,peacefully,hard,noisily,happily].", 
-                "correctAnswer": "He is smiling [selectOption| ,peacefully,hard,noisily,happily].", 
+                "sentence":"How is he smiling? He is smiling [selectOption| ,peacefully,hard,noisily,happily].", 
+                "correctAnswer": "How is he smiling? He is smiling happily.", 
                 "timeout": 120,
                 "image": "games/images/english_adverbs/happily.jpg", 
                 "help": " badly: malamente \n beautifully: hermosamente \n fast: rapidamente \n happily: felizmente \n hard: dificilmente \n noisily: ruidosamente \n peacefully: placidamente \n quietly: silenciosamente \n slowly: lentamente \n well: bien ",
-                "explanation": "How he is smiling? (¿como esta el sonriendo?)",
+                "explanation": "How is he smiling? (¿como esta el sonriendo?)",
                 "explanationExtended": "He is smiling happily (El esta sonriendo felizmente)"
             },{   
                 "sentence_title":"How do you do your favourite activity?",

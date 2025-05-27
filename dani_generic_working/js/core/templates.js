@@ -145,6 +145,23 @@ templates.getInputTextHTMLTemplate = function (id){
         
 }
 
+templates.getVideoLocalTemplate = function (videoURL){
+    
+        var content = '<div>'+ 
+                '<video width="460" height="340" controls autoplay>'+
+                '<source src="'+videoURL+'" >' + //type="video/webm">'+
+                'Your browser does not support the video tag.'+
+                '</video>'+
+
+                '</div>';
+        return content;
+        
+}
+ 
+  
+
+  
+
 
 templates.getModalGamificationTemplate = function (id){
     

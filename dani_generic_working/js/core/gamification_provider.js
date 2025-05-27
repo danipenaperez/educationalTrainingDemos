@@ -59,6 +59,24 @@ var gamification_provider = {
         }
         
     },
+    /**
+     * Show a video to show question explanations
+     * @param {*} type 
+     * @param {*} videoURL 
+     * @param {*} callback 
+     */
+    showQuestionPreExplanation: function(type, videoURL, callback){
+        var html = templates.getVideoLocalTemplate(videoURL);
+        this.modal.show(html, 
+            "EXPLICACION DEL TEMA", 
+            function(){
+                if(callback){
+                    callback();
+                }
+                
+            }
+        );
+    },
     showFailedExplanation: function(question, average, callback){
         let modalExplanationContent = sentenceResolver.assemble(question.explanation);
         if(question.explanationExtended){
