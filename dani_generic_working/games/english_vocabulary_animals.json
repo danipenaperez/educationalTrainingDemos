@@ -1,0 +1,100 @@
+{
+    "title": "Adverbs",
+    "startExplanation": {
+        "videoURL":"games/explanations/adverbs_explanations.mp4"
+    },
+    "questions":
+        [
+            {   
+                "sentence_title":"Find the animal",
+                "sentence":"I've got a hard shell and I walk slowly. What am I? [inputText].", 
+                "correctAnswer": "I've got a hard shell and I walk slowly. What am I? tortoise", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "hard shell (duro caparazon)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Hard shell (caparazon duro) y walk slowly (anda lento)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I'm a large bird and sometimes I show my colourful feathers. What am I? [inputText].", 
+                "correctAnswer": "I'm a large bird and sometimes I show my colourful feathers. What am I? peacock.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "colourful feathers (plumas coloridas), bird (pajaro)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el peacock (pavo real)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I live in Australia and I jump very well. What am I? [inputText].", 
+                "correctAnswer": "I live in Australia and I jump very well. What am I? kangaroo.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "jump (saltar)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "jump (saltar) es el kangaroo"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I've got white fur and I love snow. What am I? [inputText].", 
+                "correctAnswer": "I've got white fur and I love snow. What am I? polar bear.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "fur (pelo)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "white fur (pelo blanco) es el polar bear"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I am a big bird and I catch small animals. What am I? [inputText].", 
+                "correctAnswer": "I am a big bird and I catch small animals. What am I? eagle.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "bird (pajaro) \n catch (atrapar)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el eagle"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I'm very slow and I like to hang peacefully from trees. What am I? [inputText].", 
+                "correctAnswer": "I'm very slow and I like to hang peacefully from trees. What am I? sloth.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "hang (colgar) \n trees (arboles)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el sloth (perezoso)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I dig well but I can't see well. I live underground. What am I? [inputText].", 
+                "correctAnswer": "I dig well but I can't see well. I live underground. What am I? mole.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "hang (excavar) \n underground (bajo tierra)",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el mole (topo)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I'm big, white bird and I swim beautifully. What am I? [inputText].", 
+                "correctAnswer": "I'm big, white bird and I swim beautifully. What am I? swan", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "swim (nadar) ",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el swan (cisne)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I'm a big cat and I can run very fast. What am I? [inputText].", 
+                "correctAnswer": "I'm a big cat and I can run very fast. What am I? cheetah.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "cat (gato) ",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el cheetah (guepardo)"
+            },{   
+                "sentence_title":"Find the animal",
+                "sentence":"I can swim well and I've got a beak like a duck. What am I? [inputText].", 
+                "correctAnswer": "I can swim well and I've got a beak like a duck. What am I? platypus.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/animals_quizz.png", 
+                "help": "beak (pico) \n duck (pato) ",
+                "explanation": "Revisa la foto",
+                "explanationExtended": "Es el platypus (ornitorrinco)"
+            }
+       ]
+}

@@ -59,6 +59,11 @@
             "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
             "games":[
                 {
+                    "id": "english_vocabulary_animals",
+                    "name": "Animals Quizz",
+                    "description": "What animal we are finding?",
+                    "image":"games/images/english_adverbs/animals_quizz.png"
+                },{
                     "id": "english_adverbs_comparation",
                     "name": "Comparando adverbios",
                     "description": "Comparing Adverbs",
