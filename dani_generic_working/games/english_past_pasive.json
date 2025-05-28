@@ -1,0 +1,19 @@
+{
+    "title": "Past pasive",
+    "startExplanation": {
+        "videoURL":"games/explanations/adverbs_explanations.mp4"
+    },
+    "questions":
+        [
+            {   
+                "sentence_title":"Past pasive",
+                "sentence":"", 
+                "correctAnswer": "I can run (fast) faster than last year.", 
+                "timeout": 200,
+                "image": "games/images/english_adverbs/comparative_table.png", 
+                "help": "Primero identifica: ¿Es comparativa o superlativa? \n Luego, ¿es un adverbio regular o irregular?",
+                "explanation": "La frase es <b>comparativa</b> porque compara como corro ahora y como corria el año pasado (last year)",
+                "explanationExtended": "Fast (rapido) es de tipo corto, asi que el comparativo para tipos cortos es añadiendo <b>er</b>, con lo cual es <b>faster than</b>"
+            }
+      ]
+}

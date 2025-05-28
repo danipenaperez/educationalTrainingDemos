@@ -10,7 +10,7 @@
                 "image": "games/images/english_adverbs/animals_quizz.png", 
                 "help": "hard shell (duro caparazon)",
                 "explanation": "Revisa la foto",
-                "explanationExtended": "Hard shell (caparazon duro) y walk slowly (anda lento)"
+                "explanationExtended": "Hard shell (caparazon duro) y walk slowly (anda lento). Es la tortoise (tortuga)"
             },{   
                 "sentence_title":"Find the animal",
                 "sentence":"I'm a large bird and sometimes I show my colourful feathers. What am I? [inputText].", 
