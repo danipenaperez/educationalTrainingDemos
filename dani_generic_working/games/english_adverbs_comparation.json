@@ -270,7 +270,7 @@
                 "correctAnswer": "Swams swims better than eagles, but Swams flies worse than eagles",
                 "timeout": 200,
                 "image": "games/images/english_adverbs/swams.jpg",
-                "help": "Swams: (cisne) \n eagle: (aguila) \n flies (fly): volar",
+                "help": "Swams: (cisne) \n swims: (swim, nadar) \n eagle: (aguila) \n flies (fly): volar",
                 "explanation": "Los cisnes nadan mejor que las agilas, pero los cisnes vuelan peor que las aguilas",
                 "explanationExtended": ""
             }
