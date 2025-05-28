@@ -167,7 +167,7 @@
             {
                 "sentence_title": "Superlative Adverbs",
                 "sentence": "Whales can communicate (loudly) [selectOption| ,louder than,more loudly than] lions.",
-                "correctAnswer": "Whales can communicate (loudly) [selectOption| ,louder than,more loudly than] lions.",
+                "correctAnswer": "Whales can communicate (loudly) more loudly than lions.",
                 "timeout": 200,
                 "image": "games/images/english_adverbs/animal_world_records.png",
                 "help": "Primero: ¿es comparativa o superlativa? \n Segundo ¿como es para esa forma el adverbio loudly (fuertemente)?",
