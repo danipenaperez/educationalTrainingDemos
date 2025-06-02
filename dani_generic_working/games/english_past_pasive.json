@@ -1,19 +1,116 @@
 {
     "title": "Past pasive",
     "startExplanation": {
-        "videoURL":"games/explanations/adverbs_explanations.mp4"
+        "videoURL":"games/explanations/past_pasive.mp4"
     },
     "questions":
         [
             {   
                 "sentence_title":"Past pasive",
-                "sentence":"", 
-                "correctAnswer": "I can run (fast) faster than last year.", 
+                "sentence":"My Mom made a cake. <br>[selectOption| ,A cake,My Mom] was made [selectOption| ,A cake,by my Mom]", 
+                "correctAnswer": "My Mom made a cake. <br>A cake was made by my Mom", 
                 "timeout": 200,
-                "image": "games/images/english_adverbs/comparative_table.png", 
-                "help": "Primero identifica: ¿Es comparativa o superlativa? \n Luego, ¿es un adverbio regular o irregular?",
-                "explanation": "La frase es <b>comparativa</b> porque compara como corro ahora y como corria el año pasado (last year)",
-                "explanationExtended": "Fast (rapido) es de tipo corto, asi que el comparativo para tipos cortos es añadiendo <b>er</b>, con lo cual es <b>faster than</b>"
+                "help": "1. Primero cambia los sujetos de orden \n 2. cambia el verbo (was/were +past participle) \n 3. Usa  by + sujeto",
+                "explanation": "A cake was made by my Mom",
+                "explanationExtended": "El pastel fue hecho por mi madre"
+            },
+            {   
+                "sentence_title":"Past pasive",
+                "sentence":"The mechanic repaired the car. <br>[selectOption| ,The mechanic,The car] [selectOption| ,was repaired,were repaired] [selectOption| ,the car,by the mechanic]", 
+                "correctAnswer": "The mechanic repaired the car. <br>The car was repaired by the mechanic", 
+                "timeout": 200,
+                "help": "1. Primero cambia los sujetos de orden \n 2. cambia el verbo (was/were +past participle) \n 3. Usa  by + sujeto",
+                "explanation": "The car was repaired by the mechanic",
+                "explanationExtended": "El coche fue reparado por el mecanico"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "My brother broke the window. <br>[selectOption| ,My brother,The window] [selectOption| ,was broken,were broken] [selectOption| ,the window,by my brother]",
+                "correctAnswer": "My brother broke the window. <br>The window was broken by my brother",
+                "timeout": 200,
+                "help": "1. Cambia el orden sujeto-objeto \n2. Usa was/were + past participle (broken) \n3. Añade by + sujeto",
+                "explanation": "The window was broken by my brother",
+                "explanationExtended": "La ventana fue rota por mi hermano"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "A thief stole the laptop. <br>[selectOption| ,A thief,The laptop] [selectOption| ,was stolen,were stolen] [selectOption| ,A thief,by a thief]",
+                "correctAnswer": "A thief stole the laptop. <br>The laptop was stolen by a thief",
+                "timeout": 200,
+                "help": "1. Cambia el sujeto por el objeto \n2. Usa was/were + stolen \n3. Añade by + sujeto",
+                "explanation": "The laptop was stolen by a thief",
+                "explanationExtended": "El portátil fue robado por un ladrón"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "The author wrote a novel. <br>[selectOption| ,The author,A novel] [selectOption| ,was written,were written] [selectOption| ,The author,by the author]",
+                "correctAnswer": "The author wrote a novel. <br>A novel was written by the author",
+                "timeout": 200,
+                "help": "1. Cambia el sujeto por el objeto \n2. Usa was/were + written \n3. Añade by + sujeto",
+                "explanation": "A novel was written by the author",
+                "explanationExtended": "Una novela fue escrita por el autor"
+            },
+            {
+                "sentence_title": "Past passive",
+                "sentence": "He ate the cake. <br>[selectOption| ,He,The cake] [selectOption| ,was eaten,were eaten] [selectOption| ,He,by him]",
+                "correctAnswer": "He ate the cake. <br>The cake was eaten by him",
+                "timeout": 200,
+                "help": "1. Usa el objeto como nuevo sujeto \n2. was + eaten \n3. Añade by + pronombre (him)",
+                "explanation": "The cake was eaten by him",
+                "explanationExtended": "El pastel fue comido por él"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "He ate the cake. <br>[selectOption| ,He,The cake] [selectOption| ,was eaten,were eaten] [selectOption| ,He,by him]",
+                "correctAnswer": "He ate the cake. <br>The cake was eaten by him",
+                "timeout": 200,
+                "help": "1. Usa el objeto como nuevo sujeto \n2. was + eaten \n3. Añade by + pronombre (him)",
+                "explanation": "The cake was eaten by him",
+                "explanationExtended": "El pastel fue comido por él"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "She sent the letter. <br>[selectOption| ,She,The letter] [selectOption| ,was sent,were sent] [selectOption| ,She,by her]",
+                "correctAnswer": "She sent the letter. <br>The letter was sent by her",
+                "timeout": 200,
+                "help": "1. Cambia el sujeto por el objeto \n2. Usa was + sent \n3. Añade by + pronombre",
+                "explanation": "The letter was sent by her",
+                "explanationExtended": "La carta fue enviada por ella"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "The teacher chose the best students. <br>[selectOption| ,The teacher,The best students] [selectOption| ,was chosen,were chosen] [selectOption| ,The teacher,by the teacher]",
+                "correctAnswer": "The teacher chose the best students. <br>The best students were chosen by the teacher",
+                "timeout": 200,
+                "help": "1. Usa el objeto como sujeto \n2. were + chosen \n3. Añade by + sujeto",
+                "explanation": "The best students were chosen by the teacher",
+                "explanationExtended": "Los mejores estudiantes fueron elegidos por el profesor"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "He took the photo. <br>[selectOption| ,He,The photo] [selectOption| ,was taken,were taken] [selectOption| ,He,by him]",
+                "correctAnswer": "He took the photo. <br>The photo was taken by him",
+                "timeout": 200,
+                "help": "1. Usa el objeto (photo) como nuevo sujeto \n2. was + taken \n3. Añade by + pronombre",
+                "explanation": "The photo was taken by him",
+                "explanationExtended": "La foto fue tomada por él"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "Mom made dinner. <br>[selectOption| ,Mom,Dinner] [selectOption| ,was made,were made] [selectOption| ,Mom,by Mom]",
+                "correctAnswer": "Mom made dinner. <br>Dinner was made by Mom",
+                "timeout": 200,
+                "help": "1. Cambia a objeto como sujeto \n2. was + made \n3. Añade by + sujeto",
+                "explanation": "Dinner was made by Mom",
+                "explanationExtended": "La cena fue hecha por mamá"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "The artist drew a portrait. <br>[selectOption| ,The artist,A portrait] [selectOption| ,was drawn,were drawn] [selectOption| ,The artist,by the artist]",
+                "correctAnswer": "The artist drew a portrait. <br>A portrait was drawn by the artist",
+                "timeout": 200,
+                "help": "1. Usa el objeto como nuevo sujeto \n2. was + drawn \n3. Añade by + sujeto",
+                "explanation": "A portrait was drawn by the artist",
+                "explanationExtended": "Un retrato fue dibujado por el artista"
+            },{
+                "sentence_title": "Past passive",
+                "sentence": "The technician fixed the printer. <br>[selectOption| ,The technician,The printer] [selectOption| ,was fixed,were fixed] [selectOption| ,The technician,by the technician]",
+                "correctAnswer": "The technician fixed the printer. <br>The printer was fixed by the technician",
+                "timeout": 200,
+                "help": "1. Usa el objeto como sujeto \n2. was + fixed \n3. Añade by + sujeto",
+                "explanation": "The printer was fixed by the technician",
+                "explanationExtended": "La impresora fue arreglada por el técnico"
             }
       ]
 }

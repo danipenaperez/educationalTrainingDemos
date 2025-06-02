@@ -59,6 +59,11 @@
             "image": "https://ingla.co.uk/wp-content/uploads/2021/03/WHY-ENGLISH.jpg",
             "games":[
                 {
+                    "id": "english_past_pasive",
+                    "name": "Usando Pasivo",
+                    "description": "Transforma frases a pasivo",
+                    "image":"games/images/english_adverbs/past_pasive_menu.jpeg"
+                },{
                     "id": "english_vocabulary_animals",
                     "name": "Animals Quizz",
                     "description": "What animal we are finding?",
