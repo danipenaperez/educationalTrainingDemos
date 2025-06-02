@@ -5,7 +5,7 @@
             {   
                 "sentence_title":"Find the animal",
                 "sentence":"I've got a hard shell and I walk slowly. What am I? [inputText].", 
-                "correctAnswer": "I've got a hard shell and I walk slowly. What am I? tortoise", 
+                "correctAnswer": "I've got a hard shell and I walk slowly. What am I? tortoise.", 
                 "timeout": 200,
                 "image": "games/images/english_adverbs/animals_quizz.png", 
                 "help": "hard shell (duro caparazon)",
@@ -62,13 +62,13 @@
                 "correctAnswer": "I dig well but I can't see well. I live underground. What am I? mole.", 
                 "timeout": 200,
                 "image": "games/images/english_adverbs/animals_quizz.png", 
-                "help": "hang (excavar) \n underground (bajo tierra)",
+                "help": "dig (excavar) \n underground (bajo tierra)",
                 "explanation": "Revisa la foto",
                 "explanationExtended": "Es el mole (topo)"
             },{   
                 "sentence_title":"Find the animal",
                 "sentence":"I'm big, white bird and I swim beautifully. What am I? [inputText].", 
-                "correctAnswer": "I'm big, white bird and I swim beautifully. What am I? swan", 
+                "correctAnswer": "I'm big, white bird and I swim beautifully. What am I? swan.", 
                 "timeout": 200,
                 "image": "games/images/english_adverbs/animals_quizz.png", 
                 "help": "swim (nadar) ",
